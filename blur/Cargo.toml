@@ -1,0 +1,12 @@
+[package]
+name = "blur"
+version = "0.1.0"
+authors = ["Christian <chriamue@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+image = { version = "0.23" }
+lenna-core = {version = "0.1", path="../../lenna-core"}
