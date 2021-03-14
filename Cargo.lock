@@ -38,6 +38,8 @@ version = "0.1.0"
 dependencies = [
  "image",
  "lenna-core",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
@@ -65,6 +67,8 @@ dependencies = [
  "image",
  "imageproc",
  "lenna-core",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
@@ -275,7 +279,7 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 [[package]]
 name = "lenna-core"
 version = "0.1.0"
-source = "git+https://github.com/lenna-project/lenna-core#1f7c1a63b8c176b24fa347fbbfbc4ab79fc263f2"
+source = "git+https://github.com/lenna-project/lenna-core#a8004897021024656bc580c5a4cded1907a9cfa8"
 dependencies = [
  "dyn-clone",
  "image",

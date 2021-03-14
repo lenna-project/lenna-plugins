@@ -14,6 +14,21 @@ lenna_core::export_plugin!(register);
 #[derive(Default, Clone)]
 pub struct Canny;
 
+#[derive(Clone, serde::Serialize, serde::Deserialize)]
+struct Config {
+    low: f32,
+    high: f32,
+}
+
+impl Default for Config {
+    fn default() -> Self {
+        Config {
+            low: 50.0,
+            high: 100.0,
+        }
+    }
+}
+
 impl Processor for Canny {
 
     fn name(&self) -> String {
@@ -24,12 +39,15 @@ impl Processor for Canny {
         "Plugin to create canny edges.".into()
     }
 
-    fn process(&self, config: &ProcessorConfig, image: DynamicImage) -> DynamicImage {
-        let low = config.config["low"].as_f64().unwrap();
-        let high = config.config["high"].as_f64().unwrap();
+    fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
+        let config: Config = serde_json::from_value(config.config).unwrap();
         let img = image.to_luma8();
-        let edges = DynamicImage::ImageLuma8(canny(&img, low as f32, high as f32));
+        let edges = DynamicImage::ImageLuma8(canny(&img, config.low, config.high));
         edges
+    }
+
+    fn default_config(&self) -> serde_json::Value {
+        serde_json::to_value(Config::default()).unwrap()
     }
 }
 
