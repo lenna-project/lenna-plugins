@@ -15,12 +15,12 @@ pub struct Blur;
 
 impl Processor for Blur {
 
-    fn name(&self) -> &'static str {
-        "blur"
+    fn name(&self) -> String {
+        "blur".into()
     }
 
-    fn description(&self) -> &'static str {
-        "Plugin to resize image size."
+    fn description(&self) -> String {
+        "Plugin to resize image size.".into()
     }
 
     fn process(&self, config: &ProcessorConfig, image: DynamicImage) -> DynamicImage {

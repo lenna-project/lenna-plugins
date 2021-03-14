@@ -16,12 +16,12 @@ pub struct Canny;
 
 impl Processor for Canny {
 
-    fn name(&self) -> &'static str {
-        "canny"
+    fn name(&self) -> String {
+        "canny".into()
     }
 
-    fn description(&self) -> &'static str {
-        "Plugin to create canny edges."
+    fn description(&self) -> String {
+        "Plugin to create canny edges.".into()
     }
 
     fn process(&self, config: &ProcessorConfig, image: DynamicImage) -> DynamicImage {
