@@ -1,2 +1,2 @@
 [workspace]
-members = ["blur"]
+members = ["blur", "canny"]
