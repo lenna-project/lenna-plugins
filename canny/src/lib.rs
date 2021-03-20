@@ -1,3 +1,4 @@
+
 use image::DynamicImage;
 use imageproc::edges::canny;
 
@@ -50,6 +51,8 @@ impl Processor for Canny {
         serde_json::to_value(Config::default()).unwrap()
     }
 }
+
+pub mod wasm;
 
 #[cfg(test)]
 mod tests {
