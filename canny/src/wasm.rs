@@ -1,10 +1,11 @@
 #![cfg(target_arch = "wasm32")]
 
+use std::io::{Cursor, Read, Seek, SeekFrom};
+use wasm_bindgen::prelude::*;
+
 use crate::{Canny, Config};
 use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
-use std::io::{Cursor, Read, Seek, SeekFrom};
-use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen(js_name = defaultConfig)]
 pub fn default_config() -> JsValue {
@@ -40,5 +41,13 @@ pub fn process(data: &[u8]) -> Vec<u8> {
 
     let img = image::load_from_memory(&data).unwrap();
     let img = processor.process(config, img);
-    img.into_bytes()
+    let mut c = Cursor::new(Vec::new());
+    match img.write_to(&mut c, image::ImageOutputFormat::Png) {
+        Ok(_) => (),
+        Err(_) => return data.to_vec(),
+    };
+    c.seek(SeekFrom::Start(0)).unwrap();
+    let mut out_data = Vec::new();
+    c.read_to_end(&mut out_data).unwrap();
+    out_data
 }
