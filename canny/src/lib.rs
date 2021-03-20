@@ -52,7 +52,10 @@ impl Processor for Canny {
     }
 }
 
-pub mod wasm;
+#[cfg(target_arch = "wasm32")]
+use wasm_bindgen::prelude::*;
+#[cfg(target_arch = "wasm32")]
+lenna_core::export_wasm_plugin!(Canny);
 
 #[cfg(test)]
 mod tests {

@@ -46,6 +46,11 @@ impl Processor for Blur {
     }
 }
 
+#[cfg(target_arch = "wasm32")]
+use wasm_bindgen::prelude::*;
+#[cfg(target_arch = "wasm32")]
+lenna_core::export_wasm_plugin!(Blur);
+
 #[cfg(test)]
 mod tests {
     use super::*;
