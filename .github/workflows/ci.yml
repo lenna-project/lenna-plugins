@@ -27,6 +27,7 @@ jobs:
         working-directory: canny
       - run: mkdir -p public/
       - run: mv ./canny/dist public/canny
+      - run: cp importmap.json public/
 
       - name: Deploy Documentation
         uses: peaceiris/actions-gh-pages@v3

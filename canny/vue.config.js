@@ -11,7 +11,7 @@ module.exports = {
             https: true,
             port: 8502
         },
-        externals: ["vue", "vue-router", /^@lenna-plugins\/.+/]
+        externals: ["vue", /^@lenna-project\/.+/]
     },
     filenameHashing: false,
     publicPath: process.env.NODE_ENV === 'production'

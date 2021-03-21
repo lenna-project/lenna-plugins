@@ -1,0 +1,5 @@
+{
+    "imports": {
+        "@lenna-project/canny": "https://lenna-project.github.io/lenna-plugins/canny/js/app.js"
+    }
+}
