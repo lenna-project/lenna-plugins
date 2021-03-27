@@ -1,5 +1,6 @@
 {
     "imports": {
+        "@lenna-project/blur": "https://lenna-project.github.io/lenna-plugins/blur/js/app.js",
         "@lenna-project/canny": "https://lenna-project.github.io/lenna-plugins/canny/js/app.js"
     }
 }
