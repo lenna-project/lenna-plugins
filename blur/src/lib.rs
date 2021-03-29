@@ -33,7 +33,7 @@ impl Processor for Blur {
     }
 
     fn description(&self) -> String {
-        "Plugin to resize image size.".into()
+        "Plugin to blur image.".into()
     }
 
     fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {

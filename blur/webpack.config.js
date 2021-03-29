@@ -20,7 +20,7 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: false,
-        port: 9000,
+        port: 8502,
         headers: {
             "Access-Control-Allow-Origin": "*"
         },
