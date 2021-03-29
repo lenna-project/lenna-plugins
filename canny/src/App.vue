@@ -8,8 +8,7 @@
 </template>
 
 <script>
-import { defineComponent } from "vue";
-export default defineComponent({
+export default {
   name: "Canny",
   props: {
     defaultConfig: Object,
@@ -18,7 +17,7 @@ export default defineComponent({
     return {
       config: {
         low: 50,
-        high: 100
+        high: 100,
       },
       low: 50,
       high: 100,
@@ -34,7 +33,7 @@ export default defineComponent({
     this.low = Number(this.config["low"] || 50);
     this.high = Number(this.config["high"] || 100);
   },
-});
+};
 </script>
 
 <style scoped>
