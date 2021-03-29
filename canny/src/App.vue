@@ -1,5 +1,5 @@
 <template>
-  <div v-if="low">
+  <div v-if="low && high">
     <input v-model="low" type="number" />
     <label>Low</label>
     <input v-model="high" type="number" />
@@ -31,9 +31,8 @@ export default defineComponent({
   },
   created() {
     this.config = this.defaultConfig;
-    this.low = Number(this.config["low"]);
-    this.high = Number(this.config["high"]);
-    this.updateConfig(this.config);
+    this.low = Number(this.config["low"] || 50);
+    this.high = Number(this.config["high"] || 100);
   },
 });
 </script>

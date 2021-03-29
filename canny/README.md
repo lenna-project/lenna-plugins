@@ -5,6 +5,12 @@
 npm install
 ```
 
+### build canny wasm
+```
+cargo build
+wasm-pack build
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
