@@ -5,7 +5,7 @@ export const processor = pkg;
 export const name = () => "blur";
 export const description = () => "Plugin to blur image.";
 export const process = async (config, image) => {
-  return import('../pkg').then(processor => processor.process(image));
+  return import('../pkg').then(processor => processor.process(config, image));
 };
 export const defaultConfig = async () => {
   return { sigma: 1.5 };

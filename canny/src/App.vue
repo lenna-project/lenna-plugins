@@ -1,15 +1,25 @@
 <template>
   <div v-if="low && high">
-    <input v-model="low" type="number" />
-    <label>Low</label>
-    <input v-model="high" type="number" />
+    <input
+      id="low-input"
+      type="number"
+      placeholder="Low"
+      v-model.number="config.low"
+      @change="updateConfig(config)"
+    />
+    <label for="low-input">Low</label>
+    <br />
+    <input v-model.number="config.high" type="number" />
     <label>High</label>
+    <p>Message is: {{ config }}</p>
   </div>
 </template>
 
-<script>
-export default {
+<script type='ts'>
+import { defineComponent } from "vue";
+export default defineComponent({
   name: "Canny",
+  components: {},
   props: {
     defaultConfig: Object,
   },
@@ -23,17 +33,18 @@ export default {
       high: 100,
     };
   },
+  created() {
+    this.config = this.defaultConfig;
+    this.low = this.config.low;
+    this.high = this.config.high;
+  },
   methods: {
     async updateConfig(config) {
+      console.log(config);
       this.$emit("changeConfig", config);
     },
   },
-  created() {
-    this.config = this.defaultConfig;
-    this.low = Number(this.config["low"] || 50);
-    this.high = Number(this.config["high"] || 100);
-  },
-};
+});
 </script>
 
 <style scoped>

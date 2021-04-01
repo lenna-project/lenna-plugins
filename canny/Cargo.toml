@@ -13,7 +13,7 @@ imageproc = {version = "0.22"}
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
-lenna-core = {git = "https://github.com/lenna-project/lenna-core"}
+lenna-core = {git = "https://github.com/lenna-project/lenna-core", branch="main"}
 
 [dev-dependencies]
 wasm-bindgen-test = "0.2"
