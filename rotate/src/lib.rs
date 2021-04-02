@@ -1,6 +1,4 @@
-use image::DynamicImage;
-use image::Rgba;
-use image::{GenericImageView, RgbaImage};
+use image::{DynamicImage, Rgb, RgbImage};
 use imageproc::geometric_transformations::{rotate_about_center, Interpolation};
 
 use lenna_core::plugins::PluginRegistrar;
@@ -38,16 +36,14 @@ impl Processor for Rotate {
 
     fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
         let config: Config = serde_json::from_value(config.config).unwrap();
-        let (w, h) = image.dimensions();
-        let image_bytes = DynamicImage::into_bytes(image);
-        let image_buffer = RgbaImage::from_vec(w, h, image_bytes[..].to_vec()).unwrap();
-        let rotated_image: RgbaImage = rotate_about_center(
-            &image_buffer,
+        let image_buffer = image.as_rgb8().unwrap();
+        let rotated_image: RgbImage = rotate_about_center(
+            image_buffer,
             config.theta,
-            Interpolation::Nearest,
-            Rgba([255, 0, 0, 0]),
+            Interpolation::Bicubic,
+            Rgb([0, 0, 0]),
         );
-        DynamicImage::ImageRgba8(rotated_image)
+        DynamicImage::ImageRgb8(rotated_image)
     }
 
     fn default_config(&self) -> serde_json::Value {
