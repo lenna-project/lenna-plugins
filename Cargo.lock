@@ -632,6 +632,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "resize"
+version = "0.1.0"
+dependencies = [
+ "image",
+ "lenna-core",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "rulinalg"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
