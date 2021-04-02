@@ -1,6 +1,4 @@
-use image::{DynamicImage, Rgb, RgbImage};
-use imageproc::geometric_transformations::{rotate_about_center, Interpolation};
-
+use image::DynamicImage;
 use lenna_core::plugins::PluginRegistrar;
 use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
@@ -21,7 +19,7 @@ struct Config {
 
 impl Default for Config {
     fn default() -> Self {
-        Config { theta: 0.0 }
+        Config { theta: 90.0 }
     }
 }
 
@@ -36,14 +34,13 @@ impl Processor for Rotate {
 
     fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
         let config: Config = serde_json::from_value(config.config).unwrap();
-        let image_buffer = image.as_rgb8().unwrap();
-        let rotated_image: RgbImage = rotate_about_center(
-            image_buffer,
-            config.theta,
-            Interpolation::Bicubic,
-            Rgb([0, 0, 0]),
-        );
-        DynamicImage::ImageRgb8(rotated_image)
+        println!("{:?}", image);
+        match config.theta {
+            t if t >= 270.0 => image.rotate270(),
+            t if t >= 180.0 => image.rotate180(),
+            t if t >= 90.0 => image.rotate90(),
+            _ => image,
+        }
     }
 
     fn default_config(&self) -> serde_json::Value {
@@ -59,10 +56,27 @@ lenna_core::export_wasm_plugin!(Rotate);
 #[cfg(test)]
 mod tests {
     use super::*;
+    use image::GenericImageView;
 
     #[test]
     fn default() {
         let rotate = Rotate::default();
+        assert_eq!(rotate.name(), "rotate");
+    }
+
+    #[test]
+    fn process() {
+        let rotate = Rotate::default();
+        let config = ProcessorConfig {
+            id: "rotate".into(),
+            config: serde_json::to_value(Config { theta: 45.5 }).unwrap(),
+        };
+        let image = DynamicImage::new_rgba16(64, 64);
+        let (w, h) = image.dimensions();
+        let img = rotate.process(config, image);
+        let (w2, h2) = img.dimensions();
+        assert_eq!(w, w2);
+        assert_eq!(h, h2);
         assert_eq!(rotate.name(), "rotate");
     }
 }

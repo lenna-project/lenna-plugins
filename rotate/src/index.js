@@ -8,5 +8,5 @@ export const process = async (config, image) => {
   return import('../pkg').then(processor => processor.process(config, image));
 };
 export const defaultConfig = async () => {
-  return { theta: 0.0 };
+  return { theta: 90.0 };
 };
