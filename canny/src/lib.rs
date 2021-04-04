@@ -36,6 +36,14 @@ impl Processor for Canny {
         "canny".into()
     }
 
+    fn title(&self) -> String {
+        "Canny".into()
+    }
+
+    fn author(&self) -> String {
+        "chriamue".into()
+    }
+
     fn description(&self) -> String {
         "Plugin to create canny edges.".into()
     }

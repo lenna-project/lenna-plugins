@@ -24,8 +24,17 @@ impl Default for Config {
 }
 
 impl Processor for Rotate {
+    
     fn name(&self) -> String {
         "rotate".into()
+    }
+
+    fn title(&self) -> String {
+        "Rotate".into()
+    }
+
+    fn author(&self) -> String {
+        "chriamue".into()
     }
 
     fn description(&self) -> String {

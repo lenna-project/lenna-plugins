@@ -32,6 +32,14 @@ impl Processor for Blur {
         "blur".into()
     }
 
+    fn title(&self) -> String {
+        "Blur".into()
+    }
+
+    fn author(&self) -> String {
+        "chriamue".into()
+    }
+
     fn description(&self) -> String {
         "Plugin to blur image.".into()
     }
