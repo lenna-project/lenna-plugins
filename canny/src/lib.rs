@@ -1,15 +1,15 @@
-
 use image::DynamicImage;
 use imageproc::edges::canny;
 
-use lenna_core::ProcessorConfig;
-use lenna_core::Processor;
 use lenna_core::plugins::PluginRegistrar;
+use lenna_core::Processor;
+use lenna_core::ProcessorConfig;
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Canny));
 }
 
+#[cfg(feature = "plugin")]
 lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
@@ -31,7 +31,6 @@ impl Default for Config {
 }
 
 impl Processor for Canny {
-
     fn name(&self) -> String {
         "canny".into()
     }

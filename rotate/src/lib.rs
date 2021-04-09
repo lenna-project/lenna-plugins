@@ -7,6 +7,7 @@ extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Rotate));
 }
 
+#[cfg(feature = "plugin")]
 lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
@@ -24,7 +25,6 @@ impl Default for Config {
 }
 
 impl Processor for Rotate {
-    
     fn name(&self) -> String {
         "rotate".into()
     }

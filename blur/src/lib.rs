@@ -1,13 +1,14 @@
 use image::DynamicImage;
 
-use lenna_core::ProcessorConfig;
-use lenna_core::Processor;
 use lenna_core::plugins::PluginRegistrar;
+use lenna_core::Processor;
+use lenna_core::ProcessorConfig;
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Blur));
 }
 
+#[cfg(feature = "plugin")]
 lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
@@ -20,14 +21,11 @@ struct Config {
 
 impl Default for Config {
     fn default() -> Self {
-        Config {
-            sigma: 1.5,
-        }
+        Config { sigma: 1.5 }
     }
 }
 
 impl Processor for Blur {
-
     fn name(&self) -> String {
         "blur".into()
     }
