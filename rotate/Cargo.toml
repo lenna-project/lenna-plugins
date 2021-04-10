@@ -3,6 +3,8 @@ authors = ["Christian <chriamue@gmail.com>"]
 edition = "2018"
 name = "rotate"
 version = "0.1.0"
+description = "Plugin to rotate images."
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

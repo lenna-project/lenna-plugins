@@ -3,6 +3,8 @@ authors = ["Christian <chriamue@gmail.com>"]
 edition = "2018"
 name = "blur"
 version = "0.1.0"
+description = "Plugin to blur image."
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
