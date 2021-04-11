@@ -1,8 +1,8 @@
 {
     "imports": {
-        "@lenna-project/blur": "https://lenna-project.github.io/lenna-plugins/blur/js/app.js",
-        "@lenna-project/canny": "https://lenna-project.github.io/lenna-plugins/canny/js/app.js",
-        "@lenna-project/resize": "https://lenna-project.github.io/lenna-plugins/resize/js/app.js",
-        "@lenna-project/rotate": "https://lenna-project.github.io/lenna-plugins/rotate/js/app.js"
+        "@lenna-project/blur": "https://lenna.app/lenna-plugins/blur/js/app.js",
+        "@lenna-project/canny": "https://lenna.app/lenna-plugins/canny/js/app.js",
+        "@lenna-project/resize": "https://lenna.app/lenna-plugins/resize/js/app.js",
+        "@lenna-project/rotate": "https://lenna.app/lenna-plugins/rotate/js/app.js"
     }
 }
