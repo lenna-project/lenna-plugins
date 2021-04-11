@@ -1,48 +1,45 @@
 <template>
-  <div v-if="low && high">
-    <input
-      id="low-input"
-      type="number"
-      placeholder="Low"
-      v-model.number="config.low"
-      @change="updateConfig(config)"
-    />
-    <label for="low-input">Low</label>
-    <br />
-    <input v-model.number="config.high" type="number" />
-    <label>High</label>
-    <p>Message is: {{ config }}</p>
+  <div class="plugin-config" v-if="config">
+    <div v-for="c in config" :key="c.key">
+      <label>{{ c.key }}: </label>
+      <input
+        type="number"
+        :placeholder="c.key"
+        v-model.number="c.value"
+        @change="updateConfig()"
+      />
+    </div>
   </div>
 </template>
 
 <script type='ts'>
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "Canny",
-  components: {},
+  name: "CannyConfig",
   props: {
     defaultConfig: Object,
   },
   data() {
     return {
-      config: {
-        low: 50,
-        high: 100,
-      },
-      low: 50,
-      high: 100,
+      config: [],
     };
   },
-  created() {
-    this.config = this.defaultConfig;
-    this.low = this.config.low;
-    this.high = this.config.high;
-  },
   methods: {
-    async updateConfig(config) {
+    async updateConfig() {
+      let config = {};
+      for (let c of this.config) {
+        config[c.key] = c.value;
+      }
       console.log(config);
       this.$emit("changeConfig", config);
     },
+  },
+  created() {
+    for (let key in this.defaultConfig) {
+      let config = { key: key, value: this.defaultConfig[key] };
+      this.config.push(config);
+    }
+    this.updateConfig();
   },
 });
 </script>
