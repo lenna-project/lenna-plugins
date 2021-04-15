@@ -17,6 +17,7 @@ jobs:
     
       - run: wasm-pack build blur
       - run: wasm-pack build canny
+      - run: wasm-pack build dramatic
       - run: wasm-pack build resize
       - run: wasm-pack build rotate
       - run: wasm-pack build sepia
@@ -33,6 +34,9 @@ jobs:
         working-directory: canny
       - name: Install npm dependencies
         run: npm ci
+        working-directory: dramatic
+      - name: Install npm dependencies
+        run: npm ci
         working-directory: resize
       - name: Install npm dependencies
         run: npm ci
@@ -46,18 +50,22 @@ jobs:
       - name: Build canny app
         run: NODE_ENV=production npm run build --if-present
         working-directory: canny
+      - name: Build dramatic app
+        run: NODE_ENV=production npm run build --if-present
+        working-directory: dramatic
       - name: Build resize app
         run: NODE_ENV=production npm run build --if-present
         working-directory: resize
       - name: Build rotate app
         run: NODE_ENV=production npm run build --if-present
         working-directory: rotate
-      - name: Build rotate app
+      - name: Build sepia app
         run: NODE_ENV=production npm run build --if-present
         working-directory: sepia
       - run: mkdir -p public/
       - run: mv ./blur/dist ./public/blur
       - run: mv ./canny/dist ./public/canny
+      - run: mv ./dramatic/dist ./public/dramatic
       - run: mv ./resize/dist ./public/resize
       - run: mv ./rotate/dist ./public/rotate
       - run: mv ./sepia/dist ./public/sepia
