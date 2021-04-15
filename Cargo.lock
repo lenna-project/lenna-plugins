@@ -623,6 +623,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "photon-filters"
+version = "0.1.0"
+dependencies = [
+ "image",
+ "lenna_core",
+ "photon-rs",
+ "serde",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
 name = "photon-rs"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

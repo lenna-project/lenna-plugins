@@ -1,36 +1,40 @@
 use image::{DynamicImage, GenericImageView};
+use photon_rs::{filters::filter, helpers::dyn_image_from_raw, PhotonImage};
 
 use lenna_core::plugins::PluginRegistrar;
 use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
-use photon_rs::{helpers::dyn_image_from_raw, monochrome::sepia, PhotonImage};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
-    registrar.add_plugin(Box::new(Sepia));
+    registrar.add_plugin(Box::new(PhotonFilters));
 }
 
 #[cfg(feature = "plugin")]
 lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
-pub struct Sepia;
+pub struct PhotonFilters;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize)]
-struct Config {}
+struct Config {
+    filter: String,
+}
 
 impl Default for Config {
     fn default() -> Self {
-        Config {}
+        Config {
+            filter: "dramatic".into(),
+        }
     }
 }
 
-impl Processor for Sepia {
+impl Processor for PhotonFilters {
     fn name(&self) -> String {
-        "sepia".into()
+        "photon-filters".into()
     }
 
     fn title(&self) -> String {
-        "Sepia".into()
+        "Photon Filters".into()
     }
 
     fn author(&self) -> String {
@@ -38,15 +42,15 @@ impl Processor for Sepia {
     }
 
     fn description(&self) -> String {
-        "Plugin to sepia image.".into()
+        "Plugin for multiple filters by photon.".into()
     }
 
     fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
-        let _config: Config = serde_json::from_value(config.config).unwrap();
+        let config: Config = serde_json::from_value(config.config).unwrap();
         let image = DynamicImage::ImageRgba8(image.to_rgba8());
         let mut image: PhotonImage =
             PhotonImage::new(image.to_bytes(), image.width(), image.height());
-        sepia(&mut image);
+        filter(&mut image, config.filter.as_str());
         let img = dyn_image_from_raw(&image);
         img
     }
@@ -59,23 +63,15 @@ impl Processor for Sepia {
 #[cfg(target_arch = "wasm32")]
 use wasm_bindgen::prelude::*;
 #[cfg(target_arch = "wasm32")]
-lenna_core::export_wasm_plugin!(Sepia);
+lenna_core::export_wasm_plugin!(PhotonFilters);
 
 #[cfg(test)]
 mod tests {
     use super::*;
-    use image::io::Reader as ImageReader;
-    use lenna_core::ProcessorConfig;
 
     #[test]
     fn default() {
-        let sepia = Sepia::default();
-        assert_eq!(sepia.name(), "sepia");
-        let config = ProcessorConfig {
-            id: "sepia".into(),
-            config: sepia.default_config(),
-        };
-        let img = ImageReader::open("../lenna.png").unwrap().decode().unwrap();
-        let img = sepia.process(config, img);
+        let photon_filters = PhotonFilters::default();
+        assert_eq!(photon_filters.name(), "photon-filters");
     }
 }

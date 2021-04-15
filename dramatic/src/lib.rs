@@ -3,7 +3,7 @@ use image::{DynamicImage, GenericImageView};
 use lenna_core::plugins::PluginRegistrar;
 use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
-use photon_rs::{helpers::dyn_image_from_raw, filters::dramatic, PhotonImage};
+use photon_rs::{filters::dramatic, helpers::dyn_image_from_raw, PhotonImage};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Dramatic));
@@ -16,8 +16,7 @@ lenna_core::export_plugin!(register);
 pub struct Dramatic;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize)]
-struct Config {
-}
+struct Config {}
 
 impl Default for Config {
     fn default() -> Self {
@@ -45,7 +44,8 @@ impl Processor for Dramatic {
     fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
         let _config: Config = serde_json::from_value(config.config).unwrap();
         let image = DynamicImage::ImageRgba8(image.to_rgba8());
-        let mut image: PhotonImage = PhotonImage::new(image.to_bytes(), image.width(), image.height());
+        let mut image: PhotonImage =
+            PhotonImage::new(image.to_bytes(), image.width(), image.height());
         dramatic(&mut image);
         let img = dyn_image_from_raw(&image);
         img
@@ -70,12 +70,12 @@ mod tests {
     #[test]
     fn default() {
         let dramatic = Dramatic::default();
-        assert_eq!(dramatic.name(), "sepia");
-        let config = ProcessorConfig{
+        assert_eq!(dramatic.name(), "dramatic");
+        let config = ProcessorConfig {
             id: "dramatic".into(),
-            config: dramatic.default_config()
+            config: dramatic.default_config(),
         };
         let img = ImageReader::open("../lenna.png").unwrap().decode().unwrap();
-        let img = dramatic.process(config, img);
+        let _img = dramatic.process(config, img);
     }
 }

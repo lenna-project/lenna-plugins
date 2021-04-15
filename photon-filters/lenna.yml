@@ -1,0 +1,3 @@
+pipeline:
+  - id: photon-filters
+    filter: dramatic
