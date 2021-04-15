@@ -1,14 +1,16 @@
 <template>
   <div class="plugin-config" v-if="config">
-    <select v-model="selected" @change="updateConfig()">
-      <option
-        v-for="option in options"
-        :value="option.value"
-        :key="option.text"
-      >
-        {{ option.text }}
-      </option>
-    </select>
+    <div id="v-model-select-dynamic">
+      <select v-model="selected" @change="updateConfig()">
+        <option
+          v-for="option in options"
+          :value="option.value"
+          :key="option.text"
+        >
+          {{ option.text }}
+        </option>
+      </select>
+    </div>
   </div>
 </template>
 
@@ -27,7 +29,25 @@ export default defineComponent({
         { text: "oceanic", value: "oceanic" },
         { text: "islands", value: "islands" },
         { text: "marine", value: "marine" },
-        { text: "Dramatic", value: "dramatic" },
+        { text: "seagreen", value: "seagreen" },
+        { text: "flagblue", value: "flagblue" },
+        { text: "diamante", value: "diamante" },
+        { text: "liquid", value: "liquid" },
+        { text: "radio", value: "radio" },
+        { text: "twenties", value: "twenties" },
+        { text: "rosetint", value: "rosetint" },
+        { text: "mauve", value: "mauve" },
+        { text: "bluechrome", value: "bluechrome" },
+        { text: "vintage", value: "vintage" },
+        { text: "perfume", value: "perfume" },
+        { text: "serenity", value: "serenity" },
+        { text: "golden", value: "golden" },
+        { text: "pastel_pink", value: "pastel_pink" },
+        { text: "cali", value: "cali" },
+        { text: "dramatic", value: "dramatic" },
+        { text: "firenze", value: "firenze" },
+        { text: "obsidian", value: "obsidian" },
+        { text: "lofi", value: "lofi" },
       ],
     };
   },
