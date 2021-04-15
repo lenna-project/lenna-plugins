@@ -1,2 +1,2 @@
 [workspace]
-members = ["blur", "canny", "resize", "rotate"]
+members = ["blur", "canny", "resize", "rotate", "sepia"]
