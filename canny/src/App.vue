@@ -1,18 +1,21 @@
 <template>
   <div class="plugin-config" v-if="config">
+    <h1>Canny Config</h1>
     <div v-for="c in config" :key="c.key">
-      <label>{{ c.key }}: </label>
-      <input
-        type="number"
-        :placeholder="c.key"
-        v-model.number="c.value"
-        @change="updateConfig()"
-      />
+      <div>
+        <label>{{ c.key }}: </label>
+        <input
+          type="number"
+          :placeholder="c.key"
+          v-model.number="c.value"
+          @change="updateConfig()"
+        />
+      </div>
     </div>
   </div>
 </template>
 
-<script type='ts'>
+<script lang="js">
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "CannyConfig",
@@ -43,6 +46,8 @@ export default defineComponent({
   },
 });
 </script>
-
 <style scoped>
+.plugin-config {
+  margin: 5px;
+}
 </style>

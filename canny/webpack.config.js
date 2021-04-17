@@ -1,6 +1,6 @@
 var path = require("path");
 const systemjsInterop = require("systemjs-webpack-interop/webpack-config");
-const { VueLoaderPlugin } = require('vue-loader')
+const { VueLoaderPlugin } = require("vue-loader");
 
 // Pass in your webpack config, and systemjs-webpack-interop will make it
 // work better with SystemJS
@@ -11,20 +11,24 @@ module.exports = {
     filename: "app.js",
     path: path.resolve(__dirname, "dist/js"),
     libraryTarget: "system",
+    devtoolModuleFilenameTemplate:
+      'webpack://@lenna-project/canny/[resource-path]?[loaders]',
   },
   module: {
     rules: [
-        {
-            test: /\.vue$/,
-            loader: 'vue-loader'
-        },
-        { parser: { system: false } }
+      {
+        test: /\.vue$/,
+        loader: "vue-loader",
+      },
+      {
+        test: /\.css$/,
+        use: ["css-loader"],
+      },
+      { parser: { system: false } },
     ],
   },
-  plugins: [
-    new VueLoaderPlugin()
-  ],
-  externals: ['vue'],
+  plugins: [new VueLoaderPlugin()],
+  //externals: { vue: "vue" },
   experiments: {
     syncWebAssembly: true,
   },
