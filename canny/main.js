@@ -344,7 +344,7 @@ const defaultConfig = async () => {
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "http://localhost:3002/";
+/******/ 		__webpack_require__.p = "https://lenna.app/lenna-plugins/canny/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/consumes */
