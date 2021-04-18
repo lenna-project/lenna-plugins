@@ -1,9 +1,8 @@
 <template>
   <div class="plugin-config" v-if="config">
     <div v-for="c in config" :key="c.key">
-      <h2>canny</h2>
       <div>
-        <label>{{ c.key }}: </label>
+        <label>{{ c.key }}</label>
         <input
           type="number"
           :placeholder="c.key"
@@ -16,8 +15,9 @@
 </template>
 
 <script>
-export default {
-  name: "CannyConfig",
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "Widget",
   props: {
     defaultConfig: Object,
   },
@@ -37,14 +37,14 @@ export default {
     },
   },
   created() {
-    console.log('created', this.defaultConfig, this.config)
+    console.log("created", this.defaultConfig, this.config);
     for (let key in this.defaultConfig) {
       let config = { key: key, value: this.defaultConfig[key] };
       this.config.push(config);
     }
     this.updateConfig();
   },
-};
+});
 </script>
 <style scoped lang="css">
 .plugin-config {

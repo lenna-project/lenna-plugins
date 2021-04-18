@@ -1,7 +1,7 @@
 const pkg = import('../pkg')
 export const processor = pkg;
 
-import Widget from "./Widget.vue";
+import Widget from "./Widget";
 export const ui = Widget;
 export const name = () => "canny";
 export const description = () => "Plugin to create canny edges.";

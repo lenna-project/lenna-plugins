@@ -5,7 +5,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { ModuleFederationPlugin } = require("webpack").container;
 const deps = require("./package.json").dependencies;
 module.exports = (env = {}) => ({
-  mode: "development",
+  name: "canny",
+  mode: "production",
   cache: false,
   devtool: "source-map",
   optimization: {
@@ -19,6 +20,7 @@ module.exports = (env = {}) => ({
   // },
   output: {
     publicPath: "https://lenna.app/lenna-plugins/canny/",
+    //publicPath: "http://localhost:3002/",
   },
   resolve: {
     extensions: [".vue", ".jsx", ".js", ".json"],
@@ -63,20 +65,15 @@ module.exports = (env = {}) => ({
       name: "canny",
       library: { type: "amd", name: "canny" },
       filename: "remoteEntry.js",
+      remotes: {
+        "lenna-web": "lenna-web",
+      },
       exposes: {
         "default": "./src/",
-        "Widget": "./src/Widget",
+        "./Widget": "./src/Widget",
       },
-      shared: {
-        vue: {
-          requiredVersion: deps.vue,
-          import: "vue",
-          shareKey: "vue",
-          shareScope: "default",
-          singleton: true,
-          eager: true
-        },
-      },
+      remotes: {},
+      shared: ['vue']
     }),
     new VueLoaderPlugin(),
   ],
