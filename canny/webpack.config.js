@@ -1,46 +1,98 @@
-var path = require("path");
-const systemjsInterop = require("systemjs-webpack-interop/webpack-config");
+const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
-
-// Pass in your webpack config, and systemjs-webpack-interop will make it
-// work better with SystemJS
-module.exports = {
-  entry: path.resolve(__dirname, "src/index.js"),
-  mode: "production",
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
+const deps = require("./package.json").dependencies;
+module.exports = (env = {}) => ({
+  mode: "development",
+  cache: false,
+  devtool: "source-map",
+  optimization: {
+    minimize: false,
+  },
+  target: "web",
+  entry: path.resolve(__dirname, "./src/index.js"),
+  // output: {
+  //   path: path.resolve(__dirname, './dist'),
+  //   publicPath: '/dist/'
+  // },
   output: {
-    filename: "app.js",
-    path: path.resolve(__dirname, "dist/js"),
-    libraryTarget: "system",
-    devtoolModuleFilenameTemplate:
-      'webpack://@lenna-project/canny/[resource-path]?[loaders]',
+    publicPath: "https://lenna.app/lenna-plugins/canny/",
+  },
+  resolve: {
+    extensions: [".vue", ".jsx", ".js", ".json"],
+    alias: {
+      // this isn't technically needed, since the default `vue` entry for bundlers
+      // is a simple `export * from '@vue/runtime-dom`. However having this
+      // extra re-export somehow causes webpack to always invalidate the module
+      // on the first HMR update and causes the page to reload.
+      vue: "@vue/runtime-dom",
+    },
   },
   module: {
     rules: [
       {
         test: /\.vue$/,
-        loader: "vue-loader",
+        use: "vue-loader",
+      },
+      {
+        test: /\.png$/,
+        use: {
+          loader: "url-loader",
+          options: { limit: 8192 },
+        },
       },
       {
         test: /\.css$/,
-        use: ["css-loader"],
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { hmr: !env.prod },
+          },
+          "css-loader",
+        ],
       },
-      { parser: { system: false } },
     ],
   },
-  plugins: [new VueLoaderPlugin()],
-  //externals: { vue: "vue" },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+    }),
+    new ModuleFederationPlugin({
+      name: "canny",
+      library: { type: "amd", name: "canny" },
+      filename: "remoteEntry.js",
+      exposes: {
+        "default": "./src/",
+        "Widget": "./src/Widget",
+      },
+      shared: {
+        vue: {
+          requiredVersion: deps.vue,
+          import: "vue",
+          shareKey: "vue",
+          shareScope: "default",
+          singleton: true,
+          eager: true
+        },
+      },
+    }),
+    new VueLoaderPlugin(),
+  ],
   experiments: {
     syncWebAssembly: true,
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
-    compress: false,
-    port: 8502,
+    contentBase: path.join(__dirname),
+    compress: true,
+    port: 3002,
+    hot: true,
     headers: {
       "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers":
+        "X-Requested-With, content-type, Authorization",
     },
   },
-};
-
-// Throws errors if your webpack config won't interop well with SystemJS
-systemjsInterop.checkWebpackConfig(module.exports);
+});

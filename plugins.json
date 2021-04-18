@@ -1,0 +1,5 @@
+{
+    "plugins": {
+        "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js"
+    }
+}

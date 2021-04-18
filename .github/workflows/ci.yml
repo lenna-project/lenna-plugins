@@ -78,6 +78,7 @@ jobs:
       - run: mv ./rotate/dist ./public/rotate
       - run: mv ./sepia/dist ./public/sepia
       - run: cp importmap.json public/
+      - run: cp plugins.json public/
       - run: ls public/
 
       - name: Deploy Documentation

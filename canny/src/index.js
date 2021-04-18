@@ -1,10 +1,8 @@
-import "systemjs-webpack-interop/auto-public-path";
-
 const pkg = import('../pkg')
 export const processor = pkg;
 
-import App from "./App.vue";
-export const ui = App;
+import Widget from "./Widget.vue";
+export const ui = Widget;
 export const name = () => "canny";
 export const description = () => "Plugin to create canny edges.";
 export const process = async (config, image) => {
