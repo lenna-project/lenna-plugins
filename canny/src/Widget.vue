@@ -17,7 +17,7 @@
 <script>
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "Widget",
+  name: "CannyWidget",
   props: {
     defaultConfig: Object,
   },
@@ -32,12 +32,10 @@ export default defineComponent({
       for (let c of this.config) {
         config[c.key] = c.value;
       }
-      console.log(config);
       this.$emit("changeConfig", config);
     },
   },
   created() {
-    console.log("created", this.defaultConfig, this.config);
     for (let key in this.defaultConfig) {
       let config = { key: key, value: this.defaultConfig[key] };
       this.config.push(config);

@@ -1,10 +1,8 @@
-import "systemjs-webpack-interop/auto-public-path";
-
 const pkg = import("../pkg");
 export const processor = pkg;
 
-import App from "./App.vue";
-export const ui = App;
+import Widget from "./Widget";
+export const ui = Widget;
 export const name = () => "photon-filters";
 export const description = () => "Plugin for multiple filters by photon.";
 export const process = async (config, image) => {

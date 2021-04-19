@@ -1,42 +1,86 @@
-var path = require("path");
-const systemjsInterop = require("systemjs-webpack-interop/webpack-config");
-const { VueLoaderPlugin } = require('vue-loader')
+const path = require("path");
+const { VueLoaderPlugin } = require("vue-loader");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
+const pkg = require("./package.json");
 
-// Pass in your webpack config, and systemjs-webpack-interop will make it
-// work better with SystemJS
-module.exports = {
-  entry: path.resolve(__dirname, "src/index.js"),
+module.exports = (env = {}) => ({
+  name: pkg.config.shortname,
   mode: "production",
+  cache: false,
+  devtool: "source-map",
+  optimization: {
+    minimize: false,
+  },
+  target: "web",
+  entry: path.resolve(__dirname, "./src/index.js"),
   output: {
-    filename: "app.js",
-    path: path.resolve(__dirname, "dist/js"),
-    libraryTarget: "system",
+    publicPath: !env.prod? "http://localhost:3002/": pkg.config.publicPath,
+  },
+  resolve: {
+    extensions: [".vue", ".jsx", ".js", ".json"],
+    alias: {
+      vue: "@vue/runtime-dom",
+    },
   },
   module: {
     rules: [
-        {
-            test: /\.vue$/,
-            loader: 'vue-loader'
+      {
+        test: /\.vue$/,
+        use: "vue-loader",
+      },
+      {
+        test: /\.png$/,
+        use: {
+          loader: "url-loader",
+          options: { limit: 8192 },
         },
-        { parser: { system: false } }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { hmr: !env.prod },
+          },
+          "css-loader",
+        ],
+      },
     ],
   },
   plugins: [
-    new VueLoaderPlugin()
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+    }),
+    new ModuleFederationPlugin({
+      name: pkg.config.shortname,
+      library: { type: "amd", name: pkg.config.shortname },
+      filename: "remoteEntry.js",
+      remotes: {
+        "lenna-web": "lenna-web",
+      },
+      exposes: {
+        "default": "./src/",
+        "./Widget": "./src/Widget",
+      },
+      remotes: {},
+      shared: ['vue']
+    }),
+    new VueLoaderPlugin(),
   ],
-  externals: ['vue'],
   experiments: {
     syncWebAssembly: true,
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
-    compress: false,
-    port: 8502,
+    contentBase: path.join(__dirname),
+    compress: true,
+    port: 3002,
+    hot: true,
     headers: {
       "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers":
+        "X-Requested-With, content-type, Authorization",
     },
   },
-};
-
-// Throws errors if your webpack config won't interop well with SystemJS
-systemjsInterop.checkWebpackConfig(module.exports);
+});

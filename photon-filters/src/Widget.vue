@@ -1,5 +1,5 @@
 <template>
-  <div class="plugin-config" v-if="config">
+  <div class="plugin-config">
     <div id="v-model-select-dynamic">
       <select v-model="selected" @change="updateConfig()">
         <option
@@ -14,16 +14,15 @@
   </div>
 </template>
 
-<script type='ts'>
-import { defineComponent } from "vue";
+<script>
+import { defineComponent } from 'vue';
 export default defineComponent({
-  name: "CannyConfig",
+  name: "PhotonFiltersWidget",
   props: {
     defaultConfig: Object,
   },
   data() {
     return {
-      config: [],
       selected: "dramatic",
       options: [
         { text: "oceanic", value: "oceanic" },
@@ -47,28 +46,27 @@ export default defineComponent({
         { text: "dramatic", value: "dramatic" },
         { text: "firenze", value: "firenze" },
         { text: "obsidian", value: "obsidian" },
-        { text: "lofi", value: "lofi" },
+        { text: "lofi", value: "lofi" }
       ],
     };
   },
   methods: {
     async updateConfig() {
-      let config = {
+      const config = {
         filter: this.selected,
       };
-      console.log(config);
       this.$emit("changeConfig", config);
     },
   },
   created() {
-    for (let key in this.defaultConfig) {
-      let config = { key: key, value: this.defaultConfig[key] };
-      this.config.push(config);
-    }
+    this.selected = this.defaultConfig.filter;
     this.updateConfig();
-  },
+  }
 });
 </script>
 
-<style scoped>
+<style scoped lang="css">
+.plugin-config {
+  margin: 5px;
+}
 </style>
