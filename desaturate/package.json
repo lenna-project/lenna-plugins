@@ -1,5 +1,5 @@
 {
-  "name": "@lenna-project/photon-filters",
+  "name": "@lenna-project/desaturate",
   "version": "0.1.0",
   "description": "",
   "scripts": {
@@ -9,8 +9,8 @@
     "clean": "rm -rf dist"
   },
   "config": {
-    "shortname": "photon-filters",
-    "publicPath": "https://lenna.app/lenna-plugins/photon-filters/"
+    "shortname": "desaturate",
+    "publicPath": "https://lenna.app/lenna-plugins/desaturate/"
   },
   "keywords": [],
   "author": "",

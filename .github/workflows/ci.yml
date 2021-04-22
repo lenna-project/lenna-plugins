@@ -17,6 +17,7 @@ jobs:
     
       - run: wasm-pack build blur
       - run: wasm-pack build canny
+      - run: wasm-pack build desaturate
       - run: wasm-pack build dramatic
       - run: wasm-pack build photon-filters
       - run: wasm-pack build resize
@@ -38,6 +39,9 @@ jobs:
         working-directory: dramatic
       - name: Install npm dependencies
         run: npm ci
+        working-directory: desaturate
+      - name: Install npm dependencies
+        run: npm ci
         working-directory: resize
       - name: Install npm dependencies
         run: npm ci
@@ -54,6 +58,9 @@ jobs:
       - name: Build canny app
         run: NODE_ENV=production npm run build --if-present
         working-directory: canny
+      - name: Build desaturate app
+        run: NODE_ENV=production npm run build --if-present
+        working-directory: desaturate
       - name: Build dramatic app
         run: NODE_ENV=production npm run build --if-present
         working-directory: dramatic
@@ -72,6 +79,7 @@ jobs:
       - run: mkdir -p public/
       - run: mv ./blur/dist ./public/blur
       - run: mv ./canny/dist ./public/canny
+      - run: mv ./desaturate/dist ./public/desaturate
       - run: mv ./dramatic/dist ./public/dramatic
       - run: mv ./resize/dist ./public/resize
       - run: mv ./photon-filters/dist ./public/photon-filters
