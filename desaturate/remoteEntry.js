@@ -1,144 +1,41 @@
-/******/ (() => { // webpackBootstrap
+define("desaturate", [], () => { return /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 833:
-/***/ (() => {
+/***/ 284:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-// extracted by mini-css-extract-plugin
-    if(false) { var cssReload; }
-  
-
-/***/ }),
-
-/***/ 717:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// UNUSED EXPORTS: default
-
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=7e18df90&scoped=true
-
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-7e18df90")
-
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-7e18df90")
-const _hoisted_1 = { class: "plugin-config" }
-const _hoisted_2 = { id: "v-model-select-dynamic" }
-;(0,runtime_dom_esm_bundler_js_.popScopeId)()
-
-const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
-    (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_2, [
-      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("select", {
-        "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.selected = $event)),
-        onChange: _cache[2] || (_cache[2] = $event => (_ctx.updateConfig()))
-      }, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.options, (option) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("option", {
-            value: option.value,
-            key: option.text
-          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ["value"]))
-        }), 128))
-      ], 544), [
-        [runtime_dom_esm_bundler_js_.vModelSelect, _ctx.selected]
-      ])
-    ])
-  ]))
-})
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=7e18df90&scoped=true
-
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
-
-
-/* harmony default export */ const Widgetvue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
-  name: "PhotonFiltersWidget",
-  props: {
-    defaultConfig: Object,
-  },
-  data() {
-    return {
-      selected: "dramatic",
-      options: [
-        { text: "oceanic", value: "oceanic" },
-        { text: "islands", value: "islands" },
-        { text: "marine", value: "marine" },
-        { text: "seagreen", value: "seagreen" },
-        { text: "flagblue", value: "flagblue" },
-        { text: "diamante", value: "diamante" },
-        { text: "liquid", value: "liquid" },
-        { text: "radio", value: "radio" },
-        { text: "twenties", value: "twenties" },
-        { text: "rosetint", value: "rosetint" },
-        { text: "mauve", value: "mauve" },
-        { text: "bluechrome", value: "bluechrome" },
-        { text: "vintage", value: "vintage" },
-        { text: "perfume", value: "perfume" },
-        { text: "serenity", value: "serenity" },
-        { text: "golden", value: "golden" },
-        { text: "pastel_pink", value: "pastel_pink" },
-        { text: "cali", value: "cali" },
-        { text: "dramatic", value: "dramatic" },
-        { text: "firenze", value: "firenze" },
-        { text: "obsidian", value: "obsidian" },
-        { text: "lofi", value: "lofi" }
-      ],
-    };
-  },
-  methods: {
-    async updateConfig() {
-      const config = {
-        filter: this.selected,
-      };
-      this.$emit("changeConfig", config);
-    },
-  },
-  created() {
-    this.selected = this.defaultConfig.filter;
-    this.updateConfig();
-  }
-}));
-
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
- 
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=7e18df90&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_7e18df90_scoped_true_lang_css = __webpack_require__(833);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=7e18df90&scoped=true&lang=css
-
-;// CONCATENATED MODULE: ./src/Widget.vue
-
-
-
-
-;
-Widgetvue_type_script_lang_js.render = render
-Widgetvue_type_script_lang_js.__scopeId = "data-v-7e18df90"
-
-/* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
-
-/***/ }),
-
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* unused harmony exports processor, ui, name, description, process, defaultConfig */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(717);
-const pkg = __webpack_require__.e(/* import() */ 700).then(__webpack_require__.bind(__webpack_require__, 700));
-const processor = (/* unused pure expression or super */ null && (pkg));
-
-
-const ui = (/* unused pure expression or super */ null && (Widget));
-const name = () => "photon-filters";
-const description = () => "Plugin for multiple filters by photon.";
-const process = async (config, image) => {
-  return __webpack_require__.e(/* import() */ 700).then(__webpack_require__.bind(__webpack_require__, 700)).then((processor) => processor.process(config, image));
+var moduleMap = {
+	"default": () => {
+		return __webpack_require__.e(138).then(() => (() => ((__webpack_require__(138)))));
+	}
 };
-const defaultConfig = async () => {
-  return { filter: "dramatic" };
+var get = (module, getScope) => {
+	__webpack_require__.R = getScope;
+	getScope = (
+		__webpack_require__.o(moduleMap, module)
+			? moduleMap[module]()
+			: Promise.resolve().then(() => {
+				throw new Error('Module "' + module + '" does not exist in container.');
+			})
+	);
+	__webpack_require__.R = undefined;
+	return getScope;
+};
+var init = (shareScope, initScope) => {
+	if (!__webpack_require__.S) return;
+	var oldScope = __webpack_require__.S["default"];
+	var name = "default"
+	if(oldScope && oldScope !== shareScope) throw new Error("Container initialization failed as it has already been initialized with a different share scope");
+	__webpack_require__.S[name] = shareScope;
+	return __webpack_require__.I(name, initScope);
 };
 
+// This exports getters to disallow modifications
+__webpack_require__.d(exports, {
+	get: () => (get),
+	init: () => (init)
+});
 
 /***/ })
 
@@ -247,7 +144,7 @@ const defaultConfig = async () => {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "@lenna-project/photon-filters:";
+/******/ 		var dataWebpackPrefix = "@lenna-project/desaturate:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -320,7 +217,7 @@ const defaultConfig = async () => {
 /******/ 			// runs all init snippets from all modules reachable
 /******/ 			var scope = __webpack_require__.S[name];
 /******/ 			var warn = (msg) => (typeof console !== "undefined" && console.warn && console.warn(msg));
-/******/ 			var uniqueName = "@lenna-project/photon-filters";
+/******/ 			var uniqueName = "@lenna-project/desaturate";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -339,10 +236,6 @@ const defaultConfig = async () => {
 /******/ 			}
 /******/ 			var promises = [];
 /******/ 			switch(name) {
-/******/ 				case "default": {
-/******/ 					register("vue", "3.0.11", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
-/******/ 				}
-/******/ 				break;
 /******/ 			}
 /******/ 			if(!promises.length) return initPromises[name] = 1;
 /******/ 			return initPromises[name] = Promise.all(promises).then(() => (initPromises[name] = 1));
@@ -354,172 +247,6 @@ const defaultConfig = async () => {
 /******/ 		__webpack_require__.p = "http://localhost:3002/";
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/consumes */
-/******/ 	(() => {
-/******/ 		var parseVersion = (str) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			var p=p=>{return p.split(".").map((p=>{return+p==p?+p:p}))},n=/^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(str),r=n[1]?p(n[1]):[];return n[2]&&(r.length++,r.push.apply(r,p(n[2]))),n[3]&&(r.push([]),r.push.apply(r,p(n[3]))),r;
-/******/ 		}
-/******/ 		var versionLt = (a, b) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			a=parseVersion(a),b=parseVersion(b);for(var r=0;;){if(r>=a.length)return r<b.length&&"u"!=(typeof b[r])[0];var e=a[r],n=(typeof e)[0];if(r>=b.length)return"u"==n;var t=b[r],f=(typeof t)[0];if(n!=f)return"o"==n&&"n"==f||("s"==f||"u"==n);if("o"!=n&&"u"!=n&&e!=t)return e<t;r++}
-/******/ 		}
-/******/ 		var rangeToString = (range) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			var r=range[0],n="";if(1===range.length)return"*";if(r+.5){n+=0==r?">=":-1==r?"<":1==r?"^":2==r?"~":r>0?"=":"!=";for(var e=1,a=1;a<range.length;a++){e--,n+="u"==(typeof(t=range[a]))[0]?"-":(e>0?".":"")+(e=2,t)}return n}var g=[];for(a=1;a<range.length;a++){var t=range[a];g.push(0===t?"not("+o()+")":1===t?"("+o()+" || "+o()+")":2===t?g.pop()+" "+g.pop():rangeToString(t))}return o();function o(){return g.pop().replace(/^\((.+)\)$/,"$1")}
-/******/ 		}
-/******/ 		var satisfy = (range, version) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			if(0 in range){version=parseVersion(version);var e=range[0],r=e<0;r&&(e=-e-1);for(var n=0,i=1,a=!0;;i++,n++){var f,s,g=i<range.length?(typeof range[i])[0]:"";if(n>=version.length||"o"==(s=(typeof(f=version[n]))[0]))return!a||("u"==g?i>e&&!r:""==g!=r);if("u"==s){if(!a||"u"!=g)return!1}else if(a)if(g==s)if(i<=e){if(f!=range[i])return!1}else{if(r?f>range[i]:f<range[i])return!1;f!=range[i]&&(a=!1)}else if("s"!=g&&"n"!=g){if(r||i<=e)return!1;a=!1,i--}else{if(i<=e||s<g!=r)return!1;a=!1}else"s"!=g&&"n"!=g&&(a=!1,i--)}}var t=[],o=t.pop.bind(t);for(n=1;n<range.length;n++){var u=range[n];t.push(1==u?o()|o():2==u?o()&o():u?satisfy(u,version):!o())}return!!o();
-/******/ 		}
-/******/ 		var ensureExistence = (scopeName, key) => {
-/******/ 			var scope = __webpack_require__.S[scopeName];
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) throw new Error("Shared module " + key + " doesn't exist in shared scope " + scopeName);
-/******/ 			return scope;
-/******/ 		};
-/******/ 		var findVersion = (scope, key) => {
-/******/ 			var versions = scope[key];
-/******/ 			var key = Object.keys(versions).reduce((a, b) => {
-/******/ 				return !a || versionLt(a, b) ? b : a;
-/******/ 			}, 0);
-/******/ 			return key && versions[key]
-/******/ 		};
-/******/ 		var findSingletonVersionKey = (scope, key) => {
-/******/ 			var versions = scope[key];
-/******/ 			return Object.keys(versions).reduce((a, b) => {
-/******/ 				return !a || (!versions[a].loaded && versionLt(a, b)) ? b : a;
-/******/ 			}, 0);
-/******/ 		};
-/******/ 		var getInvalidSingletonVersionMessage = (key, version, requiredVersion) => {
-/******/ 			return "Unsatisfied version " + version + " of shared singleton module " + key + " (required " + rangeToString(requiredVersion) + ")"
-/******/ 		};
-/******/ 		var getSingletonVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			if (!satisfy(requiredVersion, version)) typeof console !== "undefined" && console.warn && console.warn(getInvalidSingletonVersionMessage(key, version, requiredVersion));
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var getStrictSingletonVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			if (!satisfy(requiredVersion, version)) throw new Error(getInvalidSingletonVersionMessage(key, version, requiredVersion));
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var findValidVersion = (scope, key, requiredVersion) => {
-/******/ 			var versions = scope[key];
-/******/ 			var key = Object.keys(versions).reduce((a, b) => {
-/******/ 				if (!satisfy(requiredVersion, b)) return a;
-/******/ 				return !a || versionLt(a, b) ? b : a;
-/******/ 			}, 0);
-/******/ 			return key && versions[key]
-/******/ 		};
-/******/ 		var getInvalidVersionMessage = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var versions = scope[key];
-/******/ 			return "No satisfying version (" + rangeToString(requiredVersion) + ") of shared module " + key + " found in shared scope " + scopeName + ".\n" +
-/******/ 				"Available versions: " + Object.keys(versions).map((key) => {
-/******/ 				return key + " from " + versions[key].from;
-/******/ 			}).join(", ");
-/******/ 		};
-/******/ 		var getValidVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var entry = findValidVersion(scope, key, requiredVersion);
-/******/ 			if(entry) return get(entry);
-/******/ 			throw new Error(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
-/******/ 		};
-/******/ 		var warnInvalidVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			typeof console !== "undefined" && console.warn && console.warn(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
-/******/ 		};
-/******/ 		var get = (entry) => {
-/******/ 			entry.loaded = 1;
-/******/ 			return entry.get()
-/******/ 		};
-/******/ 		var init = (fn) => (function(scopeName, a, b, c) {
-/******/ 			var promise = __webpack_require__.I(scopeName);
-/******/ 			if (promise && promise.then) return promise.then(fn.bind(fn, scopeName, __webpack_require__.S[scopeName], a, b, c));
-/******/ 			return fn(scopeName, __webpack_require__.S[scopeName], a, b, c);
-/******/ 		});
-/******/ 		
-/******/ 		var load = /*#__PURE__*/ init((scopeName, scope, key) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return get(findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
-/******/ 			return scope && __webpack_require__.o(scope, key) ? get(findVersion(scope, key)) : fallback();
-/******/ 		});
-/******/ 		var loadVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getValidVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getStrictSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			var entry = scope && __webpack_require__.o(scope, key) && findValidVersion(scope, key, version);
-/******/ 			return entry ? get(entry) : fallback();
-/******/ 		});
-/******/ 		var loadStrictSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getStrictSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var installedModules = {};
-/******/ 		var moduleToHandlerMapping = {
-/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
-/******/ 		};
-/******/ 		var initialConsumes = [748];
-/******/ 		initialConsumes.forEach((id) => {
-/******/ 			__webpack_require__.m[id] = (module) => {
-/******/ 				// Handle case when module is used sync
-/******/ 				installedModules[id] = 0;
-/******/ 				delete __webpack_require__.c[id];
-/******/ 				var factory = moduleToHandlerMapping[id]();
-/******/ 				if(typeof factory !== "function") throw new Error("Shared module is not available for eager consumption: " + id);
-/******/ 				module.exports = factory();
-/******/ 			}
-/******/ 		});
-/******/ 		var chunkMapping = {};
-/******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
-/******/ 			if(__webpack_require__.o(chunkMapping, chunkId)) {
-/******/ 				chunkMapping[chunkId].forEach((id) => {
-/******/ 					if(__webpack_require__.o(installedModules, id)) return promises.push(installedModules[id]);
-/******/ 					var onFactory = (factory) => {
-/******/ 						installedModules[id] = 0;
-/******/ 						__webpack_require__.m[id] = (module) => {
-/******/ 							delete __webpack_require__.c[id];
-/******/ 							module.exports = factory();
-/******/ 						}
-/******/ 					};
-/******/ 					var onError = (error) => {
-/******/ 						delete installedModules[id];
-/******/ 						__webpack_require__.m[id] = (module) => {
-/******/ 							delete __webpack_require__.c[id];
-/******/ 							throw error;
-/******/ 						}
-/******/ 					};
-/******/ 					try {
-/******/ 						var promise = moduleToHandlerMapping[id]();
-/******/ 						if(promise.then) {
-/******/ 							promises.push(installedModules[id] = promise.then(onFactory).catch(onError));
-/******/ 						} else onFactory(promise);
-/******/ 					} catch(e) { onError(e); }
-/******/ 				});
-/******/ 			}
-/******/ 		}
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		// no baseURI
@@ -528,10 +255,7 @@ const defaultConfig = async () => {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			179: 0,
-/******/ 			138: 0,
-/******/ 			717: 0,
-/******/ 			748: 0
+/******/ 			413: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -606,7 +330,7 @@ const defaultConfig = async () => {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_lenna_project_photon_filters"] = self["webpackChunk_lenna_project_photon_filters"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_lenna_project_desaturate"] = self["webpackChunk_lenna_project_desaturate"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
@@ -656,155 +380,155 @@ const defaultConfig = async () => {
 /******/ 		var wasmImportedFuncCache35;
 /******/ 		var wasmImportedFuncCache36;
 /******/ 		var wasmImportObjects = {
-/******/ 			709: function() {
+/******/ 			383: function() {
 /******/ 				return {
-/******/ 					"./photon_filters_bg.js": {
+/******/ 					"./desaturate_bg.js": {
+/******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
+/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[53].exports;
+/******/ 							return wasmImportedFuncCache0["t$"](p0i32,p1i32);
+/******/ 						},
 /******/ 						"__wbindgen_json_serialize": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache0["r1"](p0i32,p1i32);
+/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[53].exports;
+/******/ 							return wasmImportedFuncCache1["r1"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache1["ug"](p0i32);
-/******/ 						},
-/******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache2["t$"](p0i32,p1i32);
+/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[53].exports;
+/******/ 							return wasmImportedFuncCache2["ug"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_new_59cb74e423758ede": function() {
-/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache3["h9"]();
 /******/ 						},
 /******/ 						"__wbg_stack_558ba5917b466edd": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache4["Dz"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_error_4bb6c2a97407129a": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache5["kF"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_instanceof_Window_9c4fd26090e1d029": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache6 === undefined) wasmImportedFuncCache6 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache6 === undefined) wasmImportedFuncCache6 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache6["S1"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_document_249e9cf340780f93": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache7 === undefined) wasmImportedFuncCache7 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache7 === undefined) wasmImportedFuncCache7 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache7["_4"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_body_0d97f334de622953": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache8 === undefined) wasmImportedFuncCache8 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache8 === undefined) wasmImportedFuncCache8 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache8["$n"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_createElement_ba61aad8af6be7f4": function(p0i32,p1i32,p2i32) {
-/******/ 							if(wasmImportedFuncCache9 === undefined) wasmImportedFuncCache9 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache9 === undefined) wasmImportedFuncCache9 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache9["Vi"](p0i32,p1i32,p2i32);
 /******/ 						},
 /******/ 						"__wbg_width_0c52428553322c27": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache10 === undefined) wasmImportedFuncCache10 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache10 === undefined) wasmImportedFuncCache10 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache10["tQ"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_height_d9aa5f566b4ad3b1": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache11 === undefined) wasmImportedFuncCache11 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache11 === undefined) wasmImportedFuncCache11 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache11["ei"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_data_7db9e348ce1855fa": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache12 === undefined) wasmImportedFuncCache12 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache12 === undefined) wasmImportedFuncCache12 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache12["jv"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_newwithu8clampedarrayandsh_daf4b2743e8c858d": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 							if(wasmImportedFuncCache13 === undefined) wasmImportedFuncCache13 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache13 === undefined) wasmImportedFuncCache13 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache13["pj"](p0i32,p1i32,p2i32,p3i32);
 /******/ 						},
 /******/ 						"__wbg_instanceof_CanvasRenderingContext2d_eea9cd931eb496b7": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache14 === undefined) wasmImportedFuncCache14 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache14 === undefined) wasmImportedFuncCache14 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache14["xO"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_drawImage_8012170741749614": function(p0i32,p1i32,p2f64,p3f64,p4f64,p5f64,p6f64,p7f64,p8f64,p9f64) {
-/******/ 							if(wasmImportedFuncCache15 === undefined) wasmImportedFuncCache15 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache15 === undefined) wasmImportedFuncCache15 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache15["HS"](p0i32,p1i32,p2f64,p3f64,p4f64,p5f64,p6f64,p7f64,p8f64,p9f64);
 /******/ 						},
 /******/ 						"__wbg_getImageData_6e56dc172cd2ed36": function(p0i32,p1f64,p2f64,p3f64,p4f64) {
-/******/ 							if(wasmImportedFuncCache16 === undefined) wasmImportedFuncCache16 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache16 === undefined) wasmImportedFuncCache16 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache16["JF"](p0i32,p1f64,p2f64,p3f64,p4f64);
 /******/ 						},
 /******/ 						"__wbg_putImageData_a0ab6f94c11984ac": function(p0i32,p1i32,p2f64,p3f64) {
-/******/ 							if(wasmImportedFuncCache17 === undefined) wasmImportedFuncCache17 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache17 === undefined) wasmImportedFuncCache17 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache17["OI"](p0i32,p1i32,p2f64,p3f64);
 /******/ 						},
 /******/ 						"__wbg_settextContent_fa342bf9999ed3eb": function(p0i32,p1i32,p2i32) {
-/******/ 							if(wasmImportedFuncCache18 === undefined) wasmImportedFuncCache18 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache18 === undefined) wasmImportedFuncCache18 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache18["MP"](p0i32,p1i32,p2i32);
 /******/ 						},
 /******/ 						"__wbg_appendChild_6ae001e6d3556190": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache19 === undefined) wasmImportedFuncCache19 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache19 === undefined) wasmImportedFuncCache19 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache19["DM"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_instanceof_HtmlCanvasElement_e0e251da2aa0b541": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache20 === undefined) wasmImportedFuncCache20 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache20 === undefined) wasmImportedFuncCache20 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache20["ke"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_width_5843e31ec081f978": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache21 === undefined) wasmImportedFuncCache21 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache21 === undefined) wasmImportedFuncCache21 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache21["li"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_setwidth_fd251e9da5abcced": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache22 === undefined) wasmImportedFuncCache22 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache22 === undefined) wasmImportedFuncCache22 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache22["Yw"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_height_872c06b1bc666dd9": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache23 === undefined) wasmImportedFuncCache23 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache23 === undefined) wasmImportedFuncCache23 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache23["cl"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_setheight_5b882973e84fa13c": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache24 === undefined) wasmImportedFuncCache24 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache24 === undefined) wasmImportedFuncCache24 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache24["xo"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_getContext_d778ffc8203f64ae": function(p0i32,p1i32,p2i32) {
-/******/ 							if(wasmImportedFuncCache25 === undefined) wasmImportedFuncCache25 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache25 === undefined) wasmImportedFuncCache25 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache25["o1"](p0i32,p1i32,p2i32);
 /******/ 						},
 /******/ 						"__wbg_call_cb478d88f3068c91": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache26 === undefined) wasmImportedFuncCache26 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache26 === undefined) wasmImportedFuncCache26 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache26["YD"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_object_clone_ref": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache27 === undefined) wasmImportedFuncCache27 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache27 === undefined) wasmImportedFuncCache27 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache27["m_"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_newnoargs_3efc7bfa69a681f9": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache28 === undefined) wasmImportedFuncCache28 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache28 === undefined) wasmImportedFuncCache28 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache28["Yu"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_self_05c54dcacb623b9a": function() {
-/******/ 							if(wasmImportedFuncCache29 === undefined) wasmImportedFuncCache29 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache29 === undefined) wasmImportedFuncCache29 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache29["M8"]();
 /******/ 						},
 /******/ 						"__wbg_window_9777ce446d12989f": function() {
-/******/ 							if(wasmImportedFuncCache30 === undefined) wasmImportedFuncCache30 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache30 === undefined) wasmImportedFuncCache30 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache30["JC"]();
 /******/ 						},
 /******/ 						"__wbg_globalThis_f0ca0bbb0149cf3d": function() {
-/******/ 							if(wasmImportedFuncCache31 === undefined) wasmImportedFuncCache31 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache31 === undefined) wasmImportedFuncCache31 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache31["IV"]();
 /******/ 						},
 /******/ 						"__wbg_global_c3c8325ae8c7f1a9": function() {
-/******/ 							if(wasmImportedFuncCache32 === undefined) wasmImportedFuncCache32 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache32 === undefined) wasmImportedFuncCache32 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache32["VB"]();
 /******/ 						},
 /******/ 						"__wbindgen_is_undefined": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache33 === undefined) wasmImportedFuncCache33 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache33 === undefined) wasmImportedFuncCache33 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache33["XP"](p0i32);
 /******/ 						},
 /******/ 						"__wbindgen_debug_string": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache34 === undefined) wasmImportedFuncCache34 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache34 === undefined) wasmImportedFuncCache34 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache34["fY"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_throw": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache35 === undefined) wasmImportedFuncCache35 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache35 === undefined) wasmImportedFuncCache35 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache35["Or"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_rethrow": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache36 === undefined) wasmImportedFuncCache36 = __webpack_require__.c[837].exports;
+/******/ 							if(wasmImportedFuncCache36 === undefined) wasmImportedFuncCache36 = __webpack_require__.c[53].exports;
 /******/ 							return wasmImportedFuncCache36["nD"](p0i32);
 /******/ 						}
 /******/ 					}
@@ -813,8 +537,8 @@ const defaultConfig = async () => {
 /******/ 		};
 /******/ 		
 /******/ 		var wasmModuleMap = {
-/******/ 			"700": [
-/******/ 				709
+/******/ 			"397": [
+/******/ 				383
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -834,7 +558,7 @@ const defaultConfig = async () => {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"700":{"709":"1eb3c940a020433d602f"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"397":{"383":"987275395751cf1dcc6b"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
@@ -861,8 +585,10 @@ const defaultConfig = async () => {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(138);
+/******/ 	var __webpack_exports__ = __webpack_require__(284);
 /******/ 	
+/******/ 	return __webpack_exports__;
 /******/ })()
 ;
-//# sourceMappingURL=main.js.map
+});;
+//# sourceMappingURL=remoteEntry.js.map

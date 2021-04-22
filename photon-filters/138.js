@@ -148,7 +148,7 @@ const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 700).then(__webpack_require__.bind(__webpack_require__, 700)).then((processor) => processor.process(config, image));
 };
 const defaultConfig = async () => {
-  return { filters: "dramatic" };
+  return { filter: "dramatic" };
 };
 
 
