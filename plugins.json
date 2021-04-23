@@ -1,5 +1,7 @@
 {
     "plugins": {
-        "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js"
+        "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js",
+        "desaturate": "https://lenna.app/lenna-plugins/desaturate/remoteEntry.js",
+        "photon-filters": "https://lenna.app/lenna-plugins/photon-filters/remoteEntry.js"
     }
 }
