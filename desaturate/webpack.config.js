@@ -1,6 +1,4 @@
 const path = require("path");
-const { VueLoaderPlugin } = require("vue-loader");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { ModuleFederationPlugin } = require("webpack").container;
 const pkg = require("./package.json");
 
@@ -19,39 +17,12 @@ module.exports = (env = {}) => ({
   },
   resolve: {
     extensions: [".vue", ".jsx", ".js", ".json"],
-    alias: {
-      vue: "@vue/runtime-dom",
-    },
   },
   module: {
     rules: [
-      {
-        test: /\.vue$/,
-        use: "vue-loader",
-      },
-      {
-        test: /\.png$/,
-        use: {
-          loader: "url-loader",
-          options: { limit: 8192 },
-        },
-      },
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: { hmr: !env.prod },
-          },
-          "css-loader",
-        ],
-      },
     ],
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-    }),
     new ModuleFederationPlugin({
       name: pkg.config.shortname,
       library: { type: "amd", name: pkg.config.shortname },
@@ -65,7 +36,6 @@ module.exports = (env = {}) => ({
       remotes: {},
       shared: []
     }),
-    new VueLoaderPlugin(),
   ],
   experiments: {
     syncWebAssembly: true,
