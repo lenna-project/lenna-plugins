@@ -1,5 +1,5 @@
 use image::{DynamicImage, GenericImageView};
-use photon_rs::{monochrome, helpers::dyn_image_from_raw, PhotonImage};
+use photon_rs::{helpers::dyn_image_from_raw, monochrome, PhotonImage};
 
 use lenna_core::plugins::PluginRegistrar;
 use lenna_core::Processor;
@@ -16,13 +16,11 @@ lenna_core::export_plugin!(register);
 pub struct Desaturate;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize)]
-struct Config {
-}
+struct Config {}
 
 impl Default for Config {
     fn default() -> Self {
-        Config {
-        }
+        Config {}
     }
 }
 

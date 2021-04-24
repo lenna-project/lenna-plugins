@@ -94,6 +94,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "cartoonify"
+version = "0.1.0"
+dependencies = [
+ "image",
+ "imageproc",
+ "lenna_core",
+ "palette",
+ "photon-rs",
+ "serde",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
 name = "cfg-if"
 version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
