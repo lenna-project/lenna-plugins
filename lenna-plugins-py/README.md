@@ -1,80 +1,37 @@
-# lenna-plugins
+# lenna-plugins-py
 
-Lenna is a library for image processing algorithms and apps.
-
-Here are some plugins for Lenna.
+Some lenna plugins for python.
 
 ## 🐰 quickstart
 
 ```bash
-cargo build
+virtualenv -p python3 .venv
+source .venv/bin/activate
+pip install .
+pip install numpy pillow
 ```
 
-## 🌱 new plugin
+## open in python
 
-Append library project to workspace:
+```python
+#python
+from PIL import Image
+from numpy import asarray
+import lenna_plugins_py
 
-```toml
-#Cargo.toml
-[workspace]
-members = ["blur", "canny", "resize"]
+image = Image.open('../lenna.png')
+data = asarray(image)
+
+config = lenna_plugins_py.blur.default_config()
+config['sigma'] = 2.5
+processed = lenna_plugins_py.blur.process(config, data)
+config = lenna_plugins_py.canny.default_config()
+processed = lenna_plugins_py.canny.process(config, processed)
+Image.fromarray(processed).save('lenna_out.png')
 ```
 
-Add dependencies for image and lenna-core:
-
-```toml
-[package]
-authors = ["Christian <chriamue@gmail.com>"]
-edition = "2018"
-name = "resize"
-version = "0.1.0"
-
-[lib]
-crate-type = ["cdylib"]
-
-[dependencies]
-image = {version = "0.23"}
-wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
-lenna-core = {git = "https://github.com/lenna-project/lenna-core", branch="main" }
-```
-
-Import PluginRegistrar and export plugin:
-
-```rs
-// lib.rs
-use lenna_core::plugins::PluginRegistrar;
-use lenna_core::core::resize::Resize;
-
-extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
-    registrar.add_plugin(Box::new(Resize{}));
-}
-
-lenna_core::export_plugin!(register);
-```
-
-For creating wasm package also export wasm plugin:
-
-```rs
-#[cfg(target_arch = "wasm32")]
-use wasm_bindgen::prelude::*;
-#[cfg(target_arch = "wasm32")]
-use lenna_core::Processor;
-#[cfg(target_arch = "wasm32")]
-lenna_core::export_wasm_plugin!(Resize);
-```
-
-Build the plugin library using
-
-```bash
-cargo build --release
-```
-
-For building the wasm package, run:
-
-```
-wasm-pack build
-```
+![lenna out image](lenna_out.png)
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/lenna-project/lenna-cli/blob/main/LICENSE) © [lenna-project](https://github.com/lenna-project).
+This software is licensed under the [MIT](https://github.com/lenna-project/lenna-plugins/blob/main/LICENSE) © [lenna-project](https://github.com/lenna-project).
