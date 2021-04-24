@@ -28,7 +28,12 @@ serde_json = "1.0"
 lenna_core = {git = "https://github.com/lenna-project/lenna-core", branch="main", features=["python"] }
 blur = { path = "../blur", default-features=false, features=[] }
 canny = { path = "../canny", default-features=false, features=[] }
+cartoonify = { path = "../cartoonify", default-features=false, features=[] }
+desaturate = { path = "../desaturate", default-features=false, features=[] }
+dramatic = { path = "../dramatic", default-features=false, features=[] }
+photon-filters = { path = "../photon-filters", default-features=false, features=[] }
 rotate = { path = "../rotate", default-features=false, features=[] }
+sepia = { path = "../sepia", default-features=false, features=[] }
 
 [package.metadata.maturin]
 classifiers = ["Programming Language :: Python"]
