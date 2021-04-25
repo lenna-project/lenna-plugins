@@ -1,24 +1,36 @@
 {
-  "name": "rotate",
+  "name": "@lenna-project/rotate",
   "version": "0.1.0",
   "description": "",
-  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "serve": "webpack serve"
+    "start": "webpack-cli serve",
+    "serve": "serve dist -p 3002",
+    "build": "webpack --mode production --env prod=true",
+    "clean": "rm -rf dist"
+  },
+  "config": {
+    "shortname": "rotate",
+    "publicPath": "https://lenna.app/lenna-plugins/rotate/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "systemjs": "^6.8.3",
-    "systemjs-webpack-interop": "^2.3.6"
+    "@babel/core": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "serve": "^11.3.2",
+    "vue": "^3.0.11"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "css-loader": "^3.6.0",
     "file-loader": "^6.2.0",
-    "webpack": "^5.28.0",
-    "webpack-cli": "^4.5.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^16.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   }
 }
