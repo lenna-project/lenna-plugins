@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 988:
+/***/ 949:
 /***/ (() => {
 
 // extracted by mini-css-extract-plugin
@@ -10,7 +10,7 @@
 
 /***/ }),
 
-/***/ 837:
+/***/ 56:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19,11 +19,11 @@
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=c1eab2de&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=42c45143&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-c1eab2de")
+const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-42c45143")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-c1eab2de")
+;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-42c45143")
 const _hoisted_1 = {
   key: 0,
   class: "plugin-config"
@@ -58,7 +58,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
       ]))
     : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
 })
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=c1eab2de&scoped=true
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=42c45143&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
@@ -93,9 +93,9 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=c1eab2de&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_c1eab2de_scoped_true_lang_css = __webpack_require__(988);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=c1eab2de&scoped=true&lang=css
+// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=42c45143&scoped=true&lang=css
+var Widgetvue_type_style_index_0_id_42c45143_scoped_true_lang_css = __webpack_require__(949);
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=42c45143&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
@@ -104,7 +104,7 @@ var Widgetvue_type_style_index_0_id_c1eab2de_scoped_true_lang_css = __webpack_re
 
 ;
 Widgetvue_type_script_lang_js.render = render
-Widgetvue_type_script_lang_js.__scopeId = "data-v-c1eab2de"
+Widgetvue_type_script_lang_js.__scopeId = "data-v-42c45143"
 
 /* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
 
@@ -115,7 +115,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-c1eab2de"
 
 "use strict";
 /* unused harmony exports processor, ui, name, description, process, defaultConfig */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(837);
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56);
 const pkg = __webpack_require__.e(/* import() */ 915).then(__webpack_require__.bind(__webpack_require__, 915))
 const processor = (/* unused pure expression or super */ null && (pkg));
 
@@ -521,7 +521,7 @@ const defaultConfig = async () => {
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
 /******/ 			138: 0,
-/******/ 			837: 0,
+/******/ 			56: 0,
 /******/ 			748: 0
 /******/ 		};
 /******/ 		

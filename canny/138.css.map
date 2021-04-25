@@ -1,1 +1,1 @@
-{"version":3,"sources":["webpack://@lenna-project/canny/./src/Widget.vue?1b3f"],"names":[],"mappings":";AACA;AACA;AACA;AACA","file":"138.css","sourcesContent":["\n.plugin-config[data-v-c1eab2de] {\n  margin: 5px;\n  background-color: blueviolet;\n}\n"],"sourceRoot":""}
+{"version":3,"sources":["webpack://@lenna-project/canny/./src/Widget.vue?b8dc"],"names":[],"mappings":";AACA;AACA;AACA","file":"138.css","sourcesContent":["\n.plugin-config[data-v-42c45143] {\n  margin: 5px;\n}\n"],"sourceRoot":""}

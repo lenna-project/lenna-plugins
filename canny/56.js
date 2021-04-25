@@ -1,4 +1,4 @@
-(self["webpackChunk_lenna_project_canny"] = self["webpackChunk_lenna_project_canny"] || []).push([[138,56],{
+(self["webpackChunk_lenna_project_canny"] = self["webpackChunk_lenna_project_canny"] || []).push([[56],{
 
 /***/ 949:
 /***/ (() => {
@@ -112,38 +112,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-42c45143"
 
 /* harmony default export */ const Widget = (Widgetvue_type_script_lang_js);
 
-/***/ }),
-
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "processor": () => (/* binding */ processor),
-/* harmony export */   "ui": () => (/* binding */ ui),
-/* harmony export */   "name": () => (/* binding */ name),
-/* harmony export */   "description": () => (/* binding */ description),
-/* harmony export */   "process": () => (/* binding */ process),
-/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig)
-/* harmony export */ });
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56);
-const pkg = __webpack_require__.e(/* import() */ 915).then(__webpack_require__.bind(__webpack_require__, 915))
-const processor = pkg;
-
-
-const ui = _Widget__WEBPACK_IMPORTED_MODULE_0__.default;
-const name = () => "canny";
-const description = () => "Plugin to create canny edges.";
-const process = async (config, image) => {
-  return __webpack_require__.e(/* import() */ 915).then(__webpack_require__.bind(__webpack_require__, 915)).then(processor => processor.process(config, image));
-};
-const defaultConfig = async () => {
-  return { high: 100, low: 50 };
-};
-
-
 /***/ })
 
 }]);
-//# sourceMappingURL=138.js.map
+//# sourceMappingURL=56.js.map
