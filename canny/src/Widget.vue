@@ -47,6 +47,5 @@ export default defineComponent({
 <style scoped lang="css">
 .plugin-config {
   margin: 5px;
-  background-color: blueviolet;
 }
 </style>
