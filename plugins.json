@@ -1,9 +1,6 @@
 {
     "plugins": {
         "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js",
-        "cartoonify": "https://lenna.app/lenna-plugins/cartoonify/remoteEntry.js",
-        "desaturate": "https://lenna.app/lenna-plugins/desaturate/remoteEntry.js",
-        "photon-filters": "https://lenna.app/lenna-plugins/photon-filters/remoteEntry.js",
         "rotate": "https://lenna.app/lenna-plugins/rotate/remoteEntry.js"
     }
 }
