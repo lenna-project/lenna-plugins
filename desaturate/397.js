@@ -291,9 +291,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "VY": () => (/* binding */ SamplingFilter),
 /* harmony export */   "nt": () => (/* binding */ PhotonImage),
 /* harmony export */   "Ss": () => (/* binding */ Rgb),
-/* harmony export */   "t$": () => (/* binding */ __wbindgen_json_parse),
 /* harmony export */   "r1": () => (/* binding */ __wbindgen_json_serialize),
 /* harmony export */   "ug": () => (/* binding */ __wbindgen_object_drop_ref),
+/* harmony export */   "t$": () => (/* binding */ __wbindgen_json_parse),
 /* harmony export */   "h9": () => (/* binding */ __wbg_new_59cb74e423758ede),
 /* harmony export */   "Dz": () => (/* binding */ __wbg_stack_558ba5917b466edd),
 /* harmony export */   "kF": () => (/* binding */ __wbg_error_4bb6c2a97407129a),
@@ -333,11 +333,13 @@ __webpack_require__.r(__webpack_exports__);
 /* module decorator */ module = __webpack_require__.hmd(module);
 
 
-const lTextDecoder = typeof TextDecoder === 'undefined' ? (0, module.require)('util').TextDecoder : TextDecoder;
+const heap = new Array(32).fill(undefined);
 
-let cachedTextDecoder = new lTextDecoder('utf-8', { ignoreBOM: true, fatal: true });
+heap.push(undefined, null, true, false);
 
-cachedTextDecoder.decode();
+function getObject(idx) { return heap[idx]; }
+
+let WASM_VECTOR_LEN = 0;
 
 let cachegetUint8Memory0 = null;
 function getUint8Memory0() {
@@ -346,29 +348,6 @@ function getUint8Memory0() {
     }
     return cachegetUint8Memory0;
 }
-
-function getStringFromWasm0(ptr, len) {
-    return cachedTextDecoder.decode(getUint8Memory0().subarray(ptr, ptr + len));
-}
-
-const heap = new Array(32).fill(undefined);
-
-heap.push(undefined, null, true, false);
-
-let heap_next = heap.length;
-
-function addHeapObject(obj) {
-    if (heap_next === heap.length) heap.push(heap.length + 1);
-    const idx = heap_next;
-    heap_next = heap[idx];
-
-    heap[idx] = obj;
-    return idx;
-}
-
-function getObject(idx) { return heap[idx]; }
-
-let WASM_VECTOR_LEN = 0;
 
 const lTextEncoder = typeof TextEncoder === 'undefined' ? (0, module.require)('util').TextEncoder : TextEncoder;
 
@@ -433,6 +412,8 @@ function getInt32Memory0() {
     return cachegetInt32Memory0;
 }
 
+let heap_next = heap.length;
+
 function dropObject(idx) {
     if (idx < 36) return;
     heap[idx] = heap_next;
@@ -443,6 +424,25 @@ function takeObject(idx) {
     const ret = getObject(idx);
     dropObject(idx);
     return ret;
+}
+
+const lTextDecoder = typeof TextDecoder === 'undefined' ? (0, module.require)('util').TextDecoder : TextDecoder;
+
+let cachedTextDecoder = new lTextDecoder('utf-8', { ignoreBOM: true, fatal: true });
+
+cachedTextDecoder.decode();
+
+function getStringFromWasm0(ptr, len) {
+    return cachedTextDecoder.decode(getUint8Memory0().subarray(ptr, ptr + len));
+}
+
+function addHeapObject(obj) {
+    if (heap_next === heap.length) heap.push(heap.length + 1);
+    const idx = heap_next;
+    heap_next = heap[idx];
+
+    heap[idx] = obj;
+    return idx;
 }
 
 function debugString(val) {
@@ -3501,11 +3501,6 @@ class Rgb {
     }
 }
 
-const __wbindgen_json_parse = function(arg0, arg1) {
-    var ret = JSON.parse(getStringFromWasm0(arg0, arg1));
-    return addHeapObject(ret);
-};
-
 const __wbindgen_json_serialize = function(arg0, arg1) {
     const obj = getObject(arg1);
     var ret = JSON.stringify(obj === undefined ? null : obj);
@@ -3517,6 +3512,11 @@ const __wbindgen_json_serialize = function(arg0, arg1) {
 
 const __wbindgen_object_drop_ref = function(arg0) {
     takeObject(arg0);
+};
+
+const __wbindgen_json_parse = function(arg0, arg1) {
+    var ret = JSON.parse(getStringFromWasm0(arg0, arg1));
+    return addHeapObject(ret);
 };
 
 const __wbg_new_59cb74e423758ede = function() {
