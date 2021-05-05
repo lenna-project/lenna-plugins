@@ -15,7 +15,7 @@ plugin = []
 
 [dependencies]
 image = { version = "0.23", default-features = false, features = ["png", "jpeg"] }
-imageproc = {version = "0.22"}
+imageproc = { version = "0.22", default-features = false }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 console_error_panic_hook = "0.1.6"
