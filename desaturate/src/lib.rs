@@ -2,8 +2,8 @@ use image::{DynamicImage, GenericImageView};
 use photon_rs::{helpers::dyn_image_from_raw, monochrome, PhotonImage};
 
 use lenna_core::plugins::PluginRegistrar;
-use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
+use lenna_core::{core::processor::ExifProcessor, core::processor::ImageProcessor, Processor};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Desaturate));
@@ -24,6 +24,22 @@ impl Default for Config {
     }
 }
 
+impl ImageProcessor for Desaturate {
+    fn process_image(
+        &self,
+        image: &mut Box<DynamicImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        let img = DynamicImage::ImageRgba8(image.to_rgba8());
+        let mut img: PhotonImage = PhotonImage::new(img.to_bytes(), image.width(), image.height());
+        monochrome::desaturate(&mut img);
+        let img = dyn_image_from_raw(&img);
+        *image = Box::new(img);
+        Ok(())
+    }
+}
+
+impl ExifProcessor for Desaturate {}
+
 impl Processor for Desaturate {
     fn name(&self) -> String {
         "desaturate".into()
@@ -41,13 +57,14 @@ impl Processor for Desaturate {
         "Plugin to desaturate by photon.".into()
     }
 
-    fn process(&self, _config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
-        let image = DynamicImage::ImageRgba8(image.to_rgba8());
-        let mut image: PhotonImage =
-            PhotonImage::new(image.to_bytes(), image.width(), image.height());
-        monochrome::desaturate(&mut image);
-        let img = dyn_image_from_raw(&image);
-        img
+    fn process(
+        &mut self,
+        _config: ProcessorConfig,
+        image: &mut Box<lenna_core::LennaImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        self.process_exif(&mut image.exif).unwrap();
+        self.process_image(&mut image.image).unwrap();
+        Ok(())
     }
 
     fn default_config(&self) -> serde_json::Value {

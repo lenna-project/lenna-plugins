@@ -3,8 +3,8 @@ use imageproc::{edges::canny, filter::median_filter};
 use palette::{Blend, Srgb};
 
 use lenna_core::plugins::PluginRegistrar;
-use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
+use lenna_core::{core::processor::ExifProcessor, core::processor::ImageProcessor, Processor};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Cartoonify));
@@ -15,6 +15,37 @@ lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
 pub struct Cartoonify;
+
+impl ImageProcessor for Cartoonify {
+    fn process_image(
+        &self,
+        image: &mut Box<DynamicImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        let image_rgb = image.to_rgb8();
+        let (width, height) = image_rgb.dimensions();
+        let image_gray: GrayImage = image.to_luma8();
+        let image_gray = median_filter(&image_gray, 7, 7);
+
+        let edges = DynamicImage::ImageLuma8(canny(&image_gray, 10.0, 50.0));
+        let edges = edges.blur(1.2);
+        let edges = imageproc::contrast::threshold(&edges.to_luma8(), 60);
+        let edges = DynamicImage::ImageLuma8(edges).to_rgb8();
+        let image_rgb = DynamicImage::ImageRgb8(image_rgb).resize(
+            width / 2,
+            height / 2,
+            image::imageops::FilterType::Gaussian,
+        );
+        let image_rgb = image_rgb.blur(2.0);
+        let image_rgb = image_rgb.resize(width, height, image::imageops::FilterType::Gaussian);
+        let image_rgb = image_rgb.blur(7.0);
+        let mut image_rgb = image_rgb.to_rgb8();
+        self.and(&mut image_rgb, &edges);
+        *image = Box::new(DynamicImage::ImageRgb8(image_rgb));
+        Ok(())
+    }
+}
+
+impl ExifProcessor for Cartoonify {}
 
 impl Cartoonify {
     // source: https://github.com/silvia-odwyer/photon/blob/master/crate/src/multiple.rs
@@ -80,27 +111,14 @@ impl Processor for Cartoonify {
         "Plugin to create a cartoon style.".into()
     }
 
-    fn process(&self, _config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
-        let image_rgb = image.to_rgb8();
-        let (width, height) = image_rgb.dimensions();
-        let image_gray: GrayImage = image.to_luma8();
-        let image_gray = median_filter(&image_gray, 7, 7);
-
-        let edges = DynamicImage::ImageLuma8(canny(&image_gray, 10.0, 50.0));
-        let edges = edges.blur(1.2);
-        let edges = imageproc::contrast::threshold(&edges.to_luma8(), 60);
-        let edges = DynamicImage::ImageLuma8(edges).to_rgb8();
-        let image_rgb = DynamicImage::ImageRgb8(image_rgb).resize(
-            width / 2,
-            height / 2,
-            image::imageops::FilterType::Gaussian,
-        );
-        let image_rgb = image_rgb.blur(2.0);
-        let image_rgb = image_rgb.resize(width, height, image::imageops::FilterType::Gaussian);
-        let image_rgb = image_rgb.blur(7.0);
-        let mut image_rgb = image_rgb.to_rgb8();
-        self.and(&mut image_rgb, &edges);
-        DynamicImage::ImageRgb8(image_rgb)
+    fn process(
+        &mut self,
+        _config: ProcessorConfig,
+        image: &mut Box<lenna_core::LennaImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        self.process_exif(&mut image.exif).unwrap();
+        self.process_image(&mut image.image).unwrap();
+        Ok(())
     }
 
     fn default_config(&self) -> serde_json::Value {
@@ -116,19 +134,20 @@ lenna_core::export_wasm_plugin!(Cartoonify);
 #[cfg(test)]
 mod tests {
     use super::*;
-    use image::io::Reader as ImageReader;
     use lenna_core::ProcessorConfig;
 
     #[test]
     fn default() {
-        let cartoonify = Cartoonify::default();
+        let mut cartoonify = Cartoonify::default();
         let config = ProcessorConfig {
-            id: "sepia".into(),
+            id: "cartoonify".into(),
             config: cartoonify.default_config(),
         };
         assert_eq!(cartoonify.name(), "cartoonify");
-        let img = ImageReader::open("../lenna.png").unwrap().decode().unwrap();
-        let img = cartoonify.process(config, img);
-        img.save("test.jpg").unwrap();
+        let mut img =
+            Box::new(lenna_core::io::read::read_from_file("../lenna.png".into()).unwrap());
+        cartoonify.process(config, &mut img).unwrap();
+        img.name = "test".to_string();
+        lenna_core::io::write::write_to_file(&img, image::ImageOutputFormat::Jpeg(80)).unwrap();
     }
 }

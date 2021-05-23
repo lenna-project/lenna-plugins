@@ -1,18 +1,20 @@
 use image::DynamicImage;
 
 use lenna_core::plugins::PluginRegistrar;
-use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
+use lenna_core::{core::processor::ExifProcessor, core::processor::ImageProcessor, Processor};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
-    registrar.add_plugin(Box::new(Blur));
+    registrar.add_plugin(Box::new(Blur::default()));
 }
 
 #[cfg(feature = "plugin")]
 lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
-pub struct Blur;
+pub struct Blur {
+    config: Config,
+}
 
 #[derive(Clone, serde::Serialize, serde::Deserialize)]
 struct Config {
@@ -24,6 +26,19 @@ impl Default for Config {
         Config { sigma: 1.5 }
     }
 }
+
+impl ImageProcessor for Blur {
+    fn process_image(
+        &self,
+        image: &mut Box<DynamicImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        let resized = image.blur(self.config.sigma);
+        *image = Box::new(resized);
+        Ok(())
+    }
+}
+
+impl ExifProcessor for Blur {}
 
 impl Processor for Blur {
     fn name(&self) -> String {
@@ -42,9 +57,15 @@ impl Processor for Blur {
         "Plugin to blur image.".into()
     }
 
-    fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
-        let config: Config = serde_json::from_value(config.config).unwrap();
-        image.blur(config.sigma)
+    fn process(
+        &mut self,
+        config: ProcessorConfig,
+        image: &mut Box<lenna_core::LennaImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        self.config = serde_json::from_value(config.config).unwrap();
+        self.process_exif(&mut image.exif).unwrap();
+        self.process_image(&mut image.image).unwrap();
+        Ok(())
     }
 
     fn default_config(&self) -> serde_json::Value {

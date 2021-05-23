@@ -2,18 +2,20 @@ use image::{DynamicImage, GenericImageView};
 use photon_rs::{filters::filter, helpers::dyn_image_from_raw, PhotonImage};
 
 use lenna_core::plugins::PluginRegistrar;
-use lenna_core::Processor;
 use lenna_core::ProcessorConfig;
+use lenna_core::{core::processor::ExifProcessor, core::processor::ImageProcessor, Processor};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
-    registrar.add_plugin(Box::new(PhotonFilters));
+    registrar.add_plugin(Box::new(PhotonFilters::default()));
 }
 
 #[cfg(feature = "plugin")]
 lenna_core::export_plugin!(register);
 
 #[derive(Default, Clone)]
-pub struct PhotonFilters;
+pub struct PhotonFilters {
+    config: Config,
+}
 
 #[derive(Clone, serde::Serialize, serde::Deserialize)]
 struct Config {
@@ -27,6 +29,22 @@ impl Default for Config {
         }
     }
 }
+
+impl ImageProcessor for PhotonFilters {
+    fn process_image(
+        &self,
+        image: &mut Box<DynamicImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        let img = DynamicImage::ImageRgba8(image.to_rgba8());
+        let mut img: PhotonImage = PhotonImage::new(img.to_bytes(), image.width(), image.height());
+        filter(&mut img, self.config.filter.as_str());
+        let img = dyn_image_from_raw(&img);
+        *image = Box::new(img);
+        Ok(())
+    }
+}
+
+impl ExifProcessor for PhotonFilters {}
 
 impl Processor for PhotonFilters {
     fn name(&self) -> String {
@@ -45,14 +63,15 @@ impl Processor for PhotonFilters {
         "Plugin for multiple filters by photon.".into()
     }
 
-    fn process(&self, config: ProcessorConfig, image: DynamicImage) -> DynamicImage {
-        let config: Config = serde_json::from_value(config.config).unwrap();
-        let image = DynamicImage::ImageRgba8(image.to_rgba8());
-        let mut image: PhotonImage =
-            PhotonImage::new(image.to_bytes(), image.width(), image.height());
-        filter(&mut image, config.filter.as_str());
-        let img = dyn_image_from_raw(&image);
-        img
+    fn process(
+        &mut self,
+        config: ProcessorConfig,
+        image: &mut Box<lenna_core::LennaImage>,
+    ) -> Result<(), Box<dyn std::error::Error>> {
+        self.config = serde_json::from_value(config.config).unwrap();
+        self.process_exif(&mut image.exif).unwrap();
+        self.process_image(&mut image.image).unwrap();
+        Ok(())
     }
 
     fn default_config(&self) -> serde_json::Value {

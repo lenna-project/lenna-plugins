@@ -2,7 +2,7 @@ use lenna_core::core::resize::Resize;
 use lenna_core::plugins::PluginRegistrar;
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
-    registrar.add_plugin(Box::new(Resize {}));
+    registrar.add_plugin(Box::new(Resize::default()));
 }
 
 #[cfg(feature = "plugin")]
