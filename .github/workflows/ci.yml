@@ -21,6 +21,7 @@ jobs:
       - run: wasm-pack build desaturate
       - run: wasm-pack build dramatic
       - run: wasm-pack build exif
+      - run: wasm-pack build exif-thumbnail
       - run: wasm-pack build photon-filters
       - run: wasm-pack build resize
       - run: wasm-pack build rotate
@@ -48,6 +49,9 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
         working-directory: exif
+      - name: Install npm dependencies
+        run: npm ci
+        working-directory: exif-thumbnail
       - name: Install npm dependencies
         run: npm ci
         working-directory: resize
@@ -78,6 +82,9 @@ jobs:
       - name: Build exif app
         run: NODE_ENV=production npm run build --if-present
         working-directory: exif
+      - name: Build exif-thumbnail app
+        run: NODE_ENV=production npm run build --if-present
+        working-directory: exif-thumbnail
       - name: Build photon-filters app
         run: NODE_ENV=production npm run build --if-present
         working-directory: photon-filters
@@ -97,6 +104,7 @@ jobs:
       - run: mv ./desaturate/dist ./public/desaturate
       - run: mv ./dramatic/dist ./public/dramatic
       - run: mv ./exif/dist ./public/exif
+      - run: mv ./exif-thumbnail/dist ./public/exif-thumbnail
       - run: mv ./resize/dist ./public/resize
       - run: mv ./photon-filters/dist ./public/photon-filters
       - run: mv ./rotate/dist ./public/rotate

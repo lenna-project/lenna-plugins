@@ -1,2 +1,2 @@
 [workspace]
-members = ["blur", "canny", "cartoonify", "desaturate", "dramatic", "exif", "photon-filters", "resize", "rotate", "sepia"]
+members = ["blur", "canny", "cartoonify", "desaturate", "dramatic", "exif", "exif-thumbnail", "photon-filters", "resize", "rotate", "sepia"]
