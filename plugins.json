@@ -1,6 +1,7 @@
 {
     "plugins": {
         "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js",
+        "exif": "https://lenna.app/lenna-plugins/exif/remoteEntry.js",
         "rotate": "https://lenna.app/lenna-plugins/rotate/remoteEntry.js"
     }
 }
