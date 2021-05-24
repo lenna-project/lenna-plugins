@@ -1,44 +1,111 @@
-define("exif", [], () => { return /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
+/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 555:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ 904:
+/***/ (() => {
 
-var moduleMap = {
-	"default": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
-	},
-	"./Widget": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(156)]).then(() => (() => ((__webpack_require__(156)))));
-	}
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ 787:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// UNUSED EXPORTS: default
+
+// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=486ac75a&scoped=true
+
+const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-486ac75a")
+
+;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-486ac75a")
+const _hoisted_1 = { class: "plugin-config" }
+const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("label", { for: "thumbnail" }, "add thumbnail to exif data", -1)
+;(0,runtime_dom_esm_bundler_js_.popScopeId)()
+
+const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+      type: "checkbox",
+      id: "thumbnail",
+      "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.clear = $event)),
+      onChange: _cache[2] || (_cache[2] = $event => (_ctx.updateConfig()))
+    }, null, 544), [
+      [runtime_dom_esm_bundler_js_.vModelCheckbox, _ctx.clear]
+    ]),
+    _hoisted_2
+  ]))
+})
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=486ac75a&scoped=true
+
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
+
+
+/* harmony default export */ const Widgetvue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+  name: "ExifWidget",
+  props: {
+    defaultConfig: Object,
+  },
+  data() {
+    return {
+      thumbnail: false,
+    };
+  },
+  methods: {
+    async updateConfig() {
+      let config = {
+        thumbnail: this.thumbnail,
+      };
+      this.$emit("changeConfig", config);
+    },
+  },
+  created() {
+    this.updateConfig();
+  },
+}));
+
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
+ 
+// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=486ac75a&scoped=true&lang=css
+var Widgetvue_type_style_index_0_id_486ac75a_scoped_true_lang_css = __webpack_require__(904);
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=486ac75a&scoped=true&lang=css
+
+;// CONCATENATED MODULE: ./src/Widget.vue
+
+
+
+
+;
+Widgetvue_type_script_lang_js.render = render
+Widgetvue_type_script_lang_js.__scopeId = "data-v-486ac75a"
+
+/* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
+
+/***/ }),
+
+/***/ 138:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* unused harmony exports ui, processor, name, description, process, defaultConfig */
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(787);
+const pkg = __webpack_require__.e(/* import() */ 376).then(__webpack_require__.bind(__webpack_require__, 376));
+
+
+const ui = (/* unused pure expression or super */ null && (Widget));
+const processor = (/* unused pure expression or super */ null && (pkg));
+const name = () => "exif-thumbnail";
+const description = () => "Plugin to change exif thumbnail data of images.";
+const process = async (config, image) => {
+  return __webpack_require__.e(/* import() */ 376).then(__webpack_require__.bind(__webpack_require__, 376)).then(processor => processor.process(config, image));
 };
-var get = (module, getScope) => {
-	__webpack_require__.R = getScope;
-	getScope = (
-		__webpack_require__.o(moduleMap, module)
-			? moduleMap[module]()
-			: Promise.resolve().then(() => {
-				throw new Error('Module "' + module + '" does not exist in container.');
-			})
-	);
-	__webpack_require__.R = undefined;
-	return getScope;
-};
-var init = (shareScope, initScope) => {
-	if (!__webpack_require__.S) return;
-	var oldScope = __webpack_require__.S["default"];
-	var name = "default"
-	if(oldScope && oldScope !== shareScope) throw new Error("Container initialization failed as it has already been initialized with a different share scope");
-	__webpack_require__.S[name] = shareScope;
-	return __webpack_require__.I(name, initScope);
+const defaultConfig = async () => {
+  return { thumbnail: false };
 };
 
-// This exports getters to disallow modifications
-__webpack_require__.d(exports, {
-	get: () => (get),
-	init: () => (init)
-});
 
 /***/ })
 
@@ -147,7 +214,7 @@ __webpack_require__.d(exports, {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "@lenna-project/exif:";
+/******/ 		var dataWebpackPrefix = "@lenna-project/exif-thumbnail:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -220,7 +287,7 @@ __webpack_require__.d(exports, {
 /******/ 			// runs all init snippets from all modules reachable
 /******/ 			var scope = __webpack_require__.S[name];
 /******/ 			var warn = (msg) => (typeof console !== "undefined" && console.warn && console.warn(msg));
-/******/ 			var uniqueName = "@lenna-project/exif";
+/******/ 			var uniqueName = "@lenna-project/exif-thumbnail";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -251,60 +318,10 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://lenna.app/lenna-plugins/exif/";
+/******/ 		__webpack_require__.p = "https://lenna.app/lenna-plugins/exif-thumbnail/";
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/compat */
-/******/ 	
-/******/ 	
-/******/ 	// object to store loaded CSS chunks
-/******/ 	var installedCssChunks = {
-/******/ 		39: 0
-/******/ 	}
-/******/ 	__webpack_require__.f.compat = (chunkId, promises) => {
-/******/ 	
-/******/ 	
-/******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"138":1,"156":1};
-/******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
-/******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
-/******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({}[chunkId]||chunkId) + ".css";
-/******/ 				var fullhref = __webpack_require__.p + href;
-/******/ 				var existingLinkTags = document.getElementsByTagName("link");
-/******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
-/******/ 					var tag = existingLinkTags[i];
-/******/ 					var dataHref = tag.getAttribute("data-href") || tag.getAttribute("href");
-/******/ 					if(tag.rel === "stylesheet" && (dataHref === href || dataHref === fullhref)) return resolve();
-/******/ 				}
-/******/ 				var existingStyleTags = document.getElementsByTagName("style");
-/******/ 				for(var i = 0; i < existingStyleTags.length; i++) {
-/******/ 					var tag = existingStyleTags[i];
-/******/ 					var dataHref = tag.getAttribute("data-href");
-/******/ 					if(dataHref === href || dataHref === fullhref) return resolve();
-/******/ 				}
-/******/ 				var linkTag = document.createElement("link");
-/******/ 				linkTag.rel = "stylesheet";
-/******/ 				linkTag.type = "text/css";
-/******/ 				linkTag.onload = resolve;
-/******/ 				linkTag.onerror = function(event) {
-/******/ 					var request = event && event.target && event.target.src || fullhref;
-/******/ 					var err = new Error("Loading CSS chunk " + chunkId + " failed.\n(" + request + ")");
-/******/ 					err.code = "CSS_CHUNK_LOAD_FAILED";
-/******/ 					err.request = request;
-/******/ 					delete installedCssChunks[chunkId]
-/******/ 					linkTag.parentNode.removeChild(linkTag)
-/******/ 					reject(err);
-/******/ 				};
-/******/ 				linkTag.href = fullhref;
-/******/ 	
-/******/ 				var head = document.getElementsByTagName("head")[0];
-/******/ 				head.appendChild(linkTag);
-/******/ 			}).then(function() {
-/******/ 				installedCssChunks[chunkId] = 0;
-/******/ 			}));
-/******/ 		}
-/******/ 	};/* webpack/runtime/consumes */
+/******/ 	/* webpack/runtime/consumes */
 /******/ 	(() => {
 /******/ 		var parseVersion = (str) => {
 /******/ 			// see webpack/lib/util/semver.js for original code
@@ -429,12 +446,18 @@ __webpack_require__.d(exports, {
 /******/ 		var moduleToHandlerMapping = {
 /******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
 /******/ 		};
-/******/ 		// no consumes in initial chunks
-/******/ 		var chunkMapping = {
-/******/ 			"748": [
-/******/ 				748
-/******/ 			]
-/******/ 		};
+/******/ 		var initialConsumes = [748];
+/******/ 		initialConsumes.forEach((id) => {
+/******/ 			__webpack_require__.m[id] = (module) => {
+/******/ 				// Handle case when module is used sync
+/******/ 				installedModules[id] = 0;
+/******/ 				delete __webpack_require__.c[id];
+/******/ 				var factory = moduleToHandlerMapping[id]();
+/******/ 				if(typeof factory !== "function") throw new Error("Shared module is not available for eager consumption: " + id);
+/******/ 				module.exports = factory();
+/******/ 			}
+/******/ 		});
+/******/ 		var chunkMapping = {};
 /******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
 /******/ 			if(__webpack_require__.o(chunkMapping, chunkId)) {
 /******/ 				chunkMapping[chunkId].forEach((id) => {
@@ -472,7 +495,10 @@ __webpack_require__.d(exports, {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			39: 0
+/******/ 			179: 0,
+/******/ 			138: 0,
+/******/ 			787: 0,
+/******/ 			748: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -484,7 +510,7 @@ __webpack_require__.d(exports, {
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(748 != chunkId) {
+/******/ 						if(true) { // all chunks have JS
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -547,7 +573,7 @@ __webpack_require__.d(exports, {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_lenna_project_exif"] = self["webpackChunk_lenna_project_exif"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_lenna_project_exif_thumbnail"] = self["webpackChunk_lenna_project_exif_thumbnail"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
@@ -566,31 +592,31 @@ __webpack_require__.d(exports, {
 /******/ 		var wasmImportedFuncCache4;
 /******/ 		var wasmImportedFuncCache5;
 /******/ 		var wasmImportObjects = {
-/******/ 			373: function() {
+/******/ 			479: function() {
 /******/ 				return {
-/******/ 					"./exif_bg.js": {
+/******/ 					"./thumbnail_bg.js": {
 /******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[265].exports;
 /******/ 							return wasmImportedFuncCache0["t$"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_json_serialize": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[265].exports;
 /******/ 							return wasmImportedFuncCache1["r1"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[265].exports;
 /******/ 							return wasmImportedFuncCache2["ug"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_new_59cb74e423758ede": function() {
-/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[265].exports;
 /******/ 							return wasmImportedFuncCache3["h9"]();
 /******/ 						},
 /******/ 						"__wbg_stack_558ba5917b466edd": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[265].exports;
 /******/ 							return wasmImportedFuncCache4["Dz"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_error_4bb6c2a97407129a": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[265].exports;
 /******/ 							return wasmImportedFuncCache5["kF"](p0i32,p1i32);
 /******/ 						}
 /******/ 					}
@@ -599,8 +625,8 @@ __webpack_require__.d(exports, {
 /******/ 		};
 /******/ 		
 /******/ 		var wasmModuleMap = {
-/******/ 			"577": [
-/******/ 				373
+/******/ 			"376": [
+/******/ 				479
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -620,7 +646,7 @@ __webpack_require__.d(exports, {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"577":{"373":"e94491fb499af59b13d1"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"376":{"479":"3cadbebe0aeff58b3afc"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
@@ -647,10 +673,8 @@ __webpack_require__.d(exports, {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(555);
+/******/ 	var __webpack_exports__ = __webpack_require__(138);
 /******/ 	
-/******/ 	return __webpack_exports__;
 /******/ })()
 ;
-});;
-//# sourceMappingURL=remoteEntry.js.map
+//# sourceMappingURL=main.js.map
