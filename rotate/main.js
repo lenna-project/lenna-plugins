@@ -1,14 +1,14 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 226:
+/***/ 757:
 /***/ (() => {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 433:
+/***/ 771:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17,11 +17,11 @@
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=439dade1&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=b96a3ba2&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-439dade1")
+const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-b96a3ba2")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-439dade1")
+;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-b96a3ba2")
 const _hoisted_1 = { class: "plugin-config" }
 const _hoisted_2 = { id: "v-model-select-dynamic" }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
@@ -37,7 +37,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
           return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("option", {
             value: option.value,
             key: option.text
-          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ["value"]))
+          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text) + " Clockwise ", 9, ["value"]))
         }), 128))
       ], 544), [
         [runtime_dom_esm_bundler_js_.vModelSelect, _ctx.selected]
@@ -45,7 +45,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
     ])
   ]))
 })
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=439dade1&scoped=true
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=b96a3ba2&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
@@ -87,9 +87,9 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=439dade1&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_439dade1_scoped_true_lang_css = __webpack_require__(226);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=439dade1&scoped=true&lang=css
+// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=b96a3ba2&scoped=true&lang=css
+var Widgetvue_type_style_index_0_id_b96a3ba2_scoped_true_lang_css = __webpack_require__(757);
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=b96a3ba2&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
@@ -98,7 +98,7 @@ var Widgetvue_type_style_index_0_id_439dade1_scoped_true_lang_css = __webpack_re
 
 ;
 Widgetvue_type_script_lang_js.render = render
-Widgetvue_type_script_lang_js.__scopeId = "data-v-439dade1"
+Widgetvue_type_script_lang_js.__scopeId = "data-v-b96a3ba2"
 
 /* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
 
@@ -109,7 +109,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-439dade1"
 
 "use strict";
 /* unused harmony exports ui, processor, name, description, process, defaultConfig */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(433);
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(771);
 const pkg = __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844));
 
 
@@ -515,7 +515,7 @@ const defaultConfig = async () => {
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
 /******/ 			138: 0,
-/******/ 			433: 0,
+/******/ 			771: 0,
 /******/ 			748: 0
 /******/ 		};
 /******/ 		

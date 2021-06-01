@@ -10,7 +10,7 @@ var moduleMap = {
 		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
 	},
 	"./Widget": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(433)]).then(() => (() => ((__webpack_require__(433)))));
+		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(771)]).then(() => (() => ((__webpack_require__(771)))));
 	}
 };
 var get = (module, getScope) => {
@@ -265,7 +265,7 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"138":1,"433":1};
+/******/ 		var cssChunks = {"138":1,"771":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {

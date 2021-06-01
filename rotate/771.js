@@ -1,4 +1,4 @@
-(self["webpackChunk_lenna_project_rotate"] = self["webpackChunk_lenna_project_rotate"] || []).push([[138,771],{
+(self["webpackChunk_lenna_project_rotate"] = self["webpackChunk_lenna_project_rotate"] || []).push([[771],{
 
 /***/ 757:
 /***/ (() => {
@@ -106,38 +106,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-b96a3ba2"
 
 /* harmony default export */ const Widget = (Widgetvue_type_script_lang_js);
 
-/***/ }),
-
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ui": () => (/* binding */ ui),
-/* harmony export */   "processor": () => (/* binding */ processor),
-/* harmony export */   "name": () => (/* binding */ name),
-/* harmony export */   "description": () => (/* binding */ description),
-/* harmony export */   "process": () => (/* binding */ process),
-/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig)
-/* harmony export */ });
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(771);
-const pkg = __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844));
-
-
-const ui = _Widget__WEBPACK_IMPORTED_MODULE_0__.default;
-const processor = pkg;
-const name = () => "rotate";
-const description = () => "Plugin to rotate image.";
-const process = async (config, image) => {
-  return __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844)).then(processor => processor.process(config, image));
-};
-const defaultConfig = async () => {
-  return { theta: 90.0 };
-};
-
-
 /***/ })
 
 }]);
-//# sourceMappingURL=138.js.map
+//# sourceMappingURL=771.js.map
