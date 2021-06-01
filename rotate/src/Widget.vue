@@ -7,7 +7,7 @@
           :value="option.value"
           :key="option.text"
         >
-          {{ option.text }}
+          {{ option.text }} Clockwise
         </option>
       </select>
     </div>
