@@ -28,8 +28,7 @@ impl Default for Config {
     }
 }
 
-impl ImageProcessor for ExifThumbnail {
-}
+impl ImageProcessor for ExifThumbnail {}
 
 impl ExifProcessor for ExifThumbnail {
     fn process_exif(&self, exif: &mut Box<Vec<Field>>) -> Result<(), Box<dyn std::error::Error>> {
