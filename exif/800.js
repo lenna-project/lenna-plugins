@@ -1,4 +1,4 @@
-(self["webpackChunk_lenna_project_exif"] = self["webpackChunk_lenna_project_exif"] || []).push([[138,800],{
+(self["webpackChunk_lenna_project_exif"] = self["webpackChunk_lenna_project_exif"] || []).push([[800],{
 
 /***/ 548:
 /***/ (() => {
@@ -104,38 +104,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-410b172e"
 
 /* harmony default export */ const Widget = (Widgetvue_type_script_lang_js);
 
-/***/ }),
-
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ui": () => (/* binding */ ui),
-/* harmony export */   "processor": () => (/* binding */ processor),
-/* harmony export */   "name": () => (/* binding */ name),
-/* harmony export */   "description": () => (/* binding */ description),
-/* harmony export */   "process": () => (/* binding */ process),
-/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig)
-/* harmony export */ });
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(800);
-const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913));
-
-
-const ui = _Widget__WEBPACK_IMPORTED_MODULE_0__.default;
-const processor = pkg;
-const name = () => "exif";
-const description = () => "Plugin to change exif data of images.";
-const process = async (config, image) => {
-  return __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913)).then(processor => processor.process(config, image));
-};
-const defaultConfig = async () => {
-  return { clear: false };
-};
-
-
 /***/ })
 
 }]);
-//# sourceMappingURL=138.js.map
+//# sourceMappingURL=800.js.map

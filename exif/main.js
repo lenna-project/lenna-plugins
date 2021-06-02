@@ -1,14 +1,14 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 187:
+/***/ 548:
 /***/ (() => {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 156:
+/***/ 800:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17,11 +17,11 @@
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=4e603578&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=410b172e&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-4e603578")
+const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-410b172e")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-4e603578")
+;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-410b172e")
 const _hoisted_1 = { class: "plugin-config" }
 const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("label", { for: "clear" }, "clear exif data", -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
@@ -36,10 +36,22 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
     }, null, 544), [
       [runtime_dom_esm_bundler_js_.vModelCheckbox, _ctx.clear]
     ]),
-    _hoisted_2
+    _hoisted_2,
+    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+      "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => (_ctx.author = $event)),
+      placeholder: "author"
+    }, null, 512), [
+      [runtime_dom_esm_bundler_js_.vModelText, _ctx.author]
+    ]),
+    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+      "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => (_ctx.description = $event)),
+      placeholder: "description"
+    }, null, 512), [
+      [runtime_dom_esm_bundler_js_.vModelText, _ctx.description]
+    ])
   ]))
 })
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=4e603578&scoped=true
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=410b172e&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
@@ -52,12 +64,16 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
   data() {
     return {
       clear: false,
+      author: null,
+      description: null,
     };
   },
   methods: {
     async updateConfig() {
       let config = {
         clear: this.clear,
+        author: this.author,
+        description: this.description,
       };
       this.$emit("changeConfig", config);
     },
@@ -69,9 +85,9 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=4e603578&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_4e603578_scoped_true_lang_css = __webpack_require__(187);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=4e603578&scoped=true&lang=css
+// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=410b172e&scoped=true&lang=css
+var Widgetvue_type_style_index_0_id_410b172e_scoped_true_lang_css = __webpack_require__(548);
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=410b172e&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
@@ -80,7 +96,7 @@ var Widgetvue_type_style_index_0_id_4e603578_scoped_true_lang_css = __webpack_re
 
 ;
 Widgetvue_type_script_lang_js.render = render
-Widgetvue_type_script_lang_js.__scopeId = "data-v-4e603578"
+Widgetvue_type_script_lang_js.__scopeId = "data-v-410b172e"
 
 /* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
 
@@ -91,8 +107,8 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-4e603578"
 
 "use strict";
 /* unused harmony exports ui, processor, name, description, process, defaultConfig */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(156);
-const pkg = __webpack_require__.e(/* import() */ 577).then(__webpack_require__.bind(__webpack_require__, 577));
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(800);
+const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913));
 
 
 const ui = (/* unused pure expression or super */ null && (Widget));
@@ -100,7 +116,7 @@ const processor = (/* unused pure expression or super */ null && (pkg));
 const name = () => "exif";
 const description = () => "Plugin to change exif data of images.";
 const process = async (config, image) => {
-  return __webpack_require__.e(/* import() */ 577).then(__webpack_require__.bind(__webpack_require__, 577)).then(processor => processor.process(config, image));
+  return __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913)).then(processor => processor.process(config, image));
 };
 const defaultConfig = async () => {
   return { clear: false };
@@ -497,7 +513,7 @@ const defaultConfig = async () => {
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
 /******/ 			138: 0,
-/******/ 			156: 0,
+/******/ 			800: 0,
 /******/ 			748: 0
 /******/ 		};
 /******/ 		
@@ -592,31 +608,31 @@ const defaultConfig = async () => {
 /******/ 		var wasmImportedFuncCache4;
 /******/ 		var wasmImportedFuncCache5;
 /******/ 		var wasmImportObjects = {
-/******/ 			373: function() {
+/******/ 			610: function() {
 /******/ 				return {
-/******/ 					"./exif_bg.js": {
+/******/ 					"./lenna_exif_bg.js": {
 /******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache0 === undefined) wasmImportedFuncCache0 = __webpack_require__.c[287].exports;
 /******/ 							return wasmImportedFuncCache0["t$"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_json_serialize": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache1 === undefined) wasmImportedFuncCache1 = __webpack_require__.c[287].exports;
 /******/ 							return wasmImportedFuncCache1["r1"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache2 === undefined) wasmImportedFuncCache2 = __webpack_require__.c[287].exports;
 /******/ 							return wasmImportedFuncCache2["ug"](p0i32);
 /******/ 						},
 /******/ 						"__wbg_new_59cb74e423758ede": function() {
-/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache3 === undefined) wasmImportedFuncCache3 = __webpack_require__.c[287].exports;
 /******/ 							return wasmImportedFuncCache3["h9"]();
 /******/ 						},
 /******/ 						"__wbg_stack_558ba5917b466edd": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache4 === undefined) wasmImportedFuncCache4 = __webpack_require__.c[287].exports;
 /******/ 							return wasmImportedFuncCache4["Dz"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbg_error_4bb6c2a97407129a": function(p0i32,p1i32) {
-/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[399].exports;
+/******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[287].exports;
 /******/ 							return wasmImportedFuncCache5["kF"](p0i32,p1i32);
 /******/ 						}
 /******/ 					}
@@ -625,8 +641,8 @@ const defaultConfig = async () => {
 /******/ 		};
 /******/ 		
 /******/ 		var wasmModuleMap = {
-/******/ 			"577": [
-/******/ 				373
+/******/ 			"913": [
+/******/ 				610
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -646,7 +662,7 @@ const defaultConfig = async () => {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"577":{"373":"e94491fb499af59b13d1"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"913":{"610":"6acb62d7681a8ac6c449"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
