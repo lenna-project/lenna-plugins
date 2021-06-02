@@ -1,14 +1,14 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 548:
+/***/ 398:
 /***/ (() => {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 800:
+/***/ 252:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17,13 +17,15 @@
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=410b172e&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-410b172e")
+const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-32e66a3a")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-410b172e")
+;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-32e66a3a")
 const _hoisted_1 = { class: "plugin-config" }
 const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("label", { for: "clear" }, "clear exif data", -1)
+const _hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
+const _hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
 const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
@@ -37,12 +39,14 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
       [runtime_dom_esm_bundler_js_.vModelCheckbox, _ctx.clear]
     ]),
     _hoisted_2,
+    _hoisted_3,
     (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
       "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => (_ctx.author = $event)),
       placeholder: "author"
     }, null, 512), [
       [runtime_dom_esm_bundler_js_.vModelText, _ctx.author]
     ]),
+    _hoisted_4,
     (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
       "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => (_ctx.description = $event)),
       placeholder: "description"
@@ -51,7 +55,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
     ])
   ]))
 })
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=410b172e&scoped=true
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
@@ -85,9 +89,9 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=410b172e&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_410b172e_scoped_true_lang_css = __webpack_require__(548);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=410b172e&scoped=true&lang=css
+// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=32e66a3a&scoped=true&lang=css
+var Widgetvue_type_style_index_0_id_32e66a3a_scoped_true_lang_css = __webpack_require__(398);
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=32e66a3a&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
@@ -96,7 +100,7 @@ var Widgetvue_type_style_index_0_id_410b172e_scoped_true_lang_css = __webpack_re
 
 ;
 Widgetvue_type_script_lang_js.render = render
-Widgetvue_type_script_lang_js.__scopeId = "data-v-410b172e"
+Widgetvue_type_script_lang_js.__scopeId = "data-v-32e66a3a"
 
 /* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
 
@@ -107,7 +111,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-410b172e"
 
 "use strict";
 /* unused harmony exports ui, processor, name, description, process, defaultConfig */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(800);
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(252);
 const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913));
 
 
@@ -513,7 +517,7 @@ const defaultConfig = async () => {
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
 /******/ 			138: 0,
-/******/ 			800: 0,
+/******/ 			252: 0,
 /******/ 			748: 0
 /******/ 		};
 /******/ 		
