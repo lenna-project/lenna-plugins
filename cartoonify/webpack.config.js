@@ -13,13 +13,24 @@ module.exports = (env = {}) => ({
   target: "web",
   entry: path.resolve(__dirname, "./src/index.js"),
   output: {
-    publicPath: !env.prod? "http://localhost:3002/": pkg.config.publicPath,
+    publicPath: !env.prod ? "http://localhost:3002/" : pkg.config.publicPath,
   },
   resolve: {
     extensions: [".vue", ".jsx", ".js", ".json"],
   },
   module: {
     rules: [
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
@@ -31,10 +42,10 @@ module.exports = (env = {}) => ({
         "lenna-web": "lenna-web",
       },
       exposes: {
-        "default": "./src/",
+        default: "./src/",
       },
       remotes: {},
-      shared: []
+      shared: [],
     }),
   ],
   experiments: {
