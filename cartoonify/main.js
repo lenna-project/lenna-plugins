@@ -2,14 +2,20 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 444:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-/* unused harmony exports processor, name, description, process, defaultConfig */
+
+// UNUSED EXPORTS: defaultConfig, description, icon, name, process, processor
+
+;// CONCATENATED MODULE: ./assets/cartoonify.png
+/* harmony default export */ const cartoonify = (__webpack_require__.p + "4974cac3812aedb62232c00a61ab4b85.png");
+;// CONCATENATED MODULE: ./src/index.js
 const pkg = __webpack_require__.e(/* import() */ 384).then(__webpack_require__.bind(__webpack_require__, 384));
 const processor = (/* unused pure expression or super */ null && (pkg));
 
-const name = () => "cartoonify";
+
+const src_name = () => "cartoonify";
 const description = () => "Plugin to create a cartoon style.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 384).then(__webpack_require__.bind(__webpack_require__, 384)).then((processor) => processor.process(config, image));
@@ -17,6 +23,9 @@ const process = async (config, image) => {
 const defaultConfig = async () => {
   return { };
 };
+const icon = () => {
+  return cartoonifyIcon;
+}
 
 
 /***/ })
@@ -226,7 +235,7 @@ const defaultConfig = async () => {
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
-/******/ 			138: 0
+/******/ 			444: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -401,7 +410,7 @@ const defaultConfig = async () => {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(138);
+/******/ 	var __webpack_exports__ = __webpack_require__(444);
 /******/ 	
 /******/ })()
 ;

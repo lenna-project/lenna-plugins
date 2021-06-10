@@ -7,7 +7,7 @@ define("cartoonify", [], () => { return /******/ (() => { // webpackBootstrap
 
 var moduleMap = {
 	"default": () => {
-		return __webpack_require__.e(138).then(() => (() => ((__webpack_require__(138)))));
+		return __webpack_require__.e(444).then(() => (() => ((__webpack_require__(444)))));
 	}
 };
 var get = (module, getScope) => {
