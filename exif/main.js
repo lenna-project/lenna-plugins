@@ -1,17 +1,10 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 398:
-/***/ (() => {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ 252:
+/***/ 308:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-"use strict";
 
 // UNUSED EXPORTS: default
 
@@ -89,10 +82,6 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=32e66a3a&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_32e66a3a_scoped_true_lang_css = __webpack_require__(398);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=32e66a3a&scoped=true&lang=css
-
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
 
@@ -106,18 +95,24 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-32e66a3a"
 
 /***/ }),
 
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 358:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-"use strict";
-/* unused harmony exports ui, processor, name, description, process, defaultConfig */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(252);
+
+// UNUSED EXPORTS: defaultConfig, description, icon, name, process, processor, ui
+
+;// CONCATENATED MODULE: ./assets/exif.png
+/* harmony default export */ const exif = (__webpack_require__.p + "ce33068a9c9195960b4cf16d2d98319b.png");
+// EXTERNAL MODULE: ./src/Widget.vue + 4 modules
+var src_Widget = __webpack_require__(308);
+;// CONCATENATED MODULE: ./src/index.js
 const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913));
+
 
 
 const ui = (/* unused pure expression or super */ null && (Widget));
 const processor = (/* unused pure expression or super */ null && (pkg));
-const name = () => "exif";
+const src_name = () => "exif";
 const description = () => "Plugin to change exif data of images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913)).then(processor => processor.process(config, image));
@@ -125,6 +120,9 @@ const process = async (config, image) => {
 const defaultConfig = async () => {
   return { clear: false };
 };
+const icon = () => {
+  return exifIcon;
+}
 
 
 /***/ })
@@ -196,6 +194,15 @@ const defaultConfig = async () => {
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
 /******/ 			return "" + chunkId + ".js";
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/get mini-css chunk filename */
+/******/ 	(() => {
+/******/ 		// This function allow to reference all chunks
+/******/ 		__webpack_require__.miniCssF = (chunkId) => {
+/******/ 			// return url for filenames based on template
+/******/ 			return undefined;
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -516,8 +523,8 @@ const defaultConfig = async () => {
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
-/******/ 			138: 0,
-/******/ 			252: 0,
+/******/ 			358: 0,
+/******/ 			308: 0,
 /******/ 			748: 0
 /******/ 		};
 /******/ 		
@@ -693,7 +700,7 @@ const defaultConfig = async () => {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(138);
+/******/ 	var __webpack_exports__ = __webpack_require__(358);
 /******/ 	
 /******/ })()
 ;
