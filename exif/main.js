@@ -113,7 +113,7 @@ const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.b
 const ui = (/* unused pure expression or super */ null && (Widget));
 const processor = (/* unused pure expression or super */ null && (pkg));
 const src_name = () => "exif";
-const description = () => "Plugin to change exif data of images.";
+const description = () => "Manipulates exif data of images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913)).then(processor => processor.process(config, image));
 };

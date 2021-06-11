@@ -10,7 +10,7 @@ const pkg = __webpack_require__.e(/* import() */ 397).then(__webpack_require__.b
 const processor = (/* unused pure expression or super */ null && (pkg));
 
 const name = () => "desaturate";
-const description = () => "Plugin to desaturate by photon.";
+const description = () => "Reduces colorfulness of images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 397).then(__webpack_require__.bind(__webpack_require__, 397)).then((processor) => processor.process(config, image));
 };

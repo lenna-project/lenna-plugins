@@ -109,7 +109,7 @@ const pkg = __webpack_require__.e(/* import() */ 376).then(__webpack_require__.b
 const ui = Widget.default;
 const processor = pkg;
 const src_name = () => "exif-thumbnail";
-const description = () => "Plugin to change exif thumbnail data of images.";
+const description = () => "Updates exif thumbnail data of images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 376).then(__webpack_require__.bind(__webpack_require__, 376)).then(processor => processor.process(config, image));
 };

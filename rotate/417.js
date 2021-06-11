@@ -127,7 +127,7 @@ const pkg = __webpack_require__.e(/* import() */ 844).then(__webpack_require__.b
 const ui = Widget.default;
 const processor = pkg;
 const src_name = () => "rotate";
-const description = () => "Plugin to rotate image.";
+const description = () => "Rotates images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844)).then((processor) => processor.process(config, image));
 };

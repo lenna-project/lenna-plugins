@@ -115,7 +115,7 @@ const processor = (/* unused pure expression or super */ null && (pkg));
 
 const ui = (/* unused pure expression or super */ null && (Widget));
 const src_name = () => "canny";
-const description = () => "Plugin to create canny edges.";
+const description = () => "Detects edges in images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 915).then(__webpack_require__.bind(__webpack_require__, 915)).then(processor => processor.process(config, image));
 };

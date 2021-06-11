@@ -16,7 +16,7 @@ const processor = (/* unused pure expression or super */ null && (pkg));
 
 
 const src_name = () => "cartoonify";
-const description = () => "Plugin to create a cartoon style.";
+const description = () => "Creates a cartoon style.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 384).then(__webpack_require__.bind(__webpack_require__, 384)).then((processor) => processor.process(config, image));
 };
