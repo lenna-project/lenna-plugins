@@ -5,7 +5,7 @@ import Widget from "./Widget";
 
 export const ui = Widget;
 export const name = () => "canny";
-export const description = () => "Plugin to create canny edges.";
+export const description = () => "Detects edges in images.";
 export const process = async (config, image) => {
   return import('../pkg').then(processor => processor.process(config, image));
 };

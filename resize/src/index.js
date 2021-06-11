@@ -5,7 +5,7 @@ import resizeIcon from '../assets/resize.png';
 
 export const processor = pkg;
 export const name = () => "resize";
-export const description = () => "Plugin to resize image.";
+export const description = () => "Resizes images.";
 export const process = async (config, image) => {
   return import('../pkg').then(processor => processor.process(config, image));
 };

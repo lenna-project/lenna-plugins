@@ -5,7 +5,7 @@ import Widget from "./Widget";
 export const ui = Widget;
 export const processor = pkg;
 export const name = () => "exif";
-export const description = () => "Plugin to change exif data of images.";
+export const description = () => "Manipulates exif data of images.";
 export const process = async (config, image) => {
   return import('../pkg').then(processor => processor.process(config, image));
 };

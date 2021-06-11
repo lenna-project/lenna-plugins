@@ -5,7 +5,7 @@ import blurIcon from '../assets/blur.png';
 
 export const processor = pkg;
 export const name = () => "blur";
-export const description = () => "Plugin to blur image.";
+export const description = () => "Smoothes image while reducing image noise and reducing detail.";
 export const process = async (config, image) => {
   return import('../pkg').then(processor => processor.process(config, image));
 };

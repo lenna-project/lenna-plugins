@@ -5,7 +5,7 @@ import sepiaIcon from '../assets/sepia.png';
 
 export const processor = pkg;
 export const name = () => "sepia";
-export const description = () => "Plugin to sepia image.";
+export const description = () => "Toning images in sepia colors.";
 export const process = async (config, image) => {
   return import('../pkg').then(processor => processor.process(config, image));
 };
