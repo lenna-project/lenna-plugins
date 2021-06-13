@@ -26,6 +26,7 @@ jobs:
       - run: wasm-pack build resize
       - run: wasm-pack build rotate
       - run: wasm-pack build sepia
+      - run: wasm-pack build sharpen
 
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -64,6 +65,10 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
         working-directory: sepia
+      - name: Install npm dependencies
+        run: npm ci
+        working-directory: sharpen
+
       - name: Build blur app
         run: NODE_ENV=production npm run build --if-present
         working-directory: blur
@@ -97,6 +102,10 @@ jobs:
       - name: Build sepia app
         run: NODE_ENV=production npm run build --if-present
         working-directory: sepia
+      - name: Build sharpen app
+        run: NODE_ENV=production npm run build --if-present
+        working-directory: sharpen
+
       - run: mkdir -p public/
       - run: mv ./blur/dist ./public/blur
       - run: mv ./canny/dist ./public/canny
@@ -109,6 +118,8 @@ jobs:
       - run: mv ./photon-filters/dist ./public/photon-filters
       - run: mv ./rotate/dist ./public/rotate
       - run: mv ./sepia/dist ./public/sepia
+      - run: mv ./sharpen/dist ./public/sharpen
+
       - run: cp importmap.json public/
       - run: cp plugins.json public/
       - run: ls public/

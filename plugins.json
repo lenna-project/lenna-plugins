@@ -3,6 +3,7 @@
         "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js",
         "exif": "https://lenna.app/lenna-plugins/exif/remoteEntry.js",
         "exif-thumbnail": "https://lenna.app/lenna-plugins/exif-thumbnail/remoteEntry.js",
-        "rotate": "https://lenna.app/lenna-plugins/rotate/remoteEntry.js"
+        "rotate": "https://lenna.app/lenna-plugins/rotate/remoteEntry.js",
+        "sharpen": "https://lenna.app/lenna-plugins/sharpen/remoteEntry.js"
     }
 }
