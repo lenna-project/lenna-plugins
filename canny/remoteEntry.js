@@ -7,7 +7,7 @@ define("canny", [], () => { return /******/ (() => { // webpackBootstrap
 
 var moduleMap = {
 	"default": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(137)]).then(() => (() => ((__webpack_require__(137)))));
+		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
 	},
 	"./Widget": () => {
 		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(280)]).then(() => (() => ((__webpack_require__(280)))));
@@ -480,7 +480,7 @@ __webpack_require__.d(exports, {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"137":1,"280":1};
+/******/ 			var cssChunks = {"138":1,"280":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {
@@ -651,7 +651,7 @@ __webpack_require__.d(exports, {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"915":{"804":"60e971a428ef9d4e2670"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"915":{"804":"3efec60e64f9b929973c"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {

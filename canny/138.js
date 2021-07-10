@@ -1,15 +1,17 @@
-(self["webpackChunk_lenna_project_canny"] = self["webpackChunk_lenna_project_canny"] || []).push([[138,56],{
+(self["webpackChunk_lenna_project_canny"] = self["webpackChunk_lenna_project_canny"] || []).push([[138,280],{
 
-/***/ 949:
-/***/ (() => {
+/***/ 288:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// extracted by mini-css-extract-plugin
-    if(false) { var cssReload; }
-  
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 222.96 219.84\"><defs><style>.cls-1{fill:#fefefe;}.cls-2{fill:#dd6564;}</style></defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><path class=\"cls-1\" d=\"M111.48,219.82q-55.19,0-110.38,0c-.9,0-1.1-.2-1.1-1.1Q0,109.92,0,1.1C0,.2.2,0,1.1,0Q111.49,0,221.86,0c.9,0,1.1.2,1.1,1.1q0,108.83,0,217.64c0,.9-.2,1.1-1.1,1.1Q166.68,219.8,111.48,219.82ZM43.85.56C36,.56,28.1.58,20.22.55a17.65,17.65,0,0,0-6.31,1.1A18.51,18.51,0,0,0,1.54,19.54q0,23.79,0,47.56c0,2.22.79,3,3.05,3H18.86c2.49,0,3.17-.69,3.17-3.21q0-22.23,0-44.45c0-1.15.29-1.45,1.46-1.45q22.36.06,44.73,0c2.24,0,3-.77,3-3V3.63c0-2.2-.85-3.07-3-3.07Z\"/><path class=\"cls-2\" d=\"M43.85.56H68.2c2.16,0,3,.87,3,3.07V18c0,2.24-.78,3-3,3q-22.36,0-44.73,0c-1.17,0-1.46.3-1.46,1.45q.06,22.23,0,44.45c0,2.52-.68,3.21-3.17,3.21H4.59c-2.26,0-3-.78-3-3q0-23.77,0-47.56A18.51,18.51,0,0,1,13.91,1.65,17.65,17.65,0,0,1,20.22.55C28.1.58,36,.56,43.85.56Z\"/></g></g></svg>");
 
 /***/ }),
 
-/***/ 56:
+/***/ 280:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -97,10 +99,6 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=42c45143&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_42c45143_scoped_true_lang_css = __webpack_require__(949);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=42c45143&scoped=true&lang=css
-
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
 
@@ -125,22 +123,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "name": () => (/* binding */ name),
 /* harmony export */   "description": () => (/* binding */ description),
 /* harmony export */   "process": () => (/* binding */ process),
-/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig)
+/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig),
+/* harmony export */   "icon": () => (/* binding */ icon)
 /* harmony export */ });
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56);
+/* harmony import */ var _assets_canny_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(288);
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(280);
 const pkg = __webpack_require__.e(/* import() */ 915).then(__webpack_require__.bind(__webpack_require__, 915))
 const processor = pkg;
 
 
+
 const ui = _Widget__WEBPACK_IMPORTED_MODULE_0__.default;
 const name = () => "canny";
-const description = () => "Plugin to create canny edges.";
+const description = () => "Detects edges in images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 915).then(__webpack_require__.bind(__webpack_require__, 915)).then(processor => processor.process(config, image));
 };
 const defaultConfig = async () => {
   return { high: 100, low: 50 };
 };
+const icon = () => {
+  console.log(_assets_canny_svg__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z);
+  return _assets_canny_svg__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z;
+}
 
 
 /***/ })
