@@ -1,15 +1,4 @@
-(self["webpackChunk_lenna_project_rotate"] = self["webpackChunk_lenna_project_rotate"] || []).push([[138,439],{
-
-/***/ 548:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NS4xOCA2Mi44MiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNkYzY0NjM7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGcgaWQ9IkxheWVyXzItMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMS0yIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMi45LDUzLjdDNDIuNjMsNTMuMTgsNTAsNDguNTEsNTQsMzkuNTFjMy4wOS02Ljk0LDIuNTktMTQtMS4xMy0yMC43My0uMTEtLjIxLS4yNi0uNDEtLjM4LS42MS0uNDUtLjcxLS44My0uNjYtMS4xNC4xcy0uNjMsMS40Ni0uOTEsMi4yMWMtLjg2LDIuMzEtMy4wOSwxLjgyLTQuMTkuNDktMS41OS0xLjk0LTMtNC00LjUyLTYtMi0yLjY3LTMuODYtNS4zNi01Ljc5LThhNy4zOSw3LjM5LDAsMCwxLS42NC0xYy0xLTEuOTEtLjMtMy41MSwxLjc5LTRhNTEuNDEsNTEuNDEsMCwwLDEsNi42NS0uODNDNDcuMTUuNzgsNTAuNTQuNjIsNTMuOS4xNGE0Ljg0LDQuODQsMCwwLDEsMy4xNi4yOUEyLjEsMi4xLDAsMCwxLDU4LjEyLDNhMjAuMzYsMjAuMzYsMCwwLDEtMS42NywzLjksMS4xOCwxLjE4LDAsMCwwLC4xOSwxLjUyQTI5LjY5LDI5LjY5LDAsMCwxLDYzLjQ1LDIwYTMwLjM3LDMwLjM3LDAsMCwxLDEuMywxNS4yMSwzNSwzNSwwLDAsMS0zLjg2LDExLjFBMzIuNTcsMzIuNTcsMCwwLDEsNTAuNDUsNTcuNDJhMzEuODIsMzEuODIsMCwwLDEtMjAuNTcsNS4yNywzMC44NiwzMC44NiwwLDAsMS0xMS4xMy0zQTMyLjUxLDMyLjUxLDAsMCwxLDEuMDYsMzguMzIsMzEuNTcsMzEuNTcsMCwwLDEsLjUyLDI0LjUxYTMwLjU4LDMwLjU4LDAsMCwxLDQtMTAuNjgsNC43Niw0Ljc2LDAsMCwxLDYtMS40Miw0LjYzLDQuNjMsMCwwLDEsMS44OCw1Ljk0LDI4LjYsMjguNiwwLDAsMC0yLjQ3LDYuMzJBMjIuNjYsMjIuNjYsMCwwLDAsMTQsNDQuMzRDMTguNjUsNTAuNTEsMjUsNTMuNCwzMi45LDUzLjdaIi8+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPg==");
-
-/***/ }),
+(self["webpackChunk_lenna_project_rotate"] = self["webpackChunk_lenna_project_rotate"] || []).push([[439],{
 
 /***/ 439:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -106,44 +95,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-b96a3ba2"
 
 /* harmony default export */ const Widget = (Widgetvue_type_script_lang_js);
 
-/***/ }),
-
-/***/ 138:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ui": () => (/* binding */ ui),
-/* harmony export */   "processor": () => (/* binding */ processor),
-/* harmony export */   "name": () => (/* binding */ name),
-/* harmony export */   "description": () => (/* binding */ description),
-/* harmony export */   "process": () => (/* binding */ process),
-/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig),
-/* harmony export */   "icon": () => (/* binding */ icon)
-/* harmony export */ });
-/* harmony import */ var _assets_rotate_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(548);
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(439);
-const pkg = __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844));
-
-
-
-const ui = _Widget__WEBPACK_IMPORTED_MODULE_0__.default;
-const processor = pkg;
-const name = () => "rotate";
-const description = () => "Rotates images.";
-const process = async (config, image) => {
-  return __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844)).then((processor) => processor.process(config, image));
-};
-const defaultConfig = async () => {
-  return { theta: 90.0 };
-};
-const icon = () => {
-  return _assets_rotate_svg__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z;
-};
-
-
 /***/ })
 
 }]);
-//# sourceMappingURL=138.js.map
+//# sourceMappingURL=439.js.map

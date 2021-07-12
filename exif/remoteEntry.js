@@ -7,10 +7,10 @@ define("exif", [], () => { return /******/ (() => { // webpackBootstrap
 
 var moduleMap = {
 	"default": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(358)]).then(() => (() => ((__webpack_require__(358)))));
+		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
 	},
 	"./Widget": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(308)]).then(() => (() => ((__webpack_require__(308)))));
+		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(981)]).then(() => (() => ((__webpack_require__(981)))));
 	}
 };
 var get = (module, getScope) => {
@@ -480,7 +480,7 @@ __webpack_require__.d(exports, {
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"308":1,"358":1};
+/******/ 			var cssChunks = {"138":1,"981":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {

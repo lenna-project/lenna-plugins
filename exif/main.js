@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 308:
+/***/ 981:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -10,7 +10,7 @@
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
 
 const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-32e66a3a")
 
@@ -50,7 +50,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 })
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
 
 /* harmony default export */ const Widgetvue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
@@ -95,24 +95,18 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-32e66a3a"
 
 /***/ }),
 
-/***/ 358:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+/***/ 138:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-
-// UNUSED EXPORTS: defaultConfig, description, icon, name, process, processor, ui
-
-;// CONCATENATED MODULE: ./assets/exif.png
-/* harmony default export */ const exif = (__webpack_require__.p + "ce33068a9c9195960b4cf16d2d98319b.png");
-// EXTERNAL MODULE: ./src/Widget.vue + 4 modules
-var src_Widget = __webpack_require__(308);
-;// CONCATENATED MODULE: ./src/index.js
+/* unused harmony exports ui, processor, name, description, process, defaultConfig, icon */
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(981);
 const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913));
 
 
 
 const ui = (/* unused pure expression or super */ null && (Widget));
 const processor = (/* unused pure expression or super */ null && (pkg));
-const src_name = () => "exif";
+const name = () => "exif";
 const description = () => "Manipulates exif data of images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913)).then(processor => processor.process(config, image));
@@ -523,8 +517,7 @@ const icon = () => {
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
-/******/ 			358: 0,
-/******/ 			308: 0,
+/******/ 			981: 0,
 /******/ 			748: 0
 /******/ 		};
 /******/ 		
@@ -700,7 +693,7 @@ const icon = () => {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(358);
+/******/ 	var __webpack_exports__ = __webpack_require__(138);
 /******/ 	
 /******/ })()
 ;

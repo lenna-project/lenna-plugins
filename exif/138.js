@@ -1,13 +1,17 @@
-(self["webpackChunk_lenna_project_exif"] = self["webpackChunk_lenna_project_exif"] || []).push([[138,252],{
+(self["webpackChunk_lenna_project_exif"] = self["webpackChunk_lenna_project_exif"] || []).push([[138,981],{
 
-/***/ 398:
-/***/ (() => {
+/***/ 237:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// extracted by mini-css-extract-plugin
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2Ny41OSA2MS45NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNkZDY2NjU7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGcgaWQ9IkxheWVyXzItMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMS0yIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMy42Myw2MS45Mkg3LjM5QTcuNiw3LjYsMCwwLDEsMCw1NC42VjguNTFBOC4xOCw4LjE4LDAsMCwxLDIuNTQsMi4wOCw4LDgsMCwwLDEsOC4yMiwwSDU5LjM3YTcuODYsNy44NiwwLDAsMSw3Ljc4LDUuMiwxMS4wOCwxMS4wOCwwLDAsMSwuNDQsMy4zOVY1My42OUE4LDgsMCwwLDEsNjAsNjJoLS42NGMtOC41OC0uMDgtMTcuMTcsMC0yNS43NSwwWm0uMTMtNDcuNzNINi42OGMtMi41LDAtMi41LDAtMi41LDIuNDRWNTMuMWMwLDMuMTksMS4zOCw0LjY3LDQuNyw0LjY2LDE2Ljc3LS4wNywzMy41NSwwLDUwLjMzLDAsMywwLDQuMTctMS4xNyw0LjE3LTQuMDhWMTUuNTNjMC0xLjA3LS4yOS0xLjMzLTEuMzMtMS4zM1ptMC00LjMxSDYyLjY4YS42NS42NSwwLDAsMCwuNzYtLjY5Yy4yNy0zLTEuMTQtNS00LjM3LTUtMTYuOTQuMDYtMzMuODgsMC01MC44MSwwLTIuNTYsMC00LDEuNDctNC4xNCw0LjA3LS4wNiwxLjYtLjA2LDEuNjEsMS41MiwxLjYxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTMxLjc3LDQ3Ljg2YTIuMjIsMi4yMiwwLDAsMS0yLjIyLTIuMjEsMi4xLDIuMSwwLDAsMSwuMDgtLjU2Yy44Ni0zLjYzLDEuNi03LjMsMi41OC0xMC45LjYtMi4yMy44My00LjU0LDEuNTctNi43NC41NC0xLjYyLDEuNDgtMi4zNiwyLjcyLTJzMS42NywxLjUxLDEuMzMsM3EtMiw4LjYxLTMuOTEsMTcuMjJDMzMuNTksNDcuMTQsMzIuODgsNDcuODQsMzEuNzcsNDcuODZaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDEsNDEuNjhjLS4wNi0xLjQ5LDEuMDctMi4xOCwxLjgxLTMuMDYuNC0uNDkuNzQtMSwxLjE4LTEuNDhzLjI2LS43Ni0uMDgtMS4xNGMtLjc5LS44OS0xLjU1LTEuODEtMi4zNC0yLjY5YTIuMzksMi4zOSwwLDAsMSwwLTMuMDYsMS44LDEuOCwwLDAsMSwyLjU0LS4zbC4yMS4xOWEzMC43NCwzMC43NCwwLDAsMSwzLjQxLDMuOGMyLDIuNjgsMiwyLjc1LDAsNS40YTQzLjU5LDQzLjU5LDAsMCwxLTMuMzksMy44MywxLjYsMS42LDAsMCwxLTIuMDguMzFDNDEuNDgsNDMuMDcsNDAuODMsNDIuNTMsNDEsNDEuNjhaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTguNDEsMzYuN2MtLjE0LTEuNDIsMS4wNS0yLDEuNy0yLjk0YTI5LDI5LDAsMCwxLDMtMy4zNywyLjEsMi4xLDAsMCwxLDIuOTUtLjMzbC4wNSwwYTIuNjIsMi42MiwwLDAsMSwwLDMuM2MtLjY4LjgzLTEuNCwxLjYzLTIuMTUsMi4zOWExLDEsMCwwLDAtLjI2LDEuMzksMS4xLDEuMSwwLDAsMCwuMjEuMjJjLjcxLjgxLDEuMzksMS42NCwyLjEsMi40NGEyLjM5LDIuMzksMCwwLDEsLjEyLDMuMjQsMS45LDEuOSwwLDAsMS0yLjY5LjE0LDEuMiwxLjIsMCwwLDEtLjI2LS4yOWMtMS41NS0xLjY0LTIuOTUtMy40Mi00LjQxLTUuMTVBMS40OCwxLjQ4LDAsMCwxLDE4LjQxLDM2LjdaIi8+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPg==");
 
 /***/ }),
 
-/***/ 252:
+/***/ 981:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21,7 +25,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
 
 const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-32e66a3a")
 
@@ -61,7 +65,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 })
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=32e66a3a&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
 
 /* harmony default export */ const Widgetvue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
@@ -93,10 +97,6 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
 
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-2.use[0]!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=style&index=0&id=32e66a3a&scoped=true&lang=css
-var Widgetvue_type_style_index_0_id_32e66a3a_scoped_true_lang_css = __webpack_require__(398);
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=style&index=0&id=32e66a3a&scoped=true&lang=css
-
 ;// CONCATENATED MODULE: ./src/Widget.vue
 
 
@@ -121,22 +121,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "name": () => (/* binding */ name),
 /* harmony export */   "description": () => (/* binding */ description),
 /* harmony export */   "process": () => (/* binding */ process),
-/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig)
+/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig),
+/* harmony export */   "icon": () => (/* binding */ icon)
 /* harmony export */ });
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(252);
+/* harmony import */ var _assets_exif_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(237);
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(981);
 const pkg = __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913));
+
 
 
 const ui = _Widget__WEBPACK_IMPORTED_MODULE_0__.default;
 const processor = pkg;
 const name = () => "exif";
-const description = () => "Plugin to change exif data of images.";
+const description = () => "Manipulates exif data of images.";
 const process = async (config, image) => {
   return __webpack_require__.e(/* import() */ 913).then(__webpack_require__.bind(__webpack_require__, 913)).then(processor => processor.process(config, image));
 };
 const defaultConfig = async () => {
   return { clear: false };
 };
+const icon = () => {
+  return _assets_exif_svg__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z;
+}
 
 
 /***/ })
