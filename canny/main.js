@@ -117,7 +117,6 @@ const defaultConfig = async () => {
   return { high: 100, low: 50 };
 };
 const icon = () => {
-  console.log(cannyIcon);
   return cannyIcon;
 }
 
