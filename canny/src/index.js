@@ -1,6 +1,6 @@
 const pkg = import('../pkg')
 export const processor = pkg;
-import cannyIcon from '../assets/canny.png';
+import cannyIcon from '../assets/canny.svg';
 import Widget from "./Widget";
 
 export const ui = Widget;

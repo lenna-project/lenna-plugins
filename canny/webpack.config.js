@@ -39,7 +39,7 @@ module.exports = (env = {}) => ({
         use: "vue-loader",
       },
       {
-        test: /\.png$/,
+        test: /\.svg$/i,
         use: {
           loader: "url-loader",
           options: { limit: 8192 },
@@ -49,7 +49,7 @@ module.exports = (env = {}) => ({
         test: /\.css$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
+            loader: MiniCssExtractPlugin.loader,
           },
           "css-loader",
         ],
@@ -68,11 +68,11 @@ module.exports = (env = {}) => ({
         "lenna-web": "lenna-web",
       },
       exposes: {
-        "default": "./src/",
+        default: "./src/",
         "./Widget": "./src/Widget",
       },
       remotes: {},
-      shared: ['vue']
+      shared: ["vue"],
     }),
     new VueLoaderPlugin(),
   ],
