@@ -1,7 +1,7 @@
 import "systemjs-webpack-interop/auto-public-path";
 
 const pkg = import('../pkg')
-import blurIcon from '../assets/blur.png';
+import blurIcon from '../assets/blur.svg';
 
 export const processor = pkg;
 export const name = () => "blur";

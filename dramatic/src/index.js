@@ -1,7 +1,7 @@
 import "systemjs-webpack-interop/auto-public-path";
 
 const pkg = import('../pkg');
-import dramaticIcon from '../assets/dramatic.png';
+import dramaticIcon from '../assets/dramatic.svg';
 
 export const processor = pkg;
 export const name = () => "dramatic";

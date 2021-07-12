@@ -15,6 +15,13 @@ module.exports = {
     rules: [
       { parser: { system: false } },
       {
+        test: /\.svg$/i,
+        use: {
+          loader: "url-loader",
+          options: { limit: 8192 },
+        },
+      },
+      {
         test: /\.(png|jpg|gif)$/i,
         use: [
           {

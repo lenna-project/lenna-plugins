@@ -1,5 +1,5 @@
 const pkg = import("../pkg");
-import rotateIcon from "../assets/rotate.png";
+import rotateIcon from "../assets/rotate.svg";
 
 import Widget from "./Widget";
 export const ui = Widget;

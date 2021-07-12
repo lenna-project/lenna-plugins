@@ -1,7 +1,7 @@
 import "systemjs-webpack-interop/auto-public-path";
 
 const pkg = import('../pkg');
-import sepiaIcon from '../assets/sepia.png';
+import sepiaIcon from '../assets/sepia.svg';
 
 export const processor = pkg;
 export const name = () => "sepia";

@@ -1,5 +1,5 @@
 const pkg = import('../pkg');
-import exifIcon from '../assets/exif.png';
+import exifIcon from '../assets/exif.svg';
 import Widget from "./Widget";
 
 export const ui = Widget;

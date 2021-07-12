@@ -1,7 +1,7 @@
 import 'systemjs-webpack-interop/auto-public-path';
 
 const pkg = import('../pkg')
-import resizeIcon from '../assets/resize.png';
+import resizeIcon from '../assets/resize.svg';
 
 export const processor = pkg;
 export const name = () => "resize";
