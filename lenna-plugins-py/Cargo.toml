@@ -34,6 +34,7 @@ dramatic = { path = "../dramatic", default-features=false, features=[] }
 photon-filters = { path = "../photon-filters", default-features=false, features=[] }
 rotate = { path = "../rotate", default-features=false, features=[] }
 sepia = { path = "../sepia", default-features=false, features=[] }
+sharpen = { path = "../sharpen", default-features=false, features=[] }
 
 [package.metadata.maturin]
 classifiers = ["Programming Language :: Python"]
