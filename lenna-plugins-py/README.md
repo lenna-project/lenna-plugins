@@ -11,6 +11,12 @@ pip install . --use-feature=in-tree-build
 pip install numpy pillow
 ```
 
+Buile wheel using
+
+```bash
+maturin build --manylinux=off --cargo-extra-args="--features=python"
+```
+
 ## open in python
 
 ```python
