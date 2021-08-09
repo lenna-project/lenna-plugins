@@ -25,7 +25,7 @@ numpy = { version = "0.14.1", optional = true }
 pythonize = { version = "0.14.0", optional = true }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-lenna_core = {git = "https://github.com/lenna-project/lenna-core", branch="main", features=["python"] }
+lenna_core = { version = "0.1", git = "https://github.com/lenna-project/lenna-core", branch = "main", features=["python"] }
 blur = { path = "../blur", default-features=false, features=[] }
 canny = { path = "../canny", default-features=false, features=[] }
 cartoonify = { path = "../cartoonify", default-features=false, features=[] }

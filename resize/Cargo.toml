@@ -17,4 +17,4 @@ plugin = []
 image = { version = "0.23", default-features = false, features = ["png", "jpeg"] }
 console_error_panic_hook = "0.1.6"
 wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
-lenna_core = {git = "https://github.com/lenna-project/lenna-core", branch="main" }
+lenna_core = { version = "0.1", git = "https://github.com/lenna-project/lenna-core", branch = "main" }
