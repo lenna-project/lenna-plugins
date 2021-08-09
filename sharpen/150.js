@@ -10,35 +10,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "Rgb": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ss),
 /* harmony export */   "Rgba": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.y),
 /* harmony export */   "SamplingFilter": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.VY),
-/* harmony export */   "__wbg_appendChild_6ed236bb79c198df": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.hP),
-/* harmony export */   "__wbg_body_525168d9e773c3f8": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Vk),
-/* harmony export */   "__wbg_call_ba36642bd901572b": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.qw),
-/* harmony export */   "__wbg_createElement_ac65a6ce60c4812c": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.b6),
-/* harmony export */   "__wbg_data_315524ada7b563f4": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.lj),
-/* harmony export */   "__wbg_document_5aff8cd83ef968f5": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.WB),
-/* harmony export */   "__wbg_drawImage_8335c6778b19d155": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.ax),
+/* harmony export */   "__wbg_appendChild_27974267a42a0def": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Mn),
+/* harmony export */   "__wbg_body_25dc44f3e329890b": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.$m),
+/* harmony export */   "__wbg_call_9698e9b9c4668ae0": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.b1),
+/* harmony export */   "__wbg_createElement_1959ce882284e011": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.k_),
+/* harmony export */   "__wbg_data_c57552bf86eb9e9b": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.tl),
+/* harmony export */   "__wbg_document_6d5890b86bbf5b96": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.aW),
+/* harmony export */   "__wbg_drawImage_92b19107b9c0f5a8": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Sd),
 /* harmony export */   "__wbg_error_4bb6c2a97407129a": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.kF),
-/* harmony export */   "__wbg_getContext_813df131fcbd6e91": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ae),
-/* harmony export */   "__wbg_getImageData_b5842f1d6ce40388": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.AV),
-/* harmony export */   "__wbg_globalThis_e0d21cabc6630763": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.md),
-/* harmony export */   "__wbg_global_8463719227271676": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.IF),
-/* harmony export */   "__wbg_height_3711225374206b37": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Az),
-/* harmony export */   "__wbg_height_64e5d4222af3fb90": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.oh),
-/* harmony export */   "__wbg_instanceof_CanvasRenderingContext2d_779e79c4121aa91b": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.l_),
-/* harmony export */   "__wbg_instanceof_HtmlCanvasElement_fd3cbbe3906d7792": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Md),
-/* harmony export */   "__wbg_instanceof_Window_11e25482011fc506": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.s8),
+/* harmony export */   "__wbg_getContext_c91489f5e0f738d8": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Pc),
+/* harmony export */   "__wbg_getImageData_c5c7e514c01d580b": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Sc),
+/* harmony export */   "__wbg_globalThis_787cfd4f25a35141": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Gg),
+/* harmony export */   "__wbg_global_af2eb7b1369372ed": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.EL),
+/* harmony export */   "__wbg_height_07654d9fa181ebde": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.G2),
+/* harmony export */   "__wbg_height_636c7530a04a1f7c": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.rJ),
+/* harmony export */   "__wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.QI),
+/* harmony export */   "__wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Sq),
+/* harmony export */   "__wbg_instanceof_Window_b99429ec408dcb8d": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.yv),
 /* harmony export */   "__wbg_new_59cb74e423758ede": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.h9),
-/* harmony export */   "__wbg_newnoargs_9fdd8f3961dd1bee": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.UL),
-/* harmony export */   "__wbg_newwithu8clampedarrayandsh_d5177e9b24f89848": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.QD),
-/* harmony export */   "__wbg_putImageData_67091e6c02209309": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.fM),
-/* harmony export */   "__wbg_self_bb69a836a72ec6e9": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.tS),
-/* harmony export */   "__wbg_setheight_5a1abba41e35c42a": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.ES),
-/* harmony export */   "__wbg_settextContent_2e55253528a044b7": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.MM),
-/* harmony export */   "__wbg_setwidth_f3c88eb520ba8d47": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.ox),
+/* harmony export */   "__wbg_newnoargs_68424965d85fcb08": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Kh),
+/* harmony export */   "__wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Gx),
+/* harmony export */   "__wbg_putImageData_4901f2bdac6d5f4a": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.F3),
+/* harmony export */   "__wbg_self_3df7c33e222cd53b": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.v6),
+/* harmony export */   "__wbg_setheight_127ee9a2bb2ec12e": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.bJ),
+/* harmony export */   "__wbg_settextContent_4438176b20024f4a": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.o$),
+/* harmony export */   "__wbg_setwidth_80cb48aa8c97d2c1": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.gf),
 /* harmony export */   "__wbg_stack_558ba5917b466edd": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Dz),
-/* harmony export */   "__wbg_width_5c37496c7c69eaa2": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.zC),
-/* harmony export */   "__wbg_width_9eb2c66ac9dde633": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.qx),
-/* harmony export */   "__wbg_window_3304fc4b414c9693": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.R$),
+/* harmony export */   "__wbg_width_99577d88b55411fa": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.H$),
+/* harmony export */   "__wbg_width_eb76cc22778eda38": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.iw),
+/* harmony export */   "__wbg_window_0f90182e6c405ff2": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.V0),
 /* harmony export */   "__wbindgen_debug_string": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.fY),
 /* harmony export */   "__wbindgen_is_undefined": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.XP),
 /* harmony export */   "__wbindgen_json_parse": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.t$),
@@ -128,7 +128,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "offset_red": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.MV),
 /* harmony export */   "oil": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.vK),
 /* harmony export */   "open_image": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.mZ),
-/* harmony export */   "padding_bottom": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.kg),
+/* harmony export */   "padding_bottom": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ae),
 /* harmony export */   "padding_left": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.H_),
 /* harmony export */   "padding_right": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.JG),
 /* harmony export */   "padding_top": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Bf),
@@ -159,7 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "sepia": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.HI),
 /* harmony export */   "sharpen": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.dF),
 /* harmony export */   "single_channel_grayscale": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.YQ),
-/* harmony export */   "sobel_horizontal": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Gk),
+/* harmony export */   "sobel_horizontal": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.WB),
 /* harmony export */   "sobel_vertical": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.c1),
 /* harmony export */   "solarize": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.x),
 /* harmony export */   "solarize_retimg": () => (/* reexport safe */ _sharpen_bg_js__WEBPACK_IMPORTED_MODULE_0__.Qf),
@@ -200,7 +200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "j9": () => (/* binding */ laplace),
 /* harmony export */   "lf": () => (/* binding */ edge_one),
 /* harmony export */   "D$": () => (/* binding */ emboss),
-/* harmony export */   "Gk": () => (/* binding */ sobel_horizontal),
+/* harmony export */   "WB": () => (/* binding */ sobel_horizontal),
 /* harmony export */   "XJ": () => (/* binding */ prewitt_horizontal),
 /* harmony export */   "c1": () => (/* binding */ sobel_vertical),
 /* harmony export */   "KH": () => (/* binding */ run),
@@ -241,6 +241,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "PS": () => (/* binding */ b_grayscale),
 /* harmony export */   "YQ": () => (/* binding */ single_channel_grayscale),
 /* harmony export */   "Lj": () => (/* binding */ threshold),
+/* harmony export */   "f9": () => (/* binding */ watermark),
+/* harmony export */   "NH": () => (/* binding */ blend),
+/* harmony export */   "Q8": () => (/* binding */ create_gradient),
+/* harmony export */   "ws": () => (/* binding */ apply_gradient),
+/* harmony export */   "tW": () => (/* binding */ lch),
+/* harmony export */   "Ym": () => (/* binding */ hsl),
+/* harmony export */   "mC": () => (/* binding */ hsv),
+/* harmony export */   "KE": () => (/* binding */ hue_rotate_hsl),
+/* harmony export */   "Bc": () => (/* binding */ hue_rotate_hsv),
+/* harmony export */   "xc": () => (/* binding */ hue_rotate_lch),
+/* harmony export */   "zP": () => (/* binding */ saturate_hsl),
+/* harmony export */   "Uj": () => (/* binding */ saturate_lch),
+/* harmony export */   "w2": () => (/* binding */ saturate_hsv),
+/* harmony export */   "ZR": () => (/* binding */ lighten_lch),
+/* harmony export */   "pm": () => (/* binding */ lighten_hsl),
+/* harmony export */   "eP": () => (/* binding */ lighten_hsv),
+/* harmony export */   "Ir": () => (/* binding */ darken_lch),
+/* harmony export */   "nZ": () => (/* binding */ darken_hsl),
+/* harmony export */   "dN": () => (/* binding */ darken_hsv),
+/* harmony export */   "VL": () => (/* binding */ desaturate_hsv),
+/* harmony export */   "TV": () => (/* binding */ desaturate_hsl),
+/* harmony export */   "Ei": () => (/* binding */ desaturate_lch),
+/* harmony export */   "c": () => (/* binding */ mix_with_colour),
 /* harmony export */   "cv": () => (/* binding */ offset),
 /* harmony export */   "MV": () => (/* binding */ offset_red),
 /* harmony export */   "Yc": () => (/* binding */ offset_green),
@@ -270,29 +293,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "kw": () => (/* binding */ dramatic),
 /* harmony export */   "og": () => (/* binding */ firenze),
 /* harmony export */   "Mb": () => (/* binding */ obsidian),
-/* harmony export */   "f9": () => (/* binding */ watermark),
-/* harmony export */   "NH": () => (/* binding */ blend),
-/* harmony export */   "Q8": () => (/* binding */ create_gradient),
-/* harmony export */   "ws": () => (/* binding */ apply_gradient),
-/* harmony export */   "tW": () => (/* binding */ lch),
-/* harmony export */   "Ym": () => (/* binding */ hsl),
-/* harmony export */   "mC": () => (/* binding */ hsv),
-/* harmony export */   "KE": () => (/* binding */ hue_rotate_hsl),
-/* harmony export */   "Bc": () => (/* binding */ hue_rotate_hsv),
-/* harmony export */   "xc": () => (/* binding */ hue_rotate_lch),
-/* harmony export */   "zP": () => (/* binding */ saturate_hsl),
-/* harmony export */   "Uj": () => (/* binding */ saturate_lch),
-/* harmony export */   "w2": () => (/* binding */ saturate_hsv),
-/* harmony export */   "ZR": () => (/* binding */ lighten_lch),
-/* harmony export */   "pm": () => (/* binding */ lighten_hsl),
-/* harmony export */   "eP": () => (/* binding */ lighten_hsv),
-/* harmony export */   "Ir": () => (/* binding */ darken_lch),
-/* harmony export */   "nZ": () => (/* binding */ darken_hsl),
-/* harmony export */   "dN": () => (/* binding */ darken_hsv),
-/* harmony export */   "VL": () => (/* binding */ desaturate_hsv),
-/* harmony export */   "TV": () => (/* binding */ desaturate_hsl),
-/* harmony export */   "Ei": () => (/* binding */ desaturate_lch),
-/* harmony export */   "c": () => (/* binding */ mix_with_colour),
 /* harmony export */   "d1": () => (/* binding */ crop),
 /* harmony export */   "Iw": () => (/* binding */ crop_img_browser),
 /* harmony export */   "xn": () => (/* binding */ fliph),
@@ -304,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "H_": () => (/* binding */ padding_left),
 /* harmony export */   "JG": () => (/* binding */ padding_right),
 /* harmony export */   "Bf": () => (/* binding */ padding_top),
-/* harmony export */   "kg": () => (/* binding */ padding_bottom),
+/* harmony export */   "Ae": () => (/* binding */ padding_bottom),
 /* harmony export */   "VY": () => (/* binding */ SamplingFilter),
 /* harmony export */   "nt": () => (/* binding */ PhotonImage),
 /* harmony export */   "Ss": () => (/* binding */ Rgb),
@@ -315,33 +315,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "h9": () => (/* binding */ __wbg_new_59cb74e423758ede),
 /* harmony export */   "Dz": () => (/* binding */ __wbg_stack_558ba5917b466edd),
 /* harmony export */   "kF": () => (/* binding */ __wbg_error_4bb6c2a97407129a),
-/* harmony export */   "s8": () => (/* binding */ __wbg_instanceof_Window_11e25482011fc506),
-/* harmony export */   "WB": () => (/* binding */ __wbg_document_5aff8cd83ef968f5),
-/* harmony export */   "Vk": () => (/* binding */ __wbg_body_525168d9e773c3f8),
-/* harmony export */   "b6": () => (/* binding */ __wbg_createElement_ac65a6ce60c4812c),
-/* harmony export */   "zC": () => (/* binding */ __wbg_width_5c37496c7c69eaa2),
-/* harmony export */   "Az": () => (/* binding */ __wbg_height_3711225374206b37),
-/* harmony export */   "lj": () => (/* binding */ __wbg_data_315524ada7b563f4),
-/* harmony export */   "QD": () => (/* binding */ __wbg_newwithu8clampedarrayandsh_d5177e9b24f89848),
-/* harmony export */   "l_": () => (/* binding */ __wbg_instanceof_CanvasRenderingContext2d_779e79c4121aa91b),
-/* harmony export */   "ax": () => (/* binding */ __wbg_drawImage_8335c6778b19d155),
-/* harmony export */   "AV": () => (/* binding */ __wbg_getImageData_b5842f1d6ce40388),
-/* harmony export */   "fM": () => (/* binding */ __wbg_putImageData_67091e6c02209309),
-/* harmony export */   "MM": () => (/* binding */ __wbg_settextContent_2e55253528a044b7),
-/* harmony export */   "hP": () => (/* binding */ __wbg_appendChild_6ed236bb79c198df),
-/* harmony export */   "Md": () => (/* binding */ __wbg_instanceof_HtmlCanvasElement_fd3cbbe3906d7792),
-/* harmony export */   "qx": () => (/* binding */ __wbg_width_9eb2c66ac9dde633),
-/* harmony export */   "ox": () => (/* binding */ __wbg_setwidth_f3c88eb520ba8d47),
-/* harmony export */   "oh": () => (/* binding */ __wbg_height_64e5d4222af3fb90),
-/* harmony export */   "ES": () => (/* binding */ __wbg_setheight_5a1abba41e35c42a),
-/* harmony export */   "Ae": () => (/* binding */ __wbg_getContext_813df131fcbd6e91),
-/* harmony export */   "qw": () => (/* binding */ __wbg_call_ba36642bd901572b),
+/* harmony export */   "yv": () => (/* binding */ __wbg_instanceof_Window_b99429ec408dcb8d),
+/* harmony export */   "aW": () => (/* binding */ __wbg_document_6d5890b86bbf5b96),
+/* harmony export */   "$m": () => (/* binding */ __wbg_body_25dc44f3e329890b),
+/* harmony export */   "k_": () => (/* binding */ __wbg_createElement_1959ce882284e011),
+/* harmony export */   "iw": () => (/* binding */ __wbg_width_eb76cc22778eda38),
+/* harmony export */   "G2": () => (/* binding */ __wbg_height_07654d9fa181ebde),
+/* harmony export */   "tl": () => (/* binding */ __wbg_data_c57552bf86eb9e9b),
+/* harmony export */   "Gx": () => (/* binding */ __wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc),
+/* harmony export */   "QI": () => (/* binding */ __wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93),
+/* harmony export */   "Sd": () => (/* binding */ __wbg_drawImage_92b19107b9c0f5a8),
+/* harmony export */   "Sc": () => (/* binding */ __wbg_getImageData_c5c7e514c01d580b),
+/* harmony export */   "F3": () => (/* binding */ __wbg_putImageData_4901f2bdac6d5f4a),
+/* harmony export */   "o$": () => (/* binding */ __wbg_settextContent_4438176b20024f4a),
+/* harmony export */   "Mn": () => (/* binding */ __wbg_appendChild_27974267a42a0def),
+/* harmony export */   "Sq": () => (/* binding */ __wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700),
+/* harmony export */   "H$": () => (/* binding */ __wbg_width_99577d88b55411fa),
+/* harmony export */   "gf": () => (/* binding */ __wbg_setwidth_80cb48aa8c97d2c1),
+/* harmony export */   "rJ": () => (/* binding */ __wbg_height_636c7530a04a1f7c),
+/* harmony export */   "bJ": () => (/* binding */ __wbg_setheight_127ee9a2bb2ec12e),
+/* harmony export */   "Pc": () => (/* binding */ __wbg_getContext_c91489f5e0f738d8),
+/* harmony export */   "Kh": () => (/* binding */ __wbg_newnoargs_68424965d85fcb08),
+/* harmony export */   "b1": () => (/* binding */ __wbg_call_9698e9b9c4668ae0),
 /* harmony export */   "m_": () => (/* binding */ __wbindgen_object_clone_ref),
-/* harmony export */   "UL": () => (/* binding */ __wbg_newnoargs_9fdd8f3961dd1bee),
-/* harmony export */   "tS": () => (/* binding */ __wbg_self_bb69a836a72ec6e9),
-/* harmony export */   "R$": () => (/* binding */ __wbg_window_3304fc4b414c9693),
-/* harmony export */   "md": () => (/* binding */ __wbg_globalThis_e0d21cabc6630763),
-/* harmony export */   "IF": () => (/* binding */ __wbg_global_8463719227271676),
+/* harmony export */   "v6": () => (/* binding */ __wbg_self_3df7c33e222cd53b),
+/* harmony export */   "V0": () => (/* binding */ __wbg_window_0f90182e6c405ff2),
+/* harmony export */   "Gg": () => (/* binding */ __wbg_globalThis_787cfd4f25a35141),
+/* harmony export */   "EL": () => (/* binding */ __wbg_global_af2eb7b1369372ed),
 /* harmony export */   "XP": () => (/* binding */ __wbindgen_is_undefined),
 /* harmony export */   "fY": () => (/* binding */ __wbindgen_debug_string),
 /* harmony export */   "Or": () => (/* binding */ __wbindgen_throw),
@@ -1917,6 +1917,627 @@ function threshold(img, threshold) {
 }
 
 /**
+* Add a watermark to an image.
+*
+* # Arguments
+* * `img` - A DynamicImage that contains a view into the image.
+* * `watermark` - The watermark to be placed onto the `img` image.
+* * `x` - The x coordinate where the watermark's top corner should be positioned.
+* * `y` - The y coordinate where the watermark's top corner should be positioned.
+* # Example
+*
+* ```no_run
+* // For example, to add a watermark to an image at x: 30, y: 40:
+* use photon_rs::multiple::watermark;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let water_mark = open_image("watermark.jpg").expect("File should open");
+* watermark(&mut img, &water_mark, 30_u32, 40_u32);
+* ```
+* @param {PhotonImage} img
+* @param {PhotonImage} watermark
+* @param {number} x
+* @param {number} y
+*/
+function watermark(img, watermark, x, y) {
+    _assertClass(img, PhotonImage);
+    _assertClass(watermark, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.watermark(img.ptr, watermark.ptr, x, y);
+}
+
+/**
+* Blend two images together.
+*
+* The `blend_mode` (3rd param) determines which blending mode to use; change this for varying effects.
+* The blend modes available include: `overlay`, `over`, `atop`, `xor`, `multiply`, `burn`, `soft_light`, `hard_light`,
+* `difference`, `lighten`, `darken`, `dodge`, `plus`, `exclusion` (more to come)
+* NOTE: The first image must be smaller than the second image passed as params.
+* If the first image were larger than the second, then there would be overflowing pixels which would have no corresponding pixels
+* in the second image.
+* # Arguments
+* * `img` - A DynamicImage that contains a view into the image.
+* * `img2` - The 2nd DynamicImage to be blended with the first.
+* * `blend_mode` - The blending mode to use. See above for complete list of blend modes available.
+* # Example
+*
+* ```no_run
+* // For example, to blend two images with the `multiply` blend mode:
+* use photon_rs::multiple::blend;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let img2 = open_image("img2.jpg").expect("File should open");
+* blend(&mut img, &img2, "multiply");
+* ```
+* @param {PhotonImage} photon_image
+* @param {PhotonImage} photon_image2
+* @param {string} blend_mode
+*/
+function blend(photon_image, photon_image2, blend_mode) {
+    _assertClass(photon_image, PhotonImage);
+    _assertClass(photon_image2, PhotonImage);
+    var ptr0 = passStringToWasm0(blend_mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.blend(photon_image.ptr, photon_image2.ptr, ptr0, len0);
+}
+
+/**
+* @param {number} width
+* @param {number} height
+* @returns {PhotonImage}
+*/
+function create_gradient(width, height) {
+    var ret = _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.create_gradient(width, height);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Apply a gradient to an image.
+* @param {PhotonImage} image
+*/
+function apply_gradient(image) {
+    _assertClass(image, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.apply_gradient(image.ptr);
+}
+
+/**
+* Apply gamma correction.
+* Image manipulation effects in the LCh colour space
+*
+* Effects include:
+* * **saturate** - Saturation increase.
+* * **desaturate** - Desaturate the image.
+* * **shift_hue** - Hue rotation by a specified number of degrees.
+* * **darken** - Decrease the brightness.
+* * **lighten** - Increase the brightness.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage.
+* * `mode` - The effect desired to be applied. Choose from: `saturate`, `desaturate`, `shift_hue`, `darken`, `lighten`
+* * `amt` - A float value from 0 to 1 which represents the amount the effect should be increased by.
+* # Example
+* ```no_run
+* // For example to increase the saturation by 10%:
+* use photon_rs::colour_spaces::lch;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* lch(&mut img, "saturate", 0.1_f32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {string} mode
+* @param {number} amt
+*/
+function lch(photon_image, mode, amt) {
+    _assertClass(photon_image, PhotonImage);
+    var ptr0 = passStringToWasm0(mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lch(photon_image.ptr, ptr0, len0, amt);
+}
+
+/**
+* Image manipulation effects in the HSL colour space.
+*
+* Effects include:
+* * **saturate** - Saturation increase.
+* * **desaturate** - Desaturate the image.
+* * **shift_hue** - Hue rotation by a specified number of degrees.
+* * **darken** - Decrease the brightness.
+* * **lighten** - Increase the brightness.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage.
+* * `mode` - The effect desired to be applied. Choose from: `saturate`, `desaturate`, `shift_hue`, `darken`, `lighten`
+* * `amt` - A float value from 0 to 1 which represents the amount the effect should be increased by.
+* # Example
+* ```no_run
+* // For example to increase the saturation by 10%:
+* use photon_rs::colour_spaces::hsl;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* hsl(&mut img, "saturate", 0.1_f32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {string} mode
+* @param {number} amt
+*/
+function hsl(photon_image, mode, amt) {
+    _assertClass(photon_image, PhotonImage);
+    var ptr0 = passStringToWasm0(mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hsl(photon_image.ptr, ptr0, len0, amt);
+}
+
+/**
+* Image manipulation in the HSV colour space.
+*
+* Effects include:
+* * **saturate** - Saturation increase.
+* * **desaturate** - Desaturate the image.
+* * **shift_hue** - Hue rotation by a specified number of degrees.
+* * **darken** - Decrease the brightness.
+* * **lighten** - Increase the brightness.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage.
+* * `mode` - The effect desired to be applied. Choose from: `saturate`, `desaturate`, `shift_hue`, `darken`, `lighten`
+* * `amt` - A float value from 0 to 1 which represents the amount the effect should be increased by.
+*
+* # Example
+* ```no_run
+* // For example to increase the saturation by 10%:
+* use photon_rs::colour_spaces::hsv;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* hsv(&mut img, "saturate", 0.1_f32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {string} mode
+* @param {number} amt
+*/
+function hsv(photon_image, mode, amt) {
+    _assertClass(photon_image, PhotonImage);
+    var ptr0 = passStringToWasm0(mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hsv(photon_image.ptr, ptr0, len0, amt);
+}
+
+/**
+* Shift hue by a specified number of degrees in the HSL colour space.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `mode` - A float value from 0 to 1 which is the amount to shift the hue by, or hue rotate by.
+*
+* # Example
+* ```no_run
+* // For example to hue rotate/shift the hue by 120 degrees in the HSL colour space:
+* use photon_rs::colour_spaces::hue_rotate_hsl;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* hue_rotate_hsl(&mut img, 120_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} degrees
+*/
+function hue_rotate_hsl(img, degrees) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hue_rotate_hsl(img.ptr, degrees);
+}
+
+/**
+* Shift hue by a specified number of degrees in the HSV colour space.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `mode` - A float value from 0 to 1 which is the amount to shift the hue by, or hue rotate by.
+*
+* # Example
+* ```no_run
+* // For example to hue rotate/shift the hue by 120 degrees in the HSV colour space:
+* use photon_rs::colour_spaces::hue_rotate_hsv;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* hue_rotate_hsv(&mut img, 120_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} degrees
+*/
+function hue_rotate_hsv(img, degrees) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hue_rotate_hsv(img.ptr, degrees);
+}
+
+/**
+* Shift hue by a specified number of degrees in the LCh colour space.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `mode` - A float value from 0 to 1 which is the amount to shift the hue by, or hue rotate by.
+*
+* # Example
+* ```no_run
+* // For example to hue rotate/shift the hue by 120 degrees in the HSL colour space:
+* use photon_rs::colour_spaces::hue_rotate_lch;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* hue_rotate_lch(&mut img, 120_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} degrees
+*/
+function hue_rotate_lch(img, degrees) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hue_rotate_lch(img.ptr, degrees);
+}
+
+/**
+* Increase the image's saturation by converting each pixel's colour to the HSL colour space
+* and increasing the colour's saturation.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to increase the saturation by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Increasing saturation by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to increase saturation by 10% in the HSL colour space:
+* use photon_rs::colour_spaces::saturate_hsl;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* saturate_hsl(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function saturate_hsl(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.saturate_hsl(img.ptr, level);
+}
+
+/**
+* Increase the image's saturation in the LCh colour space.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to increase the saturation by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Increasing saturation by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to increase saturation by 40% in the Lch colour space:
+* use photon_rs::colour_spaces::saturate_lch;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* saturate_lch(&mut img, 0.4_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function saturate_lch(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.saturate_lch(img.ptr, level);
+}
+
+/**
+* Increase the image's saturation in the HSV colour space.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level by which to increase the saturation by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Increasing saturation by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to increase saturation by 30% in the HSV colour space:
+* use photon_rs::colour_spaces::saturate_hsv;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* saturate_hsv(&mut img, 0.3_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function saturate_hsv(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.saturate_hsv(img.ptr, level);
+}
+
+/**
+* Lighten an image by a specified amount in the LCh colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to lighten the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Lightening by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to lighten an image by 10% in the LCh colour space:
+* use photon_rs::colour_spaces::lighten_lch;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* lighten_lch(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function lighten_lch(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lighten_lch(img.ptr, level);
+}
+
+/**
+* Lighten an image by a specified amount in the HSL colour space.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to lighten the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Lightening by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to lighten an image by 10% in the HSL colour space:
+* use photon_rs::colour_spaces::lighten_hsl;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* lighten_hsl(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function lighten_hsl(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lighten_hsl(img.ptr, level);
+}
+
+/**
+* Lighten an image by a specified amount in the HSV colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to lighten the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Lightening by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to lighten an image by 10% in the HSV colour space:
+* use photon_rs::colour_spaces::lighten_hsv;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* lighten_hsv(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function lighten_hsv(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lighten_hsv(img.ptr, level);
+}
+
+/**
+* Darken the image by a specified amount in the LCh colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to darken the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Darkening by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to darken an image by 10% in the LCh colour space:
+* use photon_rs::colour_spaces::darken_lch;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* darken_lch(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function darken_lch(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.darken_lch(img.ptr, level);
+}
+
+/**
+* Darken the image by a specified amount in the HSL colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to darken the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Darkening by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to darken an image by 10% in the HSL colour space:
+* use photon_rs::colour_spaces::darken_hsl;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* darken_hsl(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function darken_hsl(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.darken_hsl(img.ptr, level);
+}
+
+/**
+* Darken the image's colours by a specified amount in the HSV colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to darken the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Darkening by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to darken an image by 10% in the HSV colour space:
+* use photon_rs::colour_spaces::darken_hsv;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* darken_hsv(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function darken_hsv(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.darken_hsv(img.ptr, level);
+}
+
+/**
+* Desaturate the image by a specified amount in the HSV colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to desaturate the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Desaturating by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to desaturate an image by 10% in the HSV colour space:
+* use photon_rs::colour_spaces::desaturate_hsv;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* desaturate_hsv(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function desaturate_hsv(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.desaturate_hsv(img.ptr, level);
+}
+
+/**
+* Desaturate the image by a specified amount in the HSL colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to desaturate the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Desaturating by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to desaturate an image by 10% in the LCh colour space:
+* use photon_rs::colour_spaces::desaturate_hsl;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* desaturate_hsl(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function desaturate_hsl(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.desaturate_hsl(img.ptr, level);
+}
+
+/**
+* Desaturate the image by a specified amount in the LCh colour space.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `level` - Float value from 0 to 1 representing the level to which to desaturate the image by.
+* The `level` must be from 0 to 1 in floating-point, `f32` format.
+* Desaturating by 80% would be represented by a `level` of 0.8
+*
+* # Example
+* ```no_run
+* // For example to desaturate an image by 10% in the LCh colour space:
+* use photon_rs::colour_spaces::desaturate_lch;
+* use photon_rs::native::open_image;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* desaturate_lch(&mut img, 0.1_f32);
+* ```
+* @param {PhotonImage} img
+* @param {number} level
+*/
+function desaturate_lch(img, level) {
+    _assertClass(img, PhotonImage);
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.desaturate_lch(img.ptr, level);
+}
+
+/**
+* Mix image with a single color, supporting passing `opacity`.
+* The algorithm comes from Jimp. See `function mix` and `function colorFn` at following link:
+* https://github.com/oliver-moran/jimp/blob/29679faa597228ff2f20d34c5758e4d2257065a3/packages/plugin-color/src/index.js
+* Specifically, result_value = (mix_color_value - origin_value) * opacity + origin_value =
+* mix_color_value * opacity + (1 - opacity) * origin_value for each
+* of RGB channel.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage that contains a view into the image.
+* * `mix_color` - the color to be mixed in, as an RGB value.
+* * `opacity` - the opacity of color when mixed to image. Float value from 0 to 1.
+* # Example
+*
+* ```no_run
+* // For example, to mix an image with rgb (50, 255, 254) and opacity 0.4:
+* use photon_rs::Rgb;
+* use photon_rs::colour_spaces::mix_with_colour;
+* use photon_rs::native::open_image;
+*
+* let mix_colour = Rgb::new(50_u8, 255_u8, 254_u8);
+* let mut img = open_image("img.jpg").expect("File should open");
+* mix_with_colour(&mut img, mix_colour, 0.4_f32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {Rgb} mix_colour
+* @param {number} opacity
+*/
+function mix_with_colour(photon_image, mix_colour, opacity) {
+    _assertClass(photon_image, PhotonImage);
+    _assertClass(mix_colour, Rgb);
+    var ptr0 = mix_colour.ptr;
+    mix_colour.ptr = 0;
+    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.mix_with_colour(photon_image.ptr, ptr0, opacity);
+}
+
+/**
 * Adds an offset to the image by a certain number of pixels.
 *
 * This creates an RGB shift effect.
@@ -2616,627 +3237,6 @@ function obsidian(img) {
     _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.obsidian(img.ptr);
 }
 
-/**
-* Add a watermark to an image.
-*
-* # Arguments
-* * `img` - A DynamicImage that contains a view into the image.
-* * `watermark` - The watermark to be placed onto the `img` image.
-* * `x` - The x coordinate where the watermark's top corner should be positioned.
-* * `y` - The y coordinate where the watermark's top corner should be positioned.
-* # Example
-*
-* ```no_run
-* // For example, to add a watermark to an image at x: 30, y: 40:
-* use photon_rs::multiple::watermark;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let water_mark = open_image("watermark.jpg").expect("File should open");
-* watermark(&mut img, &water_mark, 30_u32, 40_u32);
-* ```
-* @param {PhotonImage} img
-* @param {PhotonImage} watermark
-* @param {number} x
-* @param {number} y
-*/
-function watermark(img, watermark, x, y) {
-    _assertClass(img, PhotonImage);
-    _assertClass(watermark, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.watermark(img.ptr, watermark.ptr, x, y);
-}
-
-/**
-* Blend two images together.
-*
-* The `blend_mode` (3rd param) determines which blending mode to use; change this for varying effects.
-* The blend modes available include: `overlay`, `over`, `atop`, `xor`, `multiply`, `burn`, `soft_light`, `hard_light`,
-* `difference`, `lighten`, `darken`, `dodge`, `plus`, `exclusion` (more to come)
-* NOTE: The first image must be smaller than the second image passed as params.
-* If the first image were larger than the second, then there would be overflowing pixels which would have no corresponding pixels
-* in the second image.
-* # Arguments
-* * `img` - A DynamicImage that contains a view into the image.
-* * `img2` - The 2nd DynamicImage to be blended with the first.
-* * `blend_mode` - The blending mode to use. See above for complete list of blend modes available.
-* # Example
-*
-* ```no_run
-* // For example, to blend two images with the `multiply` blend mode:
-* use photon_rs::multiple::blend;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let img2 = open_image("img2.jpg").expect("File should open");
-* blend(&mut img, &img2, "multiply");
-* ```
-* @param {PhotonImage} photon_image
-* @param {PhotonImage} photon_image2
-* @param {string} blend_mode
-*/
-function blend(photon_image, photon_image2, blend_mode) {
-    _assertClass(photon_image, PhotonImage);
-    _assertClass(photon_image2, PhotonImage);
-    var ptr0 = passStringToWasm0(blend_mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-    var len0 = WASM_VECTOR_LEN;
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.blend(photon_image.ptr, photon_image2.ptr, ptr0, len0);
-}
-
-/**
-* @param {number} width
-* @param {number} height
-* @returns {PhotonImage}
-*/
-function create_gradient(width, height) {
-    var ret = _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.create_gradient(width, height);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Apply a gradient to an image.
-* @param {PhotonImage} image
-*/
-function apply_gradient(image) {
-    _assertClass(image, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.apply_gradient(image.ptr);
-}
-
-/**
-* Apply gamma correction.
-* Image manipulation effects in the LCh colour space
-*
-* Effects include:
-* * **saturate** - Saturation increase.
-* * **desaturate** - Desaturate the image.
-* * **shift_hue** - Hue rotation by a specified number of degrees.
-* * **darken** - Decrease the brightness.
-* * **lighten** - Increase the brightness.
-*
-* # Arguments
-* * `photon_image` - A PhotonImage.
-* * `mode` - The effect desired to be applied. Choose from: `saturate`, `desaturate`, `shift_hue`, `darken`, `lighten`
-* * `amt` - A float value from 0 to 1 which represents the amount the effect should be increased by.
-* # Example
-* ```no_run
-* // For example to increase the saturation by 10%:
-* use photon_rs::colour_spaces::lch;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* lch(&mut img, "saturate", 0.1_f32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {string} mode
-* @param {number} amt
-*/
-function lch(photon_image, mode, amt) {
-    _assertClass(photon_image, PhotonImage);
-    var ptr0 = passStringToWasm0(mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-    var len0 = WASM_VECTOR_LEN;
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lch(photon_image.ptr, ptr0, len0, amt);
-}
-
-/**
-* Image manipulation effects in the HSL colour space.
-*
-* Effects include:
-* * **saturate** - Saturation increase.
-* * **desaturate** - Desaturate the image.
-* * **shift_hue** - Hue rotation by a specified number of degrees.
-* * **darken** - Decrease the brightness.
-* * **lighten** - Increase the brightness.
-*
-* # Arguments
-* * `photon_image` - A PhotonImage.
-* * `mode` - The effect desired to be applied. Choose from: `saturate`, `desaturate`, `shift_hue`, `darken`, `lighten`
-* * `amt` - A float value from 0 to 1 which represents the amount the effect should be increased by.
-* # Example
-* ```no_run
-* // For example to increase the saturation by 10%:
-* use photon_rs::colour_spaces::hsl;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* hsl(&mut img, "saturate", 0.1_f32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {string} mode
-* @param {number} amt
-*/
-function hsl(photon_image, mode, amt) {
-    _assertClass(photon_image, PhotonImage);
-    var ptr0 = passStringToWasm0(mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-    var len0 = WASM_VECTOR_LEN;
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hsl(photon_image.ptr, ptr0, len0, amt);
-}
-
-/**
-* Image manipulation in the HSV colour space.
-*
-* Effects include:
-* * **saturate** - Saturation increase.
-* * **desaturate** - Desaturate the image.
-* * **shift_hue** - Hue rotation by a specified number of degrees.
-* * **darken** - Decrease the brightness.
-* * **lighten** - Increase the brightness.
-*
-* # Arguments
-* * `photon_image` - A PhotonImage.
-* * `mode` - The effect desired to be applied. Choose from: `saturate`, `desaturate`, `shift_hue`, `darken`, `lighten`
-* * `amt` - A float value from 0 to 1 which represents the amount the effect should be increased by.
-*
-* # Example
-* ```no_run
-* // For example to increase the saturation by 10%:
-* use photon_rs::colour_spaces::hsv;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* hsv(&mut img, "saturate", 0.1_f32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {string} mode
-* @param {number} amt
-*/
-function hsv(photon_image, mode, amt) {
-    _assertClass(photon_image, PhotonImage);
-    var ptr0 = passStringToWasm0(mode, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-    var len0 = WASM_VECTOR_LEN;
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hsv(photon_image.ptr, ptr0, len0, amt);
-}
-
-/**
-* Shift hue by a specified number of degrees in the HSL colour space.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `mode` - A float value from 0 to 1 which is the amount to shift the hue by, or hue rotate by.
-*
-* # Example
-* ```no_run
-* // For example to hue rotate/shift the hue by 120 degrees in the HSL colour space:
-* use photon_rs::colour_spaces::hue_rotate_hsl;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* hue_rotate_hsl(&mut img, 120_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} degrees
-*/
-function hue_rotate_hsl(img, degrees) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hue_rotate_hsl(img.ptr, degrees);
-}
-
-/**
-* Shift hue by a specified number of degrees in the HSV colour space.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `mode` - A float value from 0 to 1 which is the amount to shift the hue by, or hue rotate by.
-*
-* # Example
-* ```no_run
-* // For example to hue rotate/shift the hue by 120 degrees in the HSV colour space:
-* use photon_rs::colour_spaces::hue_rotate_hsv;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* hue_rotate_hsv(&mut img, 120_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} degrees
-*/
-function hue_rotate_hsv(img, degrees) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hue_rotate_hsv(img.ptr, degrees);
-}
-
-/**
-* Shift hue by a specified number of degrees in the LCh colour space.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `mode` - A float value from 0 to 1 which is the amount to shift the hue by, or hue rotate by.
-*
-* # Example
-* ```no_run
-* // For example to hue rotate/shift the hue by 120 degrees in the HSL colour space:
-* use photon_rs::colour_spaces::hue_rotate_lch;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* hue_rotate_lch(&mut img, 120_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} degrees
-*/
-function hue_rotate_lch(img, degrees) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.hue_rotate_lch(img.ptr, degrees);
-}
-
-/**
-* Increase the image's saturation by converting each pixel's colour to the HSL colour space
-* and increasing the colour's saturation.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to increase the saturation by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Increasing saturation by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to increase saturation by 10% in the HSL colour space:
-* use photon_rs::colour_spaces::saturate_hsl;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* saturate_hsl(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function saturate_hsl(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.saturate_hsl(img.ptr, level);
-}
-
-/**
-* Increase the image's saturation in the LCh colour space.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to increase the saturation by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Increasing saturation by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to increase saturation by 40% in the Lch colour space:
-* use photon_rs::colour_spaces::saturate_lch;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* saturate_lch(&mut img, 0.4_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function saturate_lch(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.saturate_lch(img.ptr, level);
-}
-
-/**
-* Increase the image's saturation in the HSV colour space.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level by which to increase the saturation by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Increasing saturation by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to increase saturation by 30% in the HSV colour space:
-* use photon_rs::colour_spaces::saturate_hsv;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* saturate_hsv(&mut img, 0.3_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function saturate_hsv(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.saturate_hsv(img.ptr, level);
-}
-
-/**
-* Lighten an image by a specified amount in the LCh colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to lighten the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Lightening by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to lighten an image by 10% in the LCh colour space:
-* use photon_rs::colour_spaces::lighten_lch;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* lighten_lch(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function lighten_lch(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lighten_lch(img.ptr, level);
-}
-
-/**
-* Lighten an image by a specified amount in the HSL colour space.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to lighten the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Lightening by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to lighten an image by 10% in the HSL colour space:
-* use photon_rs::colour_spaces::lighten_hsl;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* lighten_hsl(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function lighten_hsl(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lighten_hsl(img.ptr, level);
-}
-
-/**
-* Lighten an image by a specified amount in the HSV colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to lighten the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Lightening by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to lighten an image by 10% in the HSV colour space:
-* use photon_rs::colour_spaces::lighten_hsv;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* lighten_hsv(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function lighten_hsv(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lighten_hsv(img.ptr, level);
-}
-
-/**
-* Darken the image by a specified amount in the LCh colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to darken the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Darkening by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to darken an image by 10% in the LCh colour space:
-* use photon_rs::colour_spaces::darken_lch;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* darken_lch(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function darken_lch(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.darken_lch(img.ptr, level);
-}
-
-/**
-* Darken the image by a specified amount in the HSL colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to darken the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Darkening by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to darken an image by 10% in the HSL colour space:
-* use photon_rs::colour_spaces::darken_hsl;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* darken_hsl(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function darken_hsl(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.darken_hsl(img.ptr, level);
-}
-
-/**
-* Darken the image's colours by a specified amount in the HSV colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to darken the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Darkening by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to darken an image by 10% in the HSV colour space:
-* use photon_rs::colour_spaces::darken_hsv;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* darken_hsv(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function darken_hsv(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.darken_hsv(img.ptr, level);
-}
-
-/**
-* Desaturate the image by a specified amount in the HSV colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to desaturate the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Desaturating by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to desaturate an image by 10% in the HSV colour space:
-* use photon_rs::colour_spaces::desaturate_hsv;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* desaturate_hsv(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function desaturate_hsv(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.desaturate_hsv(img.ptr, level);
-}
-
-/**
-* Desaturate the image by a specified amount in the HSL colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to desaturate the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Desaturating by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to desaturate an image by 10% in the LCh colour space:
-* use photon_rs::colour_spaces::desaturate_hsl;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* desaturate_hsl(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function desaturate_hsl(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.desaturate_hsl(img.ptr, level);
-}
-
-/**
-* Desaturate the image by a specified amount in the LCh colour space.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `level` - Float value from 0 to 1 representing the level to which to desaturate the image by.
-* The `level` must be from 0 to 1 in floating-point, `f32` format.
-* Desaturating by 80% would be represented by a `level` of 0.8
-*
-* # Example
-* ```no_run
-* // For example to desaturate an image by 10% in the LCh colour space:
-* use photon_rs::colour_spaces::desaturate_lch;
-* use photon_rs::native::open_image;
-*
-* // Open the image. A PhotonImage is returned.
-* let mut img = open_image("img.jpg").expect("File should open");
-* desaturate_lch(&mut img, 0.1_f32);
-* ```
-* @param {PhotonImage} img
-* @param {number} level
-*/
-function desaturate_lch(img, level) {
-    _assertClass(img, PhotonImage);
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.desaturate_lch(img.ptr, level);
-}
-
-/**
-* Mix image with a single color, supporting passing `opacity`.
-* The algorithm comes from Jimp. See `function mix` and `function colorFn` at following link:
-* https://github.com/oliver-moran/jimp/blob/29679faa597228ff2f20d34c5758e4d2257065a3/packages/plugin-color/src/index.js
-* Specifically, result_value = (mix_color_value - origin_value) * opacity + origin_value =
-* mix_color_value * opacity + (1 - opacity) * origin_value for each
-* of RGB channel.
-*
-* # Arguments
-* * `photon_image` - A PhotonImage that contains a view into the image.
-* * `mix_color` - the color to be mixed in, as an RGB value.
-* * `opacity` - the opacity of color when mixed to image. Float value from 0 to 1.
-* # Example
-*
-* ```no_run
-* // For example, to mix an image with rgb (50, 255, 254) and opacity 0.4:
-* use photon_rs::Rgb;
-* use photon_rs::colour_spaces::mix_with_colour;
-* use photon_rs::native::open_image;
-*
-* let mix_colour = Rgb::new(50_u8, 255_u8, 254_u8);
-* let mut img = open_image("img.jpg").expect("File should open");
-* mix_with_colour(&mut img, mix_colour, 0.4_f32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {Rgb} mix_colour
-* @param {number} opacity
-*/
-function mix_with_colour(photon_image, mix_colour, opacity) {
-    _assertClass(photon_image, PhotonImage);
-    _assertClass(mix_colour, Rgb);
-    var ptr0 = mix_colour.ptr;
-    mix_colour.ptr = 0;
-    _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.mix_with_colour(photon_image.ptr, ptr0, opacity);
-}
-
 function isLikeNone(x) {
     return x === undefined || x === null;
 }
@@ -3932,37 +3932,37 @@ function __wbg_error_4bb6c2a97407129a(arg0, arg1) {
     }
 };
 
-function __wbg_instanceof_Window_11e25482011fc506(arg0) {
+function __wbg_instanceof_Window_b99429ec408dcb8d(arg0) {
     var ret = getObject(arg0) instanceof Window;
     return ret;
 };
 
-function __wbg_document_5aff8cd83ef968f5(arg0) {
+function __wbg_document_6d5890b86bbf5b96(arg0) {
     var ret = getObject(arg0).document;
     return isLikeNone(ret) ? 0 : addHeapObject(ret);
 };
 
-function __wbg_body_525168d9e773c3f8(arg0) {
+function __wbg_body_25dc44f3e329890b(arg0) {
     var ret = getObject(arg0).body;
     return isLikeNone(ret) ? 0 : addHeapObject(ret);
 };
 
-function __wbg_createElement_ac65a6ce60c4812c() { return handleError(function (arg0, arg1, arg2) {
+function __wbg_createElement_1959ce882284e011() { return handleError(function (arg0, arg1, arg2) {
     var ret = getObject(arg0).createElement(getStringFromWasm0(arg1, arg2));
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_width_5c37496c7c69eaa2(arg0) {
+function __wbg_width_eb76cc22778eda38(arg0) {
     var ret = getObject(arg0).width;
     return ret;
 };
 
-function __wbg_height_3711225374206b37(arg0) {
+function __wbg_height_07654d9fa181ebde(arg0) {
     var ret = getObject(arg0).height;
     return ret;
 };
 
-function __wbg_data_315524ada7b563f4(arg0, arg1) {
+function __wbg_data_c57552bf86eb9e9b(arg0, arg1) {
     var ret = getObject(arg1).data;
     var ptr0 = passArray8ToWasm0(ret, _sharpen_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc);
     var len0 = WASM_VECTOR_LEN;
@@ -3970,67 +3970,72 @@ function __wbg_data_315524ada7b563f4(arg0, arg1) {
     getInt32Memory0()[arg0 / 4 + 0] = ptr0;
 };
 
-function __wbg_newwithu8clampedarrayandsh_d5177e9b24f89848() { return handleError(function (arg0, arg1, arg2, arg3) {
+function __wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc() { return handleError(function (arg0, arg1, arg2, arg3) {
     var ret = new ImageData(getClampedArrayU8FromWasm0(arg0, arg1), arg2 >>> 0, arg3 >>> 0);
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_instanceof_CanvasRenderingContext2d_779e79c4121aa91b(arg0) {
+function __wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93(arg0) {
     var ret = getObject(arg0) instanceof CanvasRenderingContext2D;
     return ret;
 };
 
-function __wbg_drawImage_8335c6778b19d155() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9) {
+function __wbg_drawImage_92b19107b9c0f5a8() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9) {
     getObject(arg0).drawImage(getObject(arg1), arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
 }, arguments) };
 
-function __wbg_getImageData_b5842f1d6ce40388() { return handleError(function (arg0, arg1, arg2, arg3, arg4) {
+function __wbg_getImageData_c5c7e514c01d580b() { return handleError(function (arg0, arg1, arg2, arg3, arg4) {
     var ret = getObject(arg0).getImageData(arg1, arg2, arg3, arg4);
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_putImageData_67091e6c02209309() { return handleError(function (arg0, arg1, arg2, arg3) {
+function __wbg_putImageData_4901f2bdac6d5f4a() { return handleError(function (arg0, arg1, arg2, arg3) {
     getObject(arg0).putImageData(getObject(arg1), arg2, arg3);
 }, arguments) };
 
-function __wbg_settextContent_2e55253528a044b7(arg0, arg1, arg2) {
+function __wbg_settextContent_4438176b20024f4a(arg0, arg1, arg2) {
     getObject(arg0).textContent = arg1 === 0 ? undefined : getStringFromWasm0(arg1, arg2);
 };
 
-function __wbg_appendChild_6ed236bb79c198df() { return handleError(function (arg0, arg1) {
+function __wbg_appendChild_27974267a42a0def() { return handleError(function (arg0, arg1) {
     var ret = getObject(arg0).appendChild(getObject(arg1));
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_instanceof_HtmlCanvasElement_fd3cbbe3906d7792(arg0) {
+function __wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700(arg0) {
     var ret = getObject(arg0) instanceof HTMLCanvasElement;
     return ret;
 };
 
-function __wbg_width_9eb2c66ac9dde633(arg0) {
+function __wbg_width_99577d88b55411fa(arg0) {
     var ret = getObject(arg0).width;
     return ret;
 };
 
-function __wbg_setwidth_f3c88eb520ba8d47(arg0, arg1) {
+function __wbg_setwidth_80cb48aa8c97d2c1(arg0, arg1) {
     getObject(arg0).width = arg1 >>> 0;
 };
 
-function __wbg_height_64e5d4222af3fb90(arg0) {
+function __wbg_height_636c7530a04a1f7c(arg0) {
     var ret = getObject(arg0).height;
     return ret;
 };
 
-function __wbg_setheight_5a1abba41e35c42a(arg0, arg1) {
+function __wbg_setheight_127ee9a2bb2ec12e(arg0, arg1) {
     getObject(arg0).height = arg1 >>> 0;
 };
 
-function __wbg_getContext_813df131fcbd6e91() { return handleError(function (arg0, arg1, arg2) {
+function __wbg_getContext_c91489f5e0f738d8() { return handleError(function (arg0, arg1, arg2) {
     var ret = getObject(arg0).getContext(getStringFromWasm0(arg1, arg2));
     return isLikeNone(ret) ? 0 : addHeapObject(ret);
 }, arguments) };
 
-function __wbg_call_ba36642bd901572b() { return handleError(function (arg0, arg1) {
+function __wbg_newnoargs_68424965d85fcb08(arg0, arg1) {
+    var ret = new Function(getStringFromWasm0(arg0, arg1));
+    return addHeapObject(ret);
+};
+
+function __wbg_call_9698e9b9c4668ae0() { return handleError(function (arg0, arg1) {
     var ret = getObject(arg0).call(getObject(arg1));
     return addHeapObject(ret);
 }, arguments) };
@@ -4040,27 +4045,22 @@ function __wbindgen_object_clone_ref(arg0) {
     return addHeapObject(ret);
 };
 
-function __wbg_newnoargs_9fdd8f3961dd1bee(arg0, arg1) {
-    var ret = new Function(getStringFromWasm0(arg0, arg1));
-    return addHeapObject(ret);
-};
-
-function __wbg_self_bb69a836a72ec6e9() { return handleError(function () {
+function __wbg_self_3df7c33e222cd53b() { return handleError(function () {
     var ret = self.self;
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_window_3304fc4b414c9693() { return handleError(function () {
+function __wbg_window_0f90182e6c405ff2() { return handleError(function () {
     var ret = window.window;
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_globalThis_e0d21cabc6630763() { return handleError(function () {
+function __wbg_globalThis_787cfd4f25a35141() { return handleError(function () {
     var ret = globalThis.globalThis;
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_global_8463719227271676() { return handleError(function () {
+function __wbg_global_af2eb7b1369372ed() { return handleError(function () {
     var ret = __webpack_require__.g.global;
     return addHeapObject(ret);
 }, arguments) };
