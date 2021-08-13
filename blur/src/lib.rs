@@ -71,6 +71,11 @@ impl Processor for Blur {
     fn default_config(&self) -> serde_json::Value {
         serde_json::to_value(Config::default()).unwrap()
     }
+
+    fn icon(&self) -> Option<Vec<u8>> {
+        let data: Vec<u8> = include_bytes!("../assets/blur.png").to_vec();
+        Some(data)
+    }
 }
 
 #[cfg(target_arch = "wasm32")]
@@ -86,5 +91,11 @@ mod tests {
     fn default() {
         let blur = Blur::default();
         assert_eq!(blur.name(), "blur");
+    }
+
+    #[test]
+    fn test() {
+        let blur = Blur::default();
+        assert_eq!(blur.icon().unwrap().len(), 94857);
     }
 }

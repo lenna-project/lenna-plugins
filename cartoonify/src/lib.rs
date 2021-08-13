@@ -124,6 +124,11 @@ impl Processor for Cartoonify {
     fn default_config(&self) -> serde_json::Value {
         serde_json::to_value(Config::default()).unwrap()
     }
+
+    fn icon(&self) -> Option<Vec<u8>> {
+        let data: Vec<u8> = include_bytes!("../assets/cartoonify.png").to_vec();
+        Some(data)
+    }
 }
 
 #[cfg(target_arch = "wasm32")]

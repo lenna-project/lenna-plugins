@@ -1,8 +1,8 @@
 use image::{DynamicImage, GenericImageView};
-use photon_rs::{helpers::dyn_image_from_raw, conv::sharpen, PhotonImage};
 use lenna_core::plugins::PluginRegistrar;
 use lenna_core::ProcessorConfig;
 use lenna_core::{core::processor::ExifProcessor, core::processor::ImageProcessor, Processor};
+use photon_rs::{conv::sharpen, helpers::dyn_image_from_raw, PhotonImage};
 
 extern "C" fn register(registrar: &mut dyn PluginRegistrar) {
     registrar.add_plugin(Box::new(Sharpen));
