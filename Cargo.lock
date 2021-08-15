@@ -470,8 +470,8 @@ dependencies = [
 
 [[package]]
 name = "lenna_core"
-version = "0.1.7"
-source = "git+https://github.com/lenna-project/lenna-core?branch=main#b5902bdf41cf93ccc641a371264e086bb6549b3b"
+version = "0.1.8"
+source = "git+https://github.com/lenna-project/lenna-core?branch=main#2a1fd4442b0bfe00098d1701fddeb1bb901b3c82"
 dependencies = [
  "base64",
  "cbindgen",
