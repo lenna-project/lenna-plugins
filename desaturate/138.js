@@ -1,9 +1,9 @@
+"use strict";
 (self["webpackChunk_lenna_project_desaturate"] = self["webpackChunk_lenna_project_desaturate"] || []).push([[138,179],{
 
 /***/ 138:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "processor": () => (/* binding */ processor),

@@ -19,36 +19,36 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ Widget)
 });
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=7e18df90&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-7e18df90")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-7e18df90")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-7e18df90")
 const _hoisted_1 = { class: "plugin-config" }
 const _hoisted_2 = { id: "v-model-select-dynamic" }
+const _hoisted_3 = ["value"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
-    (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_2, [
-      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("select", {
-        "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.selected = $event)),
-        onChange: _cache[2] || (_cache[2] = $event => (_ctx.updateConfig()))
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", _hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_2, [
+      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("select", {
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (_ctx.selected = $event)),
+        onChange: _cache[1] || (_cache[1] = $event => (_ctx.updateConfig()))
       }, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.options, (option) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("option", {
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.options, (option) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("option", {
             value: option.value,
             key: option.text
-          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ["value"]))
+          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, _hoisted_3))
         }), 128))
       ], 544), [
         [runtime_dom_esm_bundler_js_.vModelSelect, _ctx.selected]
       ])
     ])
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=7e18df90&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js

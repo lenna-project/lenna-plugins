@@ -7,10 +7,10 @@ define("canny", [], () => { return /******/ (() => { // webpackBootstrap
 
 var moduleMap = {
 	"default": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
+		return Promise.all([__webpack_require__.e(855), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
 	},
 	"./Widget": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(280)]).then(() => (() => ((__webpack_require__(280)))));
+		return Promise.all([__webpack_require__.e(855), __webpack_require__.e(280)]).then(() => (() => ((__webpack_require__(280)))));
 	}
 };
 var get = (module, getScope) => {
@@ -249,7 +249,7 @@ __webpack_require__.d(exports, {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("vue", "3.0.11", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
+/******/ 					register("vue", "3.2.6", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -386,12 +386,12 @@ __webpack_require__.d(exports, {
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
+/******/ 			855: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,2,6], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
-/******/ 			"748": [
-/******/ 				748
+/******/ 			"855": [
+/******/ 				855
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
@@ -515,7 +515,7 @@ __webpack_require__.d(exports, {
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(748 != chunkId) {
+/******/ 						if(855 != chunkId) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -561,12 +561,14 @@ __webpack_require__.d(exports, {
 /******/ 			// add "moreModules" to the modules object,
 /******/ 			// then flag all "chunkIds" as loaded and fire callback
 /******/ 			var moduleId, chunkId, i = 0;
-/******/ 			for(moduleId in moreModules) {
-/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
 /******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
 /******/ 			}
-/******/ 			if(runtime) runtime(__webpack_require__);
 /******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
 /******/ 			for(;i < chunkIds.length; i++) {
 /******/ 				chunkId = chunkIds[i];
@@ -597,7 +599,7 @@ __webpack_require__.d(exports, {
 /******/ 		var wasmImportedFuncCache4;
 /******/ 		var wasmImportedFuncCache5;
 /******/ 		var wasmImportObjects = {
-/******/ 			804: function() {
+/******/ 			798: function() {
 /******/ 				return {
 /******/ 					"./canny_bg.js": {
 /******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
@@ -631,7 +633,7 @@ __webpack_require__.d(exports, {
 /******/ 		
 /******/ 		var wasmModuleMap = {
 /******/ 			"915": [
-/******/ 				804
+/******/ 				798
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -651,9 +653,9 @@ __webpack_require__.d(exports, {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"915":{"804":"84ab394c6c895116ad76"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"915":{"798":"e850e582d290968343c9"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
-/******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
+/******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
 /******/ 							return WebAssembly.instantiate(items[0], items[1]);
 /******/ 						});

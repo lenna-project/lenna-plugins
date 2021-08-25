@@ -8,34 +8,34 @@
 
 // UNUSED EXPORTS: default
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=template&id=42c45143&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-42c45143")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-42c45143")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-42c45143")
 const _hoisted_1 = {
   key: 0,
   class: "plugin-config"
 }
+const _hoisted_2 = ["placeholder", "onUpdate:modelValue"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (_ctx.config)
-    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.config, (c) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", _hoisted_1, [
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.config, (c) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
             key: c.key
           }, [
-            (0,runtime_dom_esm_bundler_js_.createVNode)("div", null, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("label", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(c.key), 1),
-              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+            (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", null, [
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("label", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(c.key), 1),
+              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
                 type: "number",
                 placeholder: c.key,
                 "onUpdate:modelValue": $event => (c.value = $event),
-                onChange: _cache[1] || (_cache[1] = $event => (_ctx.updateConfig()))
-              }, null, 40, ["placeholder", "onUpdate:modelValue"]), [
+                onChange: _cache[0] || (_cache[0] = $event => (_ctx.updateConfig()))
+              }, null, 40, _hoisted_2), [
                 [
                   runtime_dom_esm_bundler_js_.vModelText,
                   c.value,
@@ -48,7 +48,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
         }), 128))
       ]))
     : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
-})
+}
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=42c45143&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[4].use[0]!./src/Widget.vue?vue&type=script&lang=js
@@ -330,7 +330,7 @@ const icon = () => {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("vue", "3.0.11", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
+/******/ 					register("vue", "3.2.6", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -467,9 +467,9 @@ const icon = () => {
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
+/******/ 			855: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,2,6], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
 /******/ 		};
-/******/ 		var initialConsumes = [748];
+/******/ 		var initialConsumes = [855];
 /******/ 		initialConsumes.forEach((id) => {
 /******/ 			__webpack_require__.m[id] = (module) => {
 /******/ 				// Handle case when module is used sync
@@ -520,7 +520,7 @@ const icon = () => {
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
 /******/ 			280: 0,
-/******/ 			748: 0
+/******/ 			855: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -578,12 +578,14 @@ const icon = () => {
 /******/ 			// add "moreModules" to the modules object,
 /******/ 			// then flag all "chunkIds" as loaded and fire callback
 /******/ 			var moduleId, chunkId, i = 0;
-/******/ 			for(moduleId in moreModules) {
-/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
 /******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
 /******/ 			}
-/******/ 			if(runtime) runtime(__webpack_require__);
 /******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
 /******/ 			for(;i < chunkIds.length; i++) {
 /******/ 				chunkId = chunkIds[i];
@@ -614,7 +616,7 @@ const icon = () => {
 /******/ 		var wasmImportedFuncCache4;
 /******/ 		var wasmImportedFuncCache5;
 /******/ 		var wasmImportObjects = {
-/******/ 			804: function() {
+/******/ 			798: function() {
 /******/ 				return {
 /******/ 					"./canny_bg.js": {
 /******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
@@ -648,7 +650,7 @@ const icon = () => {
 /******/ 		
 /******/ 		var wasmModuleMap = {
 /******/ 			"915": [
-/******/ 				804
+/******/ 				798
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -668,9 +670,9 @@ const icon = () => {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"915":{"804":"84ab394c6c895116ad76"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"915":{"798":"e850e582d290968343c9"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
-/******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
+/******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
 /******/ 							return WebAssembly.instantiate(items[0], items[1]);
 /******/ 						});

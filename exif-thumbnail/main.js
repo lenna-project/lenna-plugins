@@ -8,30 +8,29 @@
 
 // UNUSED EXPORTS: default
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=template&id=486ac75a&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-486ac75a")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-486ac75a")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-486ac75a")
 const _hoisted_1 = { class: "plugin-config" }
-const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("label", { for: "thumbnail" }, "add thumbnail to exif data", -1)
+const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("label", { for: "thumbnail" }, "add thumbnail to exif data", -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
-    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", _hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
       type: "checkbox",
       id: "thumbnail",
-      "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.clear = $event)),
-      onChange: _cache[2] || (_cache[2] = $event => (_ctx.updateConfig()))
+      "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (_ctx.clear = $event)),
+      onChange: _cache[1] || (_cache[1] = $event => (_ctx.updateConfig()))
     }, null, 544), [
       [runtime_dom_esm_bundler_js_.vModelCheckbox, _ctx.clear]
     ]),
     _hoisted_2
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=486ac75a&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=script&lang=js
@@ -308,7 +307,7 @@ const icon = () => {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("vue", "3.0.11", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
+/******/ 					register("vue", "3.2.6", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -445,9 +444,9 @@ const icon = () => {
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
+/******/ 			855: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,2,6], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
 /******/ 		};
-/******/ 		var initialConsumes = [748];
+/******/ 		var initialConsumes = [855];
 /******/ 		initialConsumes.forEach((id) => {
 /******/ 			__webpack_require__.m[id] = (module) => {
 /******/ 				// Handle case when module is used sync
@@ -498,7 +497,7 @@ const icon = () => {
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
 /******/ 			418: 0,
-/******/ 			748: 0
+/******/ 			855: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -556,12 +555,14 @@ const icon = () => {
 /******/ 			// add "moreModules" to the modules object,
 /******/ 			// then flag all "chunkIds" as loaded and fire callback
 /******/ 			var moduleId, chunkId, i = 0;
-/******/ 			for(moduleId in moreModules) {
-/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
 /******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
 /******/ 			}
-/******/ 			if(runtime) var result = runtime(__webpack_require__);
 /******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
 /******/ 			for(;i < chunkIds.length; i++) {
 /******/ 				chunkId = chunkIds[i];
@@ -592,7 +593,7 @@ const icon = () => {
 /******/ 		var wasmImportedFuncCache4;
 /******/ 		var wasmImportedFuncCache5;
 /******/ 		var wasmImportObjects = {
-/******/ 			479: function() {
+/******/ 			341: function() {
 /******/ 				return {
 /******/ 					"./thumbnail_bg.js": {
 /******/ 						"__wbindgen_json_serialize": function(p0i32,p1i32) {
@@ -626,7 +627,7 @@ const icon = () => {
 /******/ 		
 /******/ 		var wasmModuleMap = {
 /******/ 			"376": [
-/******/ 				479
+/******/ 				341
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -646,9 +647,9 @@ const icon = () => {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"376":{"479":"01b53ccb7b8dcf537f73"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"376":{"341":"a50e8a08d2c5226f6ce9"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
-/******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
+/******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
 /******/ 							return WebAssembly.instantiate(items[0], items[1]);
 /******/ 						});

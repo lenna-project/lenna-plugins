@@ -1,9 +1,9 @@
+"use strict";
 (self["webpackChunk_lenna_project_cartoonify"] = self["webpackChunk_lenna_project_cartoonify"] || []).push([[444,179],{
 
 /***/ 444:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 

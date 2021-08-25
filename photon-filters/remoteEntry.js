@@ -7,10 +7,10 @@ define("photon-filters", [], () => { return /******/ (() => { // webpackBootstra
 
 var moduleMap = {
 	"default": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
+		return Promise.all([__webpack_require__.e(855), __webpack_require__.e(138)]).then(() => (() => ((__webpack_require__(138)))));
 	},
 	"./Widget": () => {
-		return Promise.all([__webpack_require__.e(748), __webpack_require__.e(717)]).then(() => (() => ((__webpack_require__(717)))));
+		return Promise.all([__webpack_require__.e(855), __webpack_require__.e(717)]).then(() => (() => ((__webpack_require__(717)))));
 	}
 };
 var get = (module, getScope) => {
@@ -240,7 +240,7 @@ __webpack_require__.d(exports, {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("vue", "3.0.11", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
+/******/ 					register("vue", "3.2.6", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -304,7 +304,9 @@ __webpack_require__.d(exports, {
 /******/ 				installedCssChunks[chunkId] = 0;
 /******/ 			}));
 /******/ 		}
-/******/ 	};/* webpack/runtime/consumes */
+/******/ 	};
+/******/ 	
+/******/ 	/* webpack/runtime/consumes */
 /******/ 	(() => {
 /******/ 		var parseVersion = (str) => {
 /******/ 			// see webpack/lib/util/semver.js for original code
@@ -427,12 +429,12 @@ __webpack_require__.d(exports, {
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
+/******/ 			855: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,2,6], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
-/******/ 			"748": [
-/******/ 				748
+/******/ 			"855": [
+/******/ 				855
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
@@ -484,7 +486,7 @@ __webpack_require__.d(exports, {
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(748 != chunkId) {
+/******/ 						if(855 != chunkId) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -530,12 +532,14 @@ __webpack_require__.d(exports, {
 /******/ 			// add "moreModules" to the modules object,
 /******/ 			// then flag all "chunkIds" as loaded and fire callback
 /******/ 			var moduleId, chunkId, i = 0;
-/******/ 			for(moduleId in moreModules) {
-/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
 /******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
 /******/ 			}
-/******/ 			if(runtime) runtime(__webpack_require__);
 /******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
 /******/ 			for(;i < chunkIds.length; i++) {
 /******/ 				chunkId = chunkIds[i];
@@ -597,7 +601,7 @@ __webpack_require__.d(exports, {
 /******/ 		var wasmImportedFuncCache35;
 /******/ 		var wasmImportedFuncCache36;
 /******/ 		var wasmImportObjects = {
-/******/ 			709: function() {
+/******/ 			624: function() {
 /******/ 				return {
 /******/ 					"./photon_filters_bg.js": {
 /******/ 						"__wbindgen_json_parse": function(p0i32,p1i32) {
@@ -624,113 +628,113 @@ __webpack_require__.d(exports, {
 /******/ 							if(wasmImportedFuncCache5 === undefined) wasmImportedFuncCache5 = __webpack_require__.c[837].exports;
 /******/ 							return wasmImportedFuncCache5["kF"](p0i32,p1i32);
 /******/ 						},
-/******/ 						"__wbg_instanceof_Window_b99429ec408dcb8d": function(p0i32) {
+/******/ 						"__wbg_instanceof_Window_fac4f1f8e3c61c1f": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache6 === undefined) wasmImportedFuncCache6 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache6["yv"](p0i32);
+/******/ 							return wasmImportedFuncCache6["ss"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_document_6d5890b86bbf5b96": function(p0i32) {
+/******/ 						"__wbg_document_29fb71d7cea23553": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache7 === undefined) wasmImportedFuncCache7 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache7["aW"](p0i32);
+/******/ 							return wasmImportedFuncCache7["XD"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_body_25dc44f3e329890b": function(p0i32) {
+/******/ 						"__wbg_body_3f92bb47323529c7": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache8 === undefined) wasmImportedFuncCache8 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache8["$m"](p0i32);
+/******/ 							return wasmImportedFuncCache8["LC"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_createElement_1959ce882284e011": function(p0i32,p1i32,p2i32) {
+/******/ 						"__wbg_createElement_8a4eea3a05d8804d": function(p0i32,p1i32,p2i32) {
 /******/ 							if(wasmImportedFuncCache9 === undefined) wasmImportedFuncCache9 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache9["k_"](p0i32,p1i32,p2i32);
+/******/ 							return wasmImportedFuncCache9["A4"](p0i32,p1i32,p2i32);
 /******/ 						},
-/******/ 						"__wbg_width_eb76cc22778eda38": function(p0i32) {
+/******/ 						"__wbg_width_c11ed0f9cfab3ccc": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache10 === undefined) wasmImportedFuncCache10 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache10["iw"](p0i32);
+/******/ 							return wasmImportedFuncCache10["P7"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_height_07654d9fa181ebde": function(p0i32) {
+/******/ 						"__wbg_height_4accd9c5d251a0f9": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache11 === undefined) wasmImportedFuncCache11 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache11["G2"](p0i32);
+/******/ 							return wasmImportedFuncCache11["Fl"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_data_c57552bf86eb9e9b": function(p0i32,p1i32) {
+/******/ 						"__wbg_data_3b5132cf708f3fa5": function(p0i32,p1i32) {
 /******/ 							if(wasmImportedFuncCache12 === undefined) wasmImportedFuncCache12 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache12["tl"](p0i32,p1i32);
+/******/ 							return wasmImportedFuncCache12["rL"](p0i32,p1i32);
 /******/ 						},
-/******/ 						"__wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc": function(p0i32,p1i32,p2i32,p3i32) {
+/******/ 						"__wbg_newwithu8clampedarrayandsh_7da2ee46cfe942b1": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 							if(wasmImportedFuncCache13 === undefined) wasmImportedFuncCache13 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache13["Gx"](p0i32,p1i32,p2i32,p3i32);
+/******/ 							return wasmImportedFuncCache13["Ey"](p0i32,p1i32,p2i32,p3i32);
 /******/ 						},
-/******/ 						"__wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93": function(p0i32) {
+/******/ 						"__wbg_instanceof_CanvasRenderingContext2d_c3096464126a8635": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache14 === undefined) wasmImportedFuncCache14 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache14["QI"](p0i32);
+/******/ 							return wasmImportedFuncCache14["N2"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_drawImage_92b19107b9c0f5a8": function(p0i32,p1i32,p2f64,p3f64,p4f64,p5f64,p6f64,p7f64,p8f64,p9f64) {
+/******/ 						"__wbg_drawImage_301be33262c989de": function(p0i32,p1i32,p2f64,p3f64,p4f64,p5f64,p6f64,p7f64,p8f64,p9f64) {
 /******/ 							if(wasmImportedFuncCache15 === undefined) wasmImportedFuncCache15 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache15["Sd"](p0i32,p1i32,p2f64,p3f64,p4f64,p5f64,p6f64,p7f64,p8f64,p9f64);
+/******/ 							return wasmImportedFuncCache15["c8"](p0i32,p1i32,p2f64,p3f64,p4f64,p5f64,p6f64,p7f64,p8f64,p9f64);
 /******/ 						},
-/******/ 						"__wbg_getImageData_c5c7e514c01d580b": function(p0i32,p1f64,p2f64,p3f64,p4f64) {
+/******/ 						"__wbg_getImageData_95d4ea9a3956ff99": function(p0i32,p1f64,p2f64,p3f64,p4f64) {
 /******/ 							if(wasmImportedFuncCache16 === undefined) wasmImportedFuncCache16 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache16["Sc"](p0i32,p1f64,p2f64,p3f64,p4f64);
+/******/ 							return wasmImportedFuncCache16["xL"](p0i32,p1f64,p2f64,p3f64,p4f64);
 /******/ 						},
-/******/ 						"__wbg_putImageData_4901f2bdac6d5f4a": function(p0i32,p1i32,p2f64,p3f64) {
+/******/ 						"__wbg_putImageData_1bd8dd4b501fedf4": function(p0i32,p1i32,p2f64,p3f64) {
 /******/ 							if(wasmImportedFuncCache17 === undefined) wasmImportedFuncCache17 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache17["F3"](p0i32,p1i32,p2f64,p3f64);
+/******/ 							return wasmImportedFuncCache17["iG"](p0i32,p1i32,p2f64,p3f64);
 /******/ 						},
-/******/ 						"__wbg_settextContent_4438176b20024f4a": function(p0i32,p1i32,p2i32) {
+/******/ 						"__wbg_settextContent_68b1b04017e68705": function(p0i32,p1i32,p2i32) {
 /******/ 							if(wasmImportedFuncCache18 === undefined) wasmImportedFuncCache18 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache18["o$"](p0i32,p1i32,p2i32);
+/******/ 							return wasmImportedFuncCache18["bX"](p0i32,p1i32,p2i32);
 /******/ 						},
-/******/ 						"__wbg_appendChild_27974267a42a0def": function(p0i32,p1i32) {
+/******/ 						"__wbg_appendChild_f52907370cfda116": function(p0i32,p1i32) {
 /******/ 							if(wasmImportedFuncCache19 === undefined) wasmImportedFuncCache19 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache19["Mn"](p0i32,p1i32);
+/******/ 							return wasmImportedFuncCache19["wr"](p0i32,p1i32);
 /******/ 						},
-/******/ 						"__wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700": function(p0i32) {
+/******/ 						"__wbg_instanceof_HtmlCanvasElement_f6c37daa8caa628a": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache20 === undefined) wasmImportedFuncCache20 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache20["Sq"](p0i32);
+/******/ 							return wasmImportedFuncCache20["HU"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_width_99577d88b55411fa": function(p0i32) {
+/******/ 						"__wbg_width_472e3682c7514f2c": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache21 === undefined) wasmImportedFuncCache21 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache21["H$"](p0i32);
+/******/ 							return wasmImportedFuncCache21["oQ"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_setwidth_80cb48aa8c97d2c1": function(p0i32,p1i32) {
+/******/ 						"__wbg_setwidth_6ffbc02dcd566284": function(p0i32,p1i32) {
 /******/ 							if(wasmImportedFuncCache22 === undefined) wasmImportedFuncCache22 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache22["gf"](p0i32,p1i32);
+/******/ 							return wasmImportedFuncCache22["NY"](p0i32,p1i32);
 /******/ 						},
-/******/ 						"__wbg_height_636c7530a04a1f7c": function(p0i32) {
+/******/ 						"__wbg_height_1e657c7ba54aba97": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache23 === undefined) wasmImportedFuncCache23 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache23["rJ"](p0i32);
+/******/ 							return wasmImportedFuncCache23["Hj"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_setheight_127ee9a2bb2ec12e": function(p0i32,p1i32) {
+/******/ 						"__wbg_setheight_dade0779787da2d7": function(p0i32,p1i32) {
 /******/ 							if(wasmImportedFuncCache24 === undefined) wasmImportedFuncCache24 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache24["bJ"](p0i32,p1i32);
+/******/ 							return wasmImportedFuncCache24["l$"](p0i32,p1i32);
 /******/ 						},
-/******/ 						"__wbg_getContext_c91489f5e0f738d8": function(p0i32,p1i32,p2i32) {
+/******/ 						"__wbg_getContext_591a34067d6e74f2": function(p0i32,p1i32,p2i32) {
 /******/ 							if(wasmImportedFuncCache25 === undefined) wasmImportedFuncCache25 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache25["Pc"](p0i32,p1i32,p2i32);
+/******/ 							return wasmImportedFuncCache25["n9"](p0i32,p1i32,p2i32);
 /******/ 						},
-/******/ 						"__wbg_newnoargs_68424965d85fcb08": function(p0i32,p1i32) {
+/******/ 						"__wbg_newnoargs_1a11e7e8c906996c": function(p0i32,p1i32) {
 /******/ 							if(wasmImportedFuncCache26 === undefined) wasmImportedFuncCache26 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache26["Kh"](p0i32,p1i32);
+/******/ 							return wasmImportedFuncCache26["Ex"](p0i32,p1i32);
 /******/ 						},
-/******/ 						"__wbg_call_9698e9b9c4668ae0": function(p0i32,p1i32) {
+/******/ 						"__wbg_call_e91f71ddf1f45cff": function(p0i32,p1i32) {
 /******/ 							if(wasmImportedFuncCache27 === undefined) wasmImportedFuncCache27 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache27["b1"](p0i32,p1i32);
+/******/ 							return wasmImportedFuncCache27["A$"](p0i32,p1i32);
 /******/ 						},
 /******/ 						"__wbindgen_object_clone_ref": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache28 === undefined) wasmImportedFuncCache28 = __webpack_require__.c[837].exports;
 /******/ 							return wasmImportedFuncCache28["m_"](p0i32);
 /******/ 						},
-/******/ 						"__wbg_self_3df7c33e222cd53b": function() {
+/******/ 						"__wbg_self_b4546ea7b590539e": function() {
 /******/ 							if(wasmImportedFuncCache29 === undefined) wasmImportedFuncCache29 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache29["v6"]();
+/******/ 							return wasmImportedFuncCache29["QO"]();
 /******/ 						},
-/******/ 						"__wbg_window_0f90182e6c405ff2": function() {
+/******/ 						"__wbg_window_c279fea81f426a68": function() {
 /******/ 							if(wasmImportedFuncCache30 === undefined) wasmImportedFuncCache30 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache30["V0"]();
+/******/ 							return wasmImportedFuncCache30["PL"]();
 /******/ 						},
-/******/ 						"__wbg_globalThis_787cfd4f25a35141": function() {
+/******/ 						"__wbg_globalThis_038a6ea0ff17789f": function() {
 /******/ 							if(wasmImportedFuncCache31 === undefined) wasmImportedFuncCache31 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache31["Gg"]();
+/******/ 							return wasmImportedFuncCache31["cG"]();
 /******/ 						},
-/******/ 						"__wbg_global_af2eb7b1369372ed": function() {
+/******/ 						"__wbg_global_4f93ce884bcee597": function() {
 /******/ 							if(wasmImportedFuncCache32 === undefined) wasmImportedFuncCache32 = __webpack_require__.c[837].exports;
-/******/ 							return wasmImportedFuncCache32["EL"]();
+/******/ 							return wasmImportedFuncCache32["C"]();
 /******/ 						},
 /******/ 						"__wbindgen_is_undefined": function(p0i32) {
 /******/ 							if(wasmImportedFuncCache33 === undefined) wasmImportedFuncCache33 = __webpack_require__.c[837].exports;
@@ -755,7 +759,7 @@ __webpack_require__.d(exports, {
 /******/ 		
 /******/ 		var wasmModuleMap = {
 /******/ 			"700": [
-/******/ 				709
+/******/ 				624
 /******/ 			]
 /******/ 		};
 /******/ 		
@@ -775,9 +779,9 @@ __webpack_require__.d(exports, {
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"700":{"709":"4a605eaf6441b04b2396"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"700":{"624":"a49a86c8209164f19904"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
-/******/ 					if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
+/******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
 /******/ 							return WebAssembly.instantiate(items[0], items[1]);
 /******/ 						});

@@ -1,9 +1,9 @@
+"use strict";
 (self["webpackChunk_lenna_project_exif_thumbnail"] = self["webpackChunk_lenna_project_exif_thumbnail"] || []).push([[138,418],{
 
 /***/ 528:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -14,7 +14,6 @@
 /***/ 418:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -23,30 +22,29 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ Widget)
 });
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=template&id=486ac75a&scoped=true
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-486ac75a")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-486ac75a")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-486ac75a")
 const _hoisted_1 = { class: "plugin-config" }
-const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("label", { for: "thumbnail" }, "add thumbnail to exif data", -1)
+const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("label", { for: "thumbnail" }, "add thumbnail to exif data", -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
-    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", _hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
       type: "checkbox",
       id: "thumbnail",
-      "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.clear = $event)),
-      onChange: _cache[2] || (_cache[2] = $event => (_ctx.updateConfig()))
+      "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (_ctx.clear = $event)),
+      onChange: _cache[1] || (_cache[1] = $event => (_ctx.updateConfig()))
     }, null, 544), [
       [runtime_dom_esm_bundler_js_.vModelCheckbox, _ctx.clear]
     ]),
     _hoisted_2
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=486ac75a&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=script&lang=js
@@ -93,7 +91,6 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-486ac75a"
 /***/ 138:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ui": () => (/* binding */ ui),

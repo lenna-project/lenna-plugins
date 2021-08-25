@@ -1,44 +1,44 @@
+"use strict";
 (self["webpackChunk_lenna_project_desaturate"] = self["webpackChunk_lenna_project_desaturate"] || []).push([[397],{
 
 /***/ 397:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "PhotonImage": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.nt),
 /* harmony export */   "Rgb": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ss),
 /* harmony export */   "Rgba": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.y),
 /* harmony export */   "SamplingFilter": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.VY),
-/* harmony export */   "__wbg_appendChild_27974267a42a0def": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Mn),
-/* harmony export */   "__wbg_body_25dc44f3e329890b": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.$m),
-/* harmony export */   "__wbg_call_9698e9b9c4668ae0": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.b1),
-/* harmony export */   "__wbg_createElement_1959ce882284e011": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.k_),
-/* harmony export */   "__wbg_data_c57552bf86eb9e9b": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.tl),
-/* harmony export */   "__wbg_document_6d5890b86bbf5b96": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.aW),
-/* harmony export */   "__wbg_drawImage_92b19107b9c0f5a8": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Sd),
+/* harmony export */   "__wbg_appendChild_f52907370cfda116": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.wr),
+/* harmony export */   "__wbg_body_3f92bb47323529c7": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.LC),
+/* harmony export */   "__wbg_call_e91f71ddf1f45cff": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.A$),
+/* harmony export */   "__wbg_createElement_8a4eea3a05d8804d": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.A4),
+/* harmony export */   "__wbg_data_3b5132cf708f3fa5": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.rL),
+/* harmony export */   "__wbg_document_29fb71d7cea23553": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.XD),
+/* harmony export */   "__wbg_drawImage_301be33262c989de": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.c8),
 /* harmony export */   "__wbg_error_4bb6c2a97407129a": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.kF),
-/* harmony export */   "__wbg_getContext_c91489f5e0f738d8": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Pc),
-/* harmony export */   "__wbg_getImageData_c5c7e514c01d580b": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Sc),
-/* harmony export */   "__wbg_globalThis_787cfd4f25a35141": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Gg),
-/* harmony export */   "__wbg_global_af2eb7b1369372ed": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.EL),
-/* harmony export */   "__wbg_height_07654d9fa181ebde": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.G2),
-/* harmony export */   "__wbg_height_636c7530a04a1f7c": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.rJ),
-/* harmony export */   "__wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.QI),
-/* harmony export */   "__wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Sq),
-/* harmony export */   "__wbg_instanceof_Window_b99429ec408dcb8d": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.yv),
+/* harmony export */   "__wbg_getContext_591a34067d6e74f2": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.n9),
+/* harmony export */   "__wbg_getImageData_95d4ea9a3956ff99": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.xL),
+/* harmony export */   "__wbg_globalThis_038a6ea0ff17789f": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.cG),
+/* harmony export */   "__wbg_global_4f93ce884bcee597": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.C),
+/* harmony export */   "__wbg_height_1e657c7ba54aba97": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Hj),
+/* harmony export */   "__wbg_height_4accd9c5d251a0f9": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Fl),
+/* harmony export */   "__wbg_instanceof_CanvasRenderingContext2d_c3096464126a8635": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.N2),
+/* harmony export */   "__wbg_instanceof_HtmlCanvasElement_f6c37daa8caa628a": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.HU),
+/* harmony export */   "__wbg_instanceof_Window_fac4f1f8e3c61c1f": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.ss),
 /* harmony export */   "__wbg_new_59cb74e423758ede": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.h9),
-/* harmony export */   "__wbg_newnoargs_68424965d85fcb08": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Kh),
-/* harmony export */   "__wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Gx),
-/* harmony export */   "__wbg_putImageData_4901f2bdac6d5f4a": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.F3),
-/* harmony export */   "__wbg_self_3df7c33e222cd53b": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.v6),
-/* harmony export */   "__wbg_setheight_127ee9a2bb2ec12e": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.bJ),
-/* harmony export */   "__wbg_settextContent_4438176b20024f4a": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.o$),
-/* harmony export */   "__wbg_setwidth_80cb48aa8c97d2c1": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.gf),
+/* harmony export */   "__wbg_newnoargs_1a11e7e8c906996c": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ex),
+/* harmony export */   "__wbg_newwithu8clampedarrayandsh_7da2ee46cfe942b1": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ey),
+/* harmony export */   "__wbg_putImageData_1bd8dd4b501fedf4": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.iG),
+/* harmony export */   "__wbg_self_b4546ea7b590539e": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.QO),
+/* harmony export */   "__wbg_setheight_dade0779787da2d7": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.l$),
+/* harmony export */   "__wbg_settextContent_68b1b04017e68705": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.bX),
+/* harmony export */   "__wbg_setwidth_6ffbc02dcd566284": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.NY),
 /* harmony export */   "__wbg_stack_558ba5917b466edd": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Dz),
-/* harmony export */   "__wbg_width_99577d88b55411fa": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.H$),
-/* harmony export */   "__wbg_width_eb76cc22778eda38": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.iw),
-/* harmony export */   "__wbg_window_0f90182e6c405ff2": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.V0),
+/* harmony export */   "__wbg_width_472e3682c7514f2c": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.oQ),
+/* harmony export */   "__wbg_width_c11ed0f9cfab3ccc": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.P7),
+/* harmony export */   "__wbg_window_c279fea81f426a68": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.PL),
 /* harmony export */   "__wbindgen_debug_string": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.fY),
 /* harmony export */   "__wbindgen_is_undefined": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.XP),
 /* harmony export */   "__wbindgen_json_parse": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.t$),
@@ -62,7 +62,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "box_blur": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.vJ),
 /* harmony export */   "cali": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.fs),
 /* harmony export */   "color_horizontal_strips": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.aF),
-/* harmony export */   "color_vertical_strips": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.xL),
+/* harmony export */   "color_vertical_strips": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.P3),
 /* harmony export */   "colorize": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.SJ),
 /* harmony export */   "create_gradient": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Q8),
 /* harmony export */   "crop": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.d1),
@@ -83,6 +83,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "detect_horizontal_lines": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.eY),
 /* harmony export */   "detect_vertical_lines": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.s6),
 /* harmony export */   "dramatic": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.kw),
+/* harmony export */   "draw_text": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.v1),
+/* harmony export */   "draw_text_with_border": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Ys),
 /* harmony export */   "edge_detection": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.Yw),
 /* harmony export */   "edge_one": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.lf),
 /* harmony export */   "emboss": () => (/* reexport safe */ _desaturate_bg_js__WEBPACK_IMPORTED_MODULE_0__.D$),
@@ -180,21 +182,35 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 53:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "u_": () => (/* binding */ defaultConfig),
 /* harmony export */   "id": () => (/* binding */ id),
 /* harmony export */   "u2": () => (/* binding */ name),
 /* harmony export */   "WL": () => (/* binding */ description),
 /* harmony export */   "N4": () => (/* binding */ process),
-/* harmony export */   "KH": () => (/* binding */ run),
-/* harmony export */   "fh": () => (/* binding */ get_image_data),
-/* harmony export */   "P_": () => (/* binding */ putImageData),
-/* harmony export */   "mZ": () => (/* binding */ open_image),
-/* harmony export */   "Kf": () => (/* binding */ to_raw_pixels),
-/* harmony export */   "Zk": () => (/* binding */ base64_to_image),
-/* harmony export */   "gL": () => (/* binding */ base64_to_vec),
-/* harmony export */   "Sz": () => (/* binding */ to_image_data),
+/* harmony export */   "hh": () => (/* binding */ neue),
+/* harmony export */   "xP": () => (/* binding */ lix),
+/* harmony export */   "hg": () => (/* binding */ ryo),
+/* harmony export */   "hX": () => (/* binding */ filter),
+/* harmony export */   "aE": () => (/* binding */ lofi),
+/* harmony export */   "jN": () => (/* binding */ pastel_pink),
+/* harmony export */   "o3": () => (/* binding */ golden),
+/* harmony export */   "fs": () => (/* binding */ cali),
+/* harmony export */   "kw": () => (/* binding */ dramatic),
+/* harmony export */   "og": () => (/* binding */ firenze),
+/* harmony export */   "Mb": () => (/* binding */ obsidian),
+/* harmony export */   "d1": () => (/* binding */ crop),
+/* harmony export */   "Iw": () => (/* binding */ crop_img_browser),
+/* harmony export */   "xn": () => (/* binding */ fliph),
+/* harmony export */   "My": () => (/* binding */ flipv),
+/* harmony export */   "JZ": () => (/* binding */ resize_img_browser),
+/* harmony export */   "SI": () => (/* binding */ resize),
+/* harmony export */   "oJ": () => (/* binding */ seam_carve),
+/* harmony export */   "VI": () => (/* binding */ padding_uniform),
+/* harmony export */   "H_": () => (/* binding */ padding_left),
+/* harmony export */   "JG": () => (/* binding */ padding_right),
+/* harmony export */   "Bf": () => (/* binding */ padding_top),
+/* harmony export */   "Ae": () => (/* binding */ padding_bottom),
 /* harmony export */   "M4": () => (/* binding */ alter_channel),
 /* harmony export */   "rm": () => (/* binding */ alter_red_channel),
 /* harmony export */   "uR": () => (/* binding */ alter_green_channel),
@@ -212,6 +228,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "M": () => (/* binding */ selective_desaturate),
 /* harmony export */   "lN": () => (/* binding */ selective_saturate),
 /* harmony export */   "p": () => (/* binding */ selective_greyscale),
+/* harmony export */   "KH": () => (/* binding */ run),
+/* harmony export */   "fh": () => (/* binding */ get_image_data),
+/* harmony export */   "P_": () => (/* binding */ putImageData),
+/* harmony export */   "mZ": () => (/* binding */ open_image),
+/* harmony export */   "Kf": () => (/* binding */ to_raw_pixels),
+/* harmony export */   "Zk": () => (/* binding */ base64_to_image),
+/* harmony export */   "gL": () => (/* binding */ base64_to_vec),
+/* harmony export */   "Sz": () => (/* binding */ to_image_data),
+/* harmony export */   "cv": () => (/* binding */ offset),
+/* harmony export */   "MV": () => (/* binding */ offset_red),
+/* harmony export */   "Yc": () => (/* binding */ offset_green),
+/* harmony export */   "FJ": () => (/* binding */ offset_blue),
+/* harmony export */   "ou": () => (/* binding */ multiple_offsets),
+/* harmony export */   "T$": () => (/* binding */ primary),
+/* harmony export */   "SJ": () => (/* binding */ colorize),
+/* harmony export */   "x": () => (/* binding */ solarize),
+/* harmony export */   "Qf": () => (/* binding */ solarize_retimg),
+/* harmony export */   "DT": () => (/* binding */ inc_brightness),
+/* harmony export */   "NC": () => (/* binding */ adjust_contrast),
+/* harmony export */   "nV": () => (/* binding */ tint),
+/* harmony export */   "YX": () => (/* binding */ horizontal_strips),
+/* harmony export */   "aF": () => (/* binding */ color_horizontal_strips),
+/* harmony export */   "BG": () => (/* binding */ vertical_strips),
+/* harmony export */   "P3": () => (/* binding */ color_vertical_strips),
+/* harmony export */   "vK": () => (/* binding */ oil),
+/* harmony export */   "Yy": () => (/* binding */ frosted_glass),
 /* harmony export */   "OT": () => (/* binding */ monochrome),
 /* harmony export */   "HI": () => (/* binding */ sepia),
 /* harmony export */   "se": () => (/* binding */ grayscale),
@@ -229,6 +271,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "NH": () => (/* binding */ blend),
 /* harmony export */   "Q8": () => (/* binding */ create_gradient),
 /* harmony export */   "ws": () => (/* binding */ apply_gradient),
+/* harmony export */   "Ys": () => (/* binding */ draw_text_with_border),
+/* harmony export */   "v1": () => (/* binding */ draw_text),
 /* harmony export */   "tW": () => (/* binding */ lch),
 /* harmony export */   "Ym": () => (/* binding */ hsl),
 /* harmony export */   "mC": () => (/* binding */ hsv),
@@ -248,35 +292,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "TV": () => (/* binding */ desaturate_hsl),
 /* harmony export */   "Ei": () => (/* binding */ desaturate_lch),
 /* harmony export */   "c": () => (/* binding */ mix_with_colour),
-/* harmony export */   "cv": () => (/* binding */ offset),
-/* harmony export */   "MV": () => (/* binding */ offset_red),
-/* harmony export */   "Yc": () => (/* binding */ offset_green),
-/* harmony export */   "FJ": () => (/* binding */ offset_blue),
-/* harmony export */   "ou": () => (/* binding */ multiple_offsets),
-/* harmony export */   "T$": () => (/* binding */ primary),
-/* harmony export */   "SJ": () => (/* binding */ colorize),
-/* harmony export */   "x": () => (/* binding */ solarize),
-/* harmony export */   "Qf": () => (/* binding */ solarize_retimg),
-/* harmony export */   "DT": () => (/* binding */ inc_brightness),
-/* harmony export */   "NC": () => (/* binding */ adjust_contrast),
-/* harmony export */   "nV": () => (/* binding */ tint),
-/* harmony export */   "YX": () => (/* binding */ horizontal_strips),
-/* harmony export */   "aF": () => (/* binding */ color_horizontal_strips),
-/* harmony export */   "BG": () => (/* binding */ vertical_strips),
-/* harmony export */   "xL": () => (/* binding */ color_vertical_strips),
-/* harmony export */   "vK": () => (/* binding */ oil),
-/* harmony export */   "Yy": () => (/* binding */ frosted_glass),
-/* harmony export */   "hh": () => (/* binding */ neue),
-/* harmony export */   "xP": () => (/* binding */ lix),
-/* harmony export */   "hg": () => (/* binding */ ryo),
-/* harmony export */   "hX": () => (/* binding */ filter),
-/* harmony export */   "aE": () => (/* binding */ lofi),
-/* harmony export */   "jN": () => (/* binding */ pastel_pink),
-/* harmony export */   "o3": () => (/* binding */ golden),
-/* harmony export */   "fs": () => (/* binding */ cali),
-/* harmony export */   "kw": () => (/* binding */ dramatic),
-/* harmony export */   "og": () => (/* binding */ firenze),
-/* harmony export */   "Mb": () => (/* binding */ obsidian),
 /* harmony export */   "g$": () => (/* binding */ noise_reduction),
 /* harmony export */   "dF": () => (/* binding */ sharpen),
 /* harmony export */   "Yw": () => (/* binding */ edge_detection),
@@ -293,18 +308,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "WB": () => (/* binding */ sobel_horizontal),
 /* harmony export */   "XJ": () => (/* binding */ prewitt_horizontal),
 /* harmony export */   "c1": () => (/* binding */ sobel_vertical),
-/* harmony export */   "d1": () => (/* binding */ crop),
-/* harmony export */   "Iw": () => (/* binding */ crop_img_browser),
-/* harmony export */   "xn": () => (/* binding */ fliph),
-/* harmony export */   "My": () => (/* binding */ flipv),
-/* harmony export */   "JZ": () => (/* binding */ resize_img_browser),
-/* harmony export */   "SI": () => (/* binding */ resize),
-/* harmony export */   "oJ": () => (/* binding */ seam_carve),
-/* harmony export */   "VI": () => (/* binding */ padding_uniform),
-/* harmony export */   "H_": () => (/* binding */ padding_left),
-/* harmony export */   "JG": () => (/* binding */ padding_right),
-/* harmony export */   "Bf": () => (/* binding */ padding_top),
-/* harmony export */   "Ae": () => (/* binding */ padding_bottom),
 /* harmony export */   "VY": () => (/* binding */ SamplingFilter),
 /* harmony export */   "nt": () => (/* binding */ PhotonImage),
 /* harmony export */   "Ss": () => (/* binding */ Rgb),
@@ -315,39 +318,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "h9": () => (/* binding */ __wbg_new_59cb74e423758ede),
 /* harmony export */   "Dz": () => (/* binding */ __wbg_stack_558ba5917b466edd),
 /* harmony export */   "kF": () => (/* binding */ __wbg_error_4bb6c2a97407129a),
-/* harmony export */   "yv": () => (/* binding */ __wbg_instanceof_Window_b99429ec408dcb8d),
-/* harmony export */   "aW": () => (/* binding */ __wbg_document_6d5890b86bbf5b96),
-/* harmony export */   "$m": () => (/* binding */ __wbg_body_25dc44f3e329890b),
-/* harmony export */   "k_": () => (/* binding */ __wbg_createElement_1959ce882284e011),
-/* harmony export */   "iw": () => (/* binding */ __wbg_width_eb76cc22778eda38),
-/* harmony export */   "G2": () => (/* binding */ __wbg_height_07654d9fa181ebde),
-/* harmony export */   "tl": () => (/* binding */ __wbg_data_c57552bf86eb9e9b),
-/* harmony export */   "Gx": () => (/* binding */ __wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc),
-/* harmony export */   "QI": () => (/* binding */ __wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93),
-/* harmony export */   "Sd": () => (/* binding */ __wbg_drawImage_92b19107b9c0f5a8),
-/* harmony export */   "Sc": () => (/* binding */ __wbg_getImageData_c5c7e514c01d580b),
-/* harmony export */   "F3": () => (/* binding */ __wbg_putImageData_4901f2bdac6d5f4a),
-/* harmony export */   "o$": () => (/* binding */ __wbg_settextContent_4438176b20024f4a),
-/* harmony export */   "Mn": () => (/* binding */ __wbg_appendChild_27974267a42a0def),
-/* harmony export */   "Sq": () => (/* binding */ __wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700),
-/* harmony export */   "H$": () => (/* binding */ __wbg_width_99577d88b55411fa),
-/* harmony export */   "gf": () => (/* binding */ __wbg_setwidth_80cb48aa8c97d2c1),
-/* harmony export */   "rJ": () => (/* binding */ __wbg_height_636c7530a04a1f7c),
-/* harmony export */   "bJ": () => (/* binding */ __wbg_setheight_127ee9a2bb2ec12e),
-/* harmony export */   "Pc": () => (/* binding */ __wbg_getContext_c91489f5e0f738d8),
-/* harmony export */   "Kh": () => (/* binding */ __wbg_newnoargs_68424965d85fcb08),
-/* harmony export */   "b1": () => (/* binding */ __wbg_call_9698e9b9c4668ae0),
+/* harmony export */   "ss": () => (/* binding */ __wbg_instanceof_Window_fac4f1f8e3c61c1f),
+/* harmony export */   "XD": () => (/* binding */ __wbg_document_29fb71d7cea23553),
+/* harmony export */   "LC": () => (/* binding */ __wbg_body_3f92bb47323529c7),
+/* harmony export */   "A4": () => (/* binding */ __wbg_createElement_8a4eea3a05d8804d),
+/* harmony export */   "P7": () => (/* binding */ __wbg_width_c11ed0f9cfab3ccc),
+/* harmony export */   "Fl": () => (/* binding */ __wbg_height_4accd9c5d251a0f9),
+/* harmony export */   "rL": () => (/* binding */ __wbg_data_3b5132cf708f3fa5),
+/* harmony export */   "Ey": () => (/* binding */ __wbg_newwithu8clampedarrayandsh_7da2ee46cfe942b1),
+/* harmony export */   "N2": () => (/* binding */ __wbg_instanceof_CanvasRenderingContext2d_c3096464126a8635),
+/* harmony export */   "c8": () => (/* binding */ __wbg_drawImage_301be33262c989de),
+/* harmony export */   "xL": () => (/* binding */ __wbg_getImageData_95d4ea9a3956ff99),
+/* harmony export */   "iG": () => (/* binding */ __wbg_putImageData_1bd8dd4b501fedf4),
+/* harmony export */   "bX": () => (/* binding */ __wbg_settextContent_68b1b04017e68705),
+/* harmony export */   "wr": () => (/* binding */ __wbg_appendChild_f52907370cfda116),
+/* harmony export */   "HU": () => (/* binding */ __wbg_instanceof_HtmlCanvasElement_f6c37daa8caa628a),
+/* harmony export */   "oQ": () => (/* binding */ __wbg_width_472e3682c7514f2c),
+/* harmony export */   "NY": () => (/* binding */ __wbg_setwidth_6ffbc02dcd566284),
+/* harmony export */   "Hj": () => (/* binding */ __wbg_height_1e657c7ba54aba97),
+/* harmony export */   "l$": () => (/* binding */ __wbg_setheight_dade0779787da2d7),
+/* harmony export */   "n9": () => (/* binding */ __wbg_getContext_591a34067d6e74f2),
+/* harmony export */   "Ex": () => (/* binding */ __wbg_newnoargs_1a11e7e8c906996c),
+/* harmony export */   "A$": () => (/* binding */ __wbg_call_e91f71ddf1f45cff),
 /* harmony export */   "m_": () => (/* binding */ __wbindgen_object_clone_ref),
-/* harmony export */   "v6": () => (/* binding */ __wbg_self_3df7c33e222cd53b),
-/* harmony export */   "V0": () => (/* binding */ __wbg_window_0f90182e6c405ff2),
-/* harmony export */   "Gg": () => (/* binding */ __wbg_globalThis_787cfd4f25a35141),
-/* harmony export */   "EL": () => (/* binding */ __wbg_global_af2eb7b1369372ed),
+/* harmony export */   "QO": () => (/* binding */ __wbg_self_b4546ea7b590539e),
+/* harmony export */   "PL": () => (/* binding */ __wbg_window_c279fea81f426a68),
+/* harmony export */   "cG": () => (/* binding */ __wbg_globalThis_038a6ea0ff17789f),
+/* harmony export */   "C": () => (/* binding */ __wbg_global_4f93ce884bcee597),
 /* harmony export */   "XP": () => (/* binding */ __wbindgen_is_undefined),
 /* harmony export */   "fY": () => (/* binding */ __wbindgen_debug_string),
 /* harmony export */   "Or": () => (/* binding */ __wbindgen_throw),
 /* harmony export */   "nD": () => (/* binding */ __wbindgen_rethrow)
 /* harmony export */ });
-/* harmony import */ var _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(383);
+/* harmony import */ var _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(424);
 /* module decorator */ module = __webpack_require__.hmd(module);
 
 
@@ -614,36 +617,6 @@ function process(config, data) {
     }
 }
 
-/**
-*! [temp] Check if WASM is supported.
-*/
-function run() {
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.run();
-}
-
-let stack_pointer = 32;
-
-function addBorrowedObject(obj) {
-    if (stack_pointer == 1) throw new Error('out of js stack');
-    heap[--stack_pointer] = obj;
-    return stack_pointer;
-}
-/**
-* Get the ImageData from a 2D canvas context
-* @param {HTMLCanvasElement} canvas
-* @param {CanvasRenderingContext2D} ctx
-* @returns {ImageData}
-*/
-function get_image_data(canvas, ctx) {
-    try {
-        var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.get_image_data(addBorrowedObject(canvas), addBorrowedObject(ctx));
-        return takeObject(ret);
-    } finally {
-        heap[stack_pointer++] = undefined;
-        heap[stack_pointer++] = undefined;
-    }
-}
-
 function _assertClass(instance, klass) {
     if (!(instance instanceof klass)) {
         throw new Error(`expected instance of ${klass.name}`);
@@ -651,95 +624,586 @@ function _assertClass(instance, klass) {
     return instance.ptr;
 }
 /**
-* Place a PhotonImage onto a 2D canvas.
-* @param {HTMLCanvasElement} canvas
-* @param {CanvasRenderingContext2D} ctx
-* @param {PhotonImage} new_image
-*/
-function putImageData(canvas, ctx, new_image) {
-    _assertClass(new_image, PhotonImage);
-    var ptr0 = new_image.ptr;
-    new_image.ptr = 0;
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.putImageData(addHeapObject(canvas), addHeapObject(ctx), ptr0);
-}
-
-/**
-* Convert a HTML5 Canvas Element to a PhotonImage.
+* Solarization on the Blue channel.
 *
-* This converts the ImageData found in the canvas context to a PhotonImage,
-* which can then have effects or filters applied to it.
-* @param {HTMLCanvasElement} canvas
-* @param {CanvasRenderingContext2D} ctx
-* @returns {PhotonImage}
-*/
-function open_image(canvas, ctx) {
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.open_image(addHeapObject(canvas), addHeapObject(ctx));
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Convert ImageData to a raw pixel vec of u8s.
-* @param {ImageData} imgdata
-* @returns {Uint8Array}
-*/
-function to_raw_pixels(imgdata) {
-    try {
-        const retptr = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(-16);
-        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.to_raw_pixels(retptr, addHeapObject(imgdata));
-        var r0 = getInt32Memory0()[retptr / 4 + 0];
-        var r1 = getInt32Memory0()[retptr / 4 + 1];
-        var v0 = getArrayU8FromWasm0(r0, r1).slice();
-        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_free(r0, r1 * 1);
-        return v0;
-    } finally {
-        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(16);
-    }
-}
-
-/**
-* Convert a base64 string to a PhotonImage.
-* @param {string} base64
-* @returns {PhotonImage}
-*/
-function base64_to_image(base64) {
-    var ptr0 = passStringToWasm0(base64, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-    var len0 = WASM_VECTOR_LEN;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.base64_to_image(ptr0, len0);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Convert a base64 string to a Vec of u8s.
-* @param {string} base64
-* @returns {Uint8Array}
-*/
-function base64_to_vec(base64) {
-    try {
-        const retptr = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(-16);
-        var ptr0 = passStringToWasm0(base64, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-        var len0 = WASM_VECTOR_LEN;
-        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.base64_to_vec(retptr, ptr0, len0);
-        var r0 = getInt32Memory0()[retptr / 4 + 0];
-        var r1 = getInt32Memory0()[retptr / 4 + 1];
-        var v1 = getArrayU8FromWasm0(r0, r1).slice();
-        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_free(r0, r1 * 1);
-        return v1;
-    } finally {
-        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(16);
-    }
-}
-
-/**
-* Convert a PhotonImage to JS-compatible ImageData.
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::neue;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* neue(&mut img);
+* ```
 * @param {PhotonImage} photon_image
-* @returns {ImageData}
 */
-function to_image_data(photon_image) {
+function neue(photon_image) {
     _assertClass(photon_image, PhotonImage);
-    var ptr0 = photon_image.ptr;
-    photon_image.ptr = 0;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.to_image_data(ptr0);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.neue(photon_image.ptr);
+}
+
+/**
+* Solarization on the Red and Green channels.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::lix;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* lix(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function lix(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lix(photon_image.ptr);
+}
+
+/**
+* Solarization on the Red and Blue channels.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::ryo;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* ryo(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function ryo(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.ryo(photon_image.ptr);
+}
+
+/**
+* Apply a filter to an image. Over 20 filters are available.
+* The filters are as follows:
+* * **oceanic**: Add an aquamarine-tinted hue to an image.
+* * **islands**: Aquamarine tint.
+* * **marine**: Add a green/blue mixed hue to an image.
+* * **seagreen**: Dark green hue, with tones of blue.
+* * **flagblue**: Royal blue tint
+* * **liquid**: Blue-inspired tint.
+* * **diamante**: Custom filter with a blue/turquoise tint.
+* * **radio**: Fallout-style radio effect.
+* * **twenties**: Slight-blue tinted historical effect.
+* * **rosetint**: Rose-tinted filter.
+* * **mauve**: Purple-infused filter.
+* * **bluechrome**: Blue monochrome effect.
+* * **vintage**: Vintage filter with a red tint.
+* * **perfume**: Increase the blue channel, with moderate increases in the Red and Green channels.
+* * **serenity**: Custom filter with an increase in the Blue channel's values.
+* # Arguments
+* * `img` - A PhotonImage.
+* * `filter_name` - The filter's name. Choose from the selection above, eg: "oceanic"
+* # Example
+*
+* ```no_run
+* // For example, to add a filter called "vintage" to an image:
+* use photon_rs::filters::filter;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* filter(&mut img, "vintage");
+* ```
+* @param {PhotonImage} img
+* @param {string} filter_name
+*/
+function filter(img, filter_name) {
+    _assertClass(img, PhotonImage);
+    var ptr0 = passStringToWasm0(filter_name, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.filter(img.ptr, ptr0, len0);
+}
+
+/**
+* Apply a lofi effect to an image.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::lofi;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* lofi(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function lofi(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lofi(img.ptr);
+}
+
+/**
+* Apply a rose tint to an image.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::pastel_pink;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* pastel_pink(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function pastel_pink(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.pastel_pink(img.ptr);
+}
+
+/**
+* Apply a vintage, golden hue to an image.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::golden;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* golden(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function golden(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.golden(img.ptr);
+}
+
+/**
+* Increased contrast filter effect.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::cali;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* cali(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function cali(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.cali(img.ptr);
+}
+
+/**
+* Greyscale effect with increased contrast.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::dramatic;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* dramatic(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function dramatic(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.dramatic(img.ptr);
+}
+
+/**
+* Apply a red hue, with increased contrast and brightness.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::firenze;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* firenze(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function firenze(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.firenze(img.ptr);
+}
+
+/**
+* Apply a greyscale effect with increased contrast.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* # Example
+*
+* ```no_run
+* use photon_rs::filters::obsidian;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* obsidian(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function obsidian(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.obsidian(img.ptr);
+}
+
+/**
+* Crop an image.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+*
+* # Example
+*
+* ```no_run
+* // For example, to crop an image at (0, 0) to (500, 800)
+* use photon_rs::native::{open_image};
+* use photon_rs::transform::crop;
+* use photon_rs::PhotonImage;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let cropped_img: PhotonImage = crop(&mut img, 0_u32, 0_u32, 500_u32, 800_u32);
+* // Write the contents of this image in JPG format.
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} x1
+* @param {number} y1
+* @param {number} x2
+* @param {number} y2
+* @returns {PhotonImage}
+*/
+function crop(photon_image, x1, y1, x2, y2) {
+    _assertClass(photon_image, PhotonImage);
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.crop(photon_image.ptr, x1, y1, x2, y2);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* @param {HTMLCanvasElement} source_canvas
+* @param {number} width
+* @param {number} height
+* @param {number} left
+* @param {number} top
+* @returns {HTMLCanvasElement}
+*/
+function crop_img_browser(source_canvas, width, height, left, top) {
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.crop_img_browser(addHeapObject(source_canvas), width, height, left, top);
     return takeObject(ret);
+}
+
+/**
+* Flip an image horizontally.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+*
+* # Example
+*
+* ```no_run
+* // For example, to flip an image horizontally:
+* use photon_rs::native::open_image;
+* use photon_rs::transform::fliph;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* fliph(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function fliph(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.fliph(photon_image.ptr);
+}
+
+/**
+* Flip an image vertically.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+*
+* # Example
+*
+* ```no_run
+* // For example, to flip an image vertically:
+* use photon_rs::native::open_image;
+* use photon_rs::transform::flipv;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* flipv(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function flipv(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.flipv(photon_image.ptr);
+}
+
+/**
+* Resize an image on the web.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `width` - New width.
+* * `height` - New height.
+* * `sampling_filter` - Nearest = 1, Triangle = 2, CatmullRom = 3, Gaussian = 4, Lanczos3 = 5
+* @param {PhotonImage} photon_img
+* @param {number} width
+* @param {number} height
+* @param {number} sampling_filter
+* @returns {HTMLCanvasElement}
+*/
+function resize_img_browser(photon_img, width, height, sampling_filter) {
+    _assertClass(photon_img, PhotonImage);
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.resize_img_browser(photon_img.ptr, width, height, sampling_filter);
+    return takeObject(ret);
+}
+
+/**
+* Resize an image.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `width` - New width.
+* * `height` - New height.
+* * `sampling_filter` - Nearest = 1, Triangle = 2, CatmullRom = 3, Gaussian = 4, Lanczos3 = 5
+* @param {PhotonImage} photon_img
+* @param {number} width
+* @param {number} height
+* @param {number} sampling_filter
+* @returns {PhotonImage}
+*/
+function resize(photon_img, width, height, sampling_filter) {
+    _assertClass(photon_img, PhotonImage);
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.resize(photon_img.ptr, width, height, sampling_filter);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Resize image using seam carver.
+* Resize only if new dimensions are smaller, than original image.
+* # NOTE: This is still experimental feature, and pretty slow.
+*
+* # Arguments
+* * `img` - A PhotonImage.
+* * `width` - New width.
+* * `height` - New height.
+*
+* # Example
+*
+* ```no_run
+* // For example, resize image using seam carver:
+* use photon_rs::native::open_image;
+* use photon_rs::transform::seam_carve;
+* use photon_rs::PhotonImage;
+*
+* let img = open_image("img.jpg").expect("File should open");
+* let result: PhotonImage = seam_carve(&img, 100_u32, 100_u32);
+* ```
+* @param {PhotonImage} img
+* @param {number} width
+* @param {number} height
+* @returns {PhotonImage}
+*/
+function seam_carve(img, width, height) {
+    _assertClass(img, PhotonImage);
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.seam_carve(img.ptr, width, height);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Apply uniform padding around the PhotonImage
+* A padded PhotonImage is returned.
+* # Arguments
+* * `img` - A PhotonImage. See the PhotonImage struct for details.
+* * `padding` - The amount of padding to be applied to the PhotonImage.
+* * `padding_rgba` - Tuple containing the RGBA code for padding color.
+*
+* # Example
+*
+* ```no_run
+* // For example, to apply a padding of 10 pixels around a PhotonImage:
+* use photon_rs::transform::padding_uniform;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgba;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
+* padding_uniform(&img, 10_u32, rgba);
+* ```
+* @param {PhotonImage} img
+* @param {number} padding
+* @param {Rgba} padding_rgba
+* @returns {PhotonImage}
+*/
+function padding_uniform(img, padding, padding_rgba) {
+    _assertClass(img, PhotonImage);
+    _assertClass(padding_rgba, Rgba);
+    var ptr0 = padding_rgba.ptr;
+    padding_rgba.ptr = 0;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_uniform(img.ptr, padding, ptr0);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Apply padding on the left side of the PhotonImage
+* A padded PhotonImage is returned.
+* # Arguments
+* * `img` - A PhotonImage. See the PhotonImage struct for details.
+* * `padding` - The amount of padding to be applied to the PhotonImage.
+* * `padding_rgba` - Tuple containing the RGBA code for padding color.
+*
+* # Example
+*
+* ```no_run
+* // For example, to apply a padding of 10 pixels on the left side of a PhotonImage:
+* use photon_rs::transform::padding_left;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgba;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
+* padding_left(&img, 10_u32, rgba);
+* ```
+* @param {PhotonImage} img
+* @param {number} padding
+* @param {Rgba} padding_rgba
+* @returns {PhotonImage}
+*/
+function padding_left(img, padding, padding_rgba) {
+    _assertClass(img, PhotonImage);
+    _assertClass(padding_rgba, Rgba);
+    var ptr0 = padding_rgba.ptr;
+    padding_rgba.ptr = 0;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_left(img.ptr, padding, ptr0);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Apply padding on the left side of the PhotonImage
+* A padded PhotonImage is returned.
+* # Arguments
+* * `img` - A PhotonImage. See the PhotonImage struct for details.
+* * `padding` - The amount of padding to be applied to the PhotonImage.
+* * `padding_rgba` - Tuple containing the RGBA code for padding color.
+*
+* # Example
+*
+* ```no_run
+* // For example, to apply a padding of 10 pixels on the right side of a PhotonImage:
+* use photon_rs::transform::padding_right;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgba;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
+* padding_right(&img, 10_u32, rgba);
+* ```
+* @param {PhotonImage} img
+* @param {number} padding
+* @param {Rgba} padding_rgba
+* @returns {PhotonImage}
+*/
+function padding_right(img, padding, padding_rgba) {
+    _assertClass(img, PhotonImage);
+    _assertClass(padding_rgba, Rgba);
+    var ptr0 = padding_rgba.ptr;
+    padding_rgba.ptr = 0;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_right(img.ptr, padding, ptr0);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Apply padding on the left side of the PhotonImage
+* A padded PhotonImage is returned.
+* # Arguments
+* * `img` - A PhotonImage. See the PhotonImage struct for details.
+* * `padding` - The amount of padding to be applied to the PhotonImage.
+* * `padding_rgba` - Tuple containing the RGBA code for padding color.
+*
+* # Example
+*
+* ```no_run
+* // For example, to apply a padding of 10 pixels on the top of a PhotonImage:
+* use photon_rs::transform::padding_top;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgba;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
+* padding_top(&img, 10_u32, rgba);
+* ```
+* @param {PhotonImage} img
+* @param {number} padding
+* @param {Rgba} padding_rgba
+* @returns {PhotonImage}
+*/
+function padding_top(img, padding, padding_rgba) {
+    _assertClass(img, PhotonImage);
+    _assertClass(padding_rgba, Rgba);
+    var ptr0 = padding_rgba.ptr;
+    padding_rgba.ptr = 0;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_top(img.ptr, padding, ptr0);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Apply padding on the left side of the PhotonImage
+* A padded PhotonImage is returned.
+* # Arguments
+* * `img` - A PhotonImage. See the PhotonImage struct for details.
+* * `padding` - The amount of padding to be applied to the PhotonImage.
+* * `padding_rgba` - Tuple containing the RGBA code for padding color.
+*
+* # Example
+*
+* ```no_run
+* // For example, to apply a padding of 10 pixels on the bottom of a PhotonImage:
+* use photon_rs::transform::padding_bottom;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgba;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
+* padding_bottom(&img, 10_u32, rgba);
+* ```
+* @param {PhotonImage} img
+* @param {number} padding
+* @param {Rgba} padding_rgba
+* @returns {PhotonImage}
+*/
+function padding_bottom(img, padding, padding_rgba) {
+    _assertClass(img, PhotonImage);
+    _assertClass(padding_rgba, Rgba);
+    var ptr0 = padding_rgba.ptr;
+    padding_rgba.ptr = 0;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_bottom(img.ptr, padding, ptr0);
+    return PhotonImage.__wrap(ret);
 }
 
 /**
@@ -1248,6 +1712,577 @@ function selective_greyscale(photon_image, ref_color) {
 }
 
 /**
+*! [temp] Check if WASM is supported.
+*/
+function run() {
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.run();
+}
+
+let stack_pointer = 32;
+
+function addBorrowedObject(obj) {
+    if (stack_pointer == 1) throw new Error('out of js stack');
+    heap[--stack_pointer] = obj;
+    return stack_pointer;
+}
+/**
+* Get the ImageData from a 2D canvas context
+* @param {HTMLCanvasElement} canvas
+* @param {CanvasRenderingContext2D} ctx
+* @returns {ImageData}
+*/
+function get_image_data(canvas, ctx) {
+    try {
+        var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.get_image_data(addBorrowedObject(canvas), addBorrowedObject(ctx));
+        return takeObject(ret);
+    } finally {
+        heap[stack_pointer++] = undefined;
+        heap[stack_pointer++] = undefined;
+    }
+}
+
+/**
+* Place a PhotonImage onto a 2D canvas.
+* @param {HTMLCanvasElement} canvas
+* @param {CanvasRenderingContext2D} ctx
+* @param {PhotonImage} new_image
+*/
+function putImageData(canvas, ctx, new_image) {
+    _assertClass(new_image, PhotonImage);
+    var ptr0 = new_image.ptr;
+    new_image.ptr = 0;
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.putImageData(addHeapObject(canvas), addHeapObject(ctx), ptr0);
+}
+
+/**
+* Convert a HTML5 Canvas Element to a PhotonImage.
+*
+* This converts the ImageData found in the canvas context to a PhotonImage,
+* which can then have effects or filters applied to it.
+* @param {HTMLCanvasElement} canvas
+* @param {CanvasRenderingContext2D} ctx
+* @returns {PhotonImage}
+*/
+function open_image(canvas, ctx) {
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.open_image(addHeapObject(canvas), addHeapObject(ctx));
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Convert ImageData to a raw pixel vec of u8s.
+* @param {ImageData} imgdata
+* @returns {Uint8Array}
+*/
+function to_raw_pixels(imgdata) {
+    try {
+        const retptr = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(-16);
+        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.to_raw_pixels(retptr, addHeapObject(imgdata));
+        var r0 = getInt32Memory0()[retptr / 4 + 0];
+        var r1 = getInt32Memory0()[retptr / 4 + 1];
+        var v0 = getArrayU8FromWasm0(r0, r1).slice();
+        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_free(r0, r1 * 1);
+        return v0;
+    } finally {
+        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(16);
+    }
+}
+
+/**
+* Convert a base64 string to a PhotonImage.
+* @param {string} base64
+* @returns {PhotonImage}
+*/
+function base64_to_image(base64) {
+    var ptr0 = passStringToWasm0(base64, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.base64_to_image(ptr0, len0);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Convert a base64 string to a Vec of u8s.
+* @param {string} base64
+* @returns {Uint8Array}
+*/
+function base64_to_vec(base64) {
+    try {
+        const retptr = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(-16);
+        var ptr0 = passStringToWasm0(base64, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+        var len0 = WASM_VECTOR_LEN;
+        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.base64_to_vec(retptr, ptr0, len0);
+        var r0 = getInt32Memory0()[retptr / 4 + 0];
+        var r1 = getInt32Memory0()[retptr / 4 + 1];
+        var v1 = getArrayU8FromWasm0(r0, r1).slice();
+        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_free(r0, r1 * 1);
+        return v1;
+    } finally {
+        _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_add_to_stack_pointer(16);
+    }
+}
+
+/**
+* Convert a PhotonImage to JS-compatible ImageData.
+* @param {PhotonImage} photon_image
+* @returns {ImageData}
+*/
+function to_image_data(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    var ptr0 = photon_image.ptr;
+    photon_image.ptr = 0;
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.to_image_data(ptr0);
+    return takeObject(ret);
+}
+
+/**
+* Adds an offset to the image by a certain number of pixels.
+*
+* This creates an RGB shift effect.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `offset` - The offset is added to the pixels in the image.
+* # Example
+*
+* ```no_run
+* // For example, to offset pixels by 30 pixels on the red channel:
+* use photon_rs::effects::offset;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* offset(&mut img, 0_usize, 30_u32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} channel_index
+* @param {number} offset
+*/
+function offset(photon_image, channel_index, offset) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset(photon_image.ptr, channel_index, offset);
+}
+
+/**
+* Adds an offset to the red channel by a certain number of pixels.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `offset` - The offset you want to move the red channel by.
+* # Example
+*
+* ```no_run
+* // For example, to add an offset to the red channel by 30 pixels.
+* use photon_rs::effects::offset_red;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* offset_red(&mut img, 30_u32);
+* ```
+* @param {PhotonImage} img
+* @param {number} offset_amt
+*/
+function offset_red(img, offset_amt) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset_red(img.ptr, offset_amt);
+}
+
+/**
+* Adds an offset to the green channel by a certain number of pixels.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `offset` - The offset you want to move the green channel by.
+* # Example
+*
+* ```no_run
+* // For example, to add an offset to the green channel by 30 pixels.
+* use photon_rs::effects::offset_green;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* offset_green(&mut img, 30_u32);
+* ```
+* @param {PhotonImage} img
+* @param {number} offset_amt
+*/
+function offset_green(img, offset_amt) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset_green(img.ptr, offset_amt);
+}
+
+/**
+* Adds an offset to the blue channel by a certain number of pixels.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `offset_amt` - The offset you want to move the blue channel by.
+* # Example
+* // For example, to add an offset to the green channel by 40 pixels.
+*
+* ```no_run
+* use photon_rs::effects::offset_blue;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* offset_blue(&mut img, 40_u32);
+* ```
+* @param {PhotonImage} img
+* @param {number} offset_amt
+*/
+function offset_blue(img, offset_amt) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset_blue(img.ptr, offset_amt);
+}
+
+/**
+* Adds multiple offsets to the image by a certain number of pixels (on two channels).
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `offset` - The offset is added to the pixels in the image.
+* # Example
+*
+* ```no_run
+* // For example, to add a 30-pixel offset to both the red and blue channels:
+* use photon_rs::effects::multiple_offsets;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* multiple_offsets(&mut img, 30_u32, 0_usize, 2_usize);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} offset
+* @param {number} channel_index
+* @param {number} channel_index2
+*/
+function multiple_offsets(photon_image, offset, channel_index, channel_index2) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.multiple_offsets(photon_image.ptr, offset, channel_index, channel_index2);
+}
+
+/**
+* Reduces an image to the primary colours.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* # Example
+*
+* ```no_run
+* // For example, to add a primary colour effect to an image of type `DynamicImage`:
+* use photon_rs::effects::primary;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* primary(&mut img);
+* ```
+* @param {PhotonImage} img
+*/
+function primary(img) {
+    _assertClass(img, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.primary(img.ptr);
+}
+
+/**
+* Colorizes the green channels of the image.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* # Example
+*
+* ```no_run
+* // For example, to colorize an image of type `PhotonImage`:
+* use photon_rs::effects::colorize;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* colorize(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function colorize(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.colorize(photon_image.ptr);
+}
+
+/**
+* Applies a solarizing effect to an image.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* # Example
+*
+* ```no_run
+* // For example, to colorize an image of type `PhotonImage`:
+* use photon_rs::effects::solarize;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* solarize(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function solarize(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.solarize(photon_image.ptr);
+}
+
+/**
+* Applies a solarizing effect to an image and returns the resulting PhotonImage.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* # Example
+*
+* ```no_run
+* // For example, to solarize "retimg" an image of type `PhotonImage`:
+* use photon_rs::effects::solarize_retimg;
+* use photon_rs::native::open_image;
+* use photon_rs::PhotonImage;
+*
+* let img = open_image("img.jpg").expect("File should open");
+* let result: PhotonImage = solarize_retimg(&img);
+* ```
+* @param {PhotonImage} photon_image
+* @returns {PhotonImage}
+*/
+function solarize_retimg(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.solarize_retimg(photon_image.ptr);
+    return PhotonImage.__wrap(ret);
+}
+
+/**
+* Increase the brightness of an image by a factor.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `brightness` - A u8 to add to the brightness.
+* # Example
+*
+* ```no_run
+* use photon_rs::effects::inc_brightness;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* inc_brightness(&mut img, 10_u8);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} brightness
+*/
+function inc_brightness(photon_image, brightness) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.inc_brightness(photon_image.ptr, brightness);
+}
+
+/**
+* Adjust the contrast of an image by a factor.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage that contains a view into the image.
+* * `contrast` - An f32 factor used to adjust contrast. Between [-255.0, 255.0]. The algorithm will
+* clamp results if passed factor is out of range.
+* # Example
+*
+* ```no_run
+* use photon_rs::effects::adjust_contrast;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* adjust_contrast(&mut img, 30_f32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} contrast
+*/
+function adjust_contrast(photon_image, contrast) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.adjust_contrast(photon_image.ptr, contrast);
+}
+
+/**
+* Tint an image by adding an offset to averaged RGB channel values.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `r_offset` - The amount the R channel should be incremented by.
+* * `g_offset` - The amount the G channel should be incremented by.
+* * `b_offset` - The amount the B channel should be incremented by.
+* # Example
+*
+* ```no_run
+* // For example, to tint an image of type `PhotonImage`:
+* use photon_rs::effects::tint;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* tint(&mut img, 10_u32, 20_u32, 15_u32);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} r_offset
+* @param {number} g_offset
+* @param {number} b_offset
+*/
+function tint(photon_image, r_offset, g_offset, b_offset) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.tint(photon_image.ptr, r_offset, g_offset, b_offset);
+}
+
+/**
+* Horizontal strips. Divide an image into a series of equal-height strips, for an artistic effect.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `num_strips` - The numbder of strips
+* # Example
+*
+* ```no_run
+* // For example, to oil an image of type `PhotonImage`:
+* use photon_rs::effects::horizontal_strips;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* horizontal_strips(&mut img, 8u8);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} num_strips
+*/
+function horizontal_strips(photon_image, num_strips) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.horizontal_strips(photon_image.ptr, num_strips);
+}
+
+/**
+* Horizontal strips. Divide an image into a series of equal-width strips, for an artistic effect. Sepcify a color as well.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `num_strips` - The numbder of strips
+* * `color` - Color of strips.
+* # Example
+*
+* ```no_run
+* // For example, to oil an image of type `PhotonImage`:
+* use photon_rs::effects::color_horizontal_strips;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgb;
+*
+* let color = Rgb::new(255u8, 0u8, 0u8);
+* let mut img = open_image("img.jpg").expect("File should open");
+* color_horizontal_strips(&mut img, 8u8, color);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} num_strips
+* @param {Rgb} color
+*/
+function color_horizontal_strips(photon_image, num_strips, color) {
+    _assertClass(photon_image, PhotonImage);
+    _assertClass(color, Rgb);
+    var ptr0 = color.ptr;
+    color.ptr = 0;
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.color_horizontal_strips(photon_image.ptr, num_strips, ptr0);
+}
+
+/**
+* Vertical strips. Divide an image into a series of equal-width strips, for an artistic effect.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `num_strips` - The numbder of strips
+* # Example
+*
+* ```no_run
+* // For example, to oil an image of type `PhotonImage`:
+* use photon_rs::effects::vertical_strips;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* vertical_strips(&mut img, 8u8);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} num_strips
+*/
+function vertical_strips(photon_image, num_strips) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.vertical_strips(photon_image.ptr, num_strips);
+}
+
+/**
+* Vertical strips. Divide an image into a series of equal-width strips, for an artistic effect. Sepcify a color as well.
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `num_strips` - The numbder of strips
+* * `color` - Color of strips.
+* # Example
+*
+* ```no_run
+* // For example, to oil an image of type `PhotonImage`:
+* use photon_rs::effects::color_vertical_strips;
+* use photon_rs::native::open_image;
+* use photon_rs::Rgb;
+*
+* let color = Rgb::new(255u8, 0u8, 0u8);
+* let mut img = open_image("img.jpg").expect("File should open");
+* color_vertical_strips(&mut img, 8u8, color);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} num_strips
+* @param {Rgb} color
+*/
+function color_vertical_strips(photon_image, num_strips, color) {
+    _assertClass(photon_image, PhotonImage);
+    _assertClass(color, Rgb);
+    var ptr0 = color.ptr;
+    color.ptr = 0;
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.color_vertical_strips(photon_image.ptr, num_strips, ptr0);
+}
+
+/**
+* Turn an image into an oil painting
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* * `radius` - Radius of each paint particle
+* * `intesnity` - How artsy an Image should be
+* # Example
+*
+* ```no_run
+* // For example, to oil an image of type `PhotonImage`:
+* use photon_rs::effects::oil;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* oil(&mut img, 4i32, 55.0);
+* ```
+* @param {PhotonImage} photon_image
+* @param {number} radius
+* @param {number} intensity
+*/
+function oil(photon_image, radius, intensity) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.oil(photon_image.ptr, radius, intensity);
+}
+
+/**
+* Turn an image into an frosted glass see through
+*
+* # Arguments
+* * `img` - A PhotonImage that contains a view into the image.
+* # Example
+*
+* ```no_run
+* // For example, to turn an image of type `PhotonImage` into frosted glass see through:
+* use photon_rs::effects::frosted_glass;
+* use photon_rs::native::open_image;
+*
+* let mut img = open_image("img.jpg").expect("File should open");
+* frosted_glass(&mut img);
+* ```
+* @param {PhotonImage} photon_image
+*/
+function frosted_glass(photon_image) {
+    _assertClass(photon_image, PhotonImage);
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.frosted_glass(photon_image.ptr);
+}
+
+/**
 * Apply a monochrome effect of a certain colour.
 *
 * It does so by averaging the R, G, and B values of a pixel, and then adding a
@@ -1627,6 +2662,74 @@ function create_gradient(width, height) {
 function apply_gradient(image) {
     _assertClass(image, PhotonImage);
     _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.apply_gradient(image.ptr);
+}
+
+/**
+* Add bordered-text to an image.
+* The only font available as of now is Roboto.
+* Note: A graphic design/text-drawing library is currently being developed, so stay tuned.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage.
+* * `text` - Text string to be drawn to the image.
+* * `x` - x-coordinate of where first letter's 1st pixel should be drawn.
+* * `y` - y-coordinate of where first letter's 1st pixel should be drawn.
+*
+* # Example
+*
+* ```no_run
+* // For example to draw the string "Welcome to Photon!" at 10, 10:
+* use photon_rs::native::open_image;
+* use photon_rs::text::draw_text_with_border;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* draw_text_with_border(&mut img, "Welcome to Photon!", 10_u32, 10_u32);
+* ```
+* @param {PhotonImage} photon_img
+* @param {string} text
+* @param {number} x
+* @param {number} y
+*/
+function draw_text_with_border(photon_img, text, x, y) {
+    _assertClass(photon_img, PhotonImage);
+    var ptr0 = passStringToWasm0(text, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.draw_text_with_border(photon_img.ptr, ptr0, len0, x, y);
+}
+
+/**
+* Add text to an image.
+* The only font available as of now is Roboto.
+* Note: A graphic design/text-drawing library is currently being developed, so stay tuned.
+*
+* # Arguments
+* * `photon_image` - A PhotonImage.
+* * `text` - Text string to be drawn to the image.
+* * `x` - x-coordinate of where first letter's 1st pixel should be drawn.
+* * `y` - y-coordinate of where first letter's 1st pixel should be drawn.
+*
+* # Example
+*
+* ```no_run
+* // For example to draw the string "Welcome to Photon!" at 10, 10:
+* use photon_rs::native::open_image;
+* use photon_rs::text::draw_text;
+*
+* // Open the image. A PhotonImage is returned.
+* let mut img = open_image("img.jpg").expect("File should open");
+* draw_text(&mut img, "Welcome to Photon!", 10_u32, 10_u32);
+* ```
+* @param {PhotonImage} photon_img
+* @param {string} text
+* @param {number} x
+* @param {number} y
+*/
+function draw_text(photon_img, text, x, y) {
+    _assertClass(photon_img, PhotonImage);
+    var ptr0 = passStringToWasm0(text, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.draw_text(photon_img.ptr, ptr0, len0, x, y);
 }
 
 /**
@@ -2165,706 +3268,6 @@ function mix_with_colour(photon_image, mix_colour, opacity) {
     _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.mix_with_colour(photon_image.ptr, ptr0, opacity);
 }
 
-/**
-* Adds an offset to the image by a certain number of pixels.
-*
-* This creates an RGB shift effect.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `offset` - The offset is added to the pixels in the image.
-* # Example
-*
-* ```no_run
-* // For example, to offset pixels by 30 pixels on the red channel:
-* use photon_rs::effects::offset;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* offset(&mut img, 0_usize, 30_u32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} channel_index
-* @param {number} offset
-*/
-function offset(photon_image, channel_index, offset) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset(photon_image.ptr, channel_index, offset);
-}
-
-/**
-* Adds an offset to the red channel by a certain number of pixels.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `offset` - The offset you want to move the red channel by.
-* # Example
-*
-* ```no_run
-* // For example, to add an offset to the red channel by 30 pixels.
-* use photon_rs::effects::offset_red;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* offset_red(&mut img, 30_u32);
-* ```
-* @param {PhotonImage} img
-* @param {number} offset_amt
-*/
-function offset_red(img, offset_amt) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset_red(img.ptr, offset_amt);
-}
-
-/**
-* Adds an offset to the green channel by a certain number of pixels.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `offset` - The offset you want to move the green channel by.
-* # Example
-*
-* ```no_run
-* // For example, to add an offset to the green channel by 30 pixels.
-* use photon_rs::effects::offset_green;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* offset_green(&mut img, 30_u32);
-* ```
-* @param {PhotonImage} img
-* @param {number} offset_amt
-*/
-function offset_green(img, offset_amt) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset_green(img.ptr, offset_amt);
-}
-
-/**
-* Adds an offset to the blue channel by a certain number of pixels.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `offset_amt` - The offset you want to move the blue channel by.
-* # Example
-* // For example, to add an offset to the green channel by 40 pixels.
-*
-* ```no_run
-* use photon_rs::effects::offset_blue;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* offset_blue(&mut img, 40_u32);
-* ```
-* @param {PhotonImage} img
-* @param {number} offset_amt
-*/
-function offset_blue(img, offset_amt) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.offset_blue(img.ptr, offset_amt);
-}
-
-/**
-* Adds multiple offsets to the image by a certain number of pixels (on two channels).
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `offset` - The offset is added to the pixels in the image.
-* # Example
-*
-* ```no_run
-* // For example, to add a 30-pixel offset to both the red and blue channels:
-* use photon_rs::effects::multiple_offsets;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* multiple_offsets(&mut img, 30_u32, 0_usize, 2_usize);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} offset
-* @param {number} channel_index
-* @param {number} channel_index2
-*/
-function multiple_offsets(photon_image, offset, channel_index, channel_index2) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.multiple_offsets(photon_image.ptr, offset, channel_index, channel_index2);
-}
-
-/**
-* Reduces an image to the primary colours.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* # Example
-*
-* ```no_run
-* // For example, to add a primary colour effect to an image of type `DynamicImage`:
-* use photon_rs::effects::primary;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* primary(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function primary(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.primary(img.ptr);
-}
-
-/**
-* Colorizes the green channels of the image.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* # Example
-*
-* ```no_run
-* // For example, to colorize an image of type `PhotonImage`:
-* use photon_rs::effects::colorize;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* colorize(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function colorize(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.colorize(photon_image.ptr);
-}
-
-/**
-* Applies a solarizing effect to an image.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* # Example
-*
-* ```no_run
-* // For example, to colorize an image of type `PhotonImage`:
-* use photon_rs::effects::solarize;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* solarize(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function solarize(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.solarize(photon_image.ptr);
-}
-
-/**
-* Applies a solarizing effect to an image and returns the resulting PhotonImage.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* # Example
-*
-* ```no_run
-* // For example, to solarize "retimg" an image of type `PhotonImage`:
-* use photon_rs::effects::solarize_retimg;
-* use photon_rs::native::open_image;
-* use photon_rs::PhotonImage;
-*
-* let img = open_image("img.jpg").expect("File should open");
-* let result: PhotonImage = solarize_retimg(&img);
-* ```
-* @param {PhotonImage} photon_image
-* @returns {PhotonImage}
-*/
-function solarize_retimg(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.solarize_retimg(photon_image.ptr);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Increase the brightness of an image by a factor.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `brightness` - A u8 to add to the brightness.
-* # Example
-*
-* ```no_run
-* use photon_rs::effects::inc_brightness;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* inc_brightness(&mut img, 10_u8);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} brightness
-*/
-function inc_brightness(photon_image, brightness) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.inc_brightness(photon_image.ptr, brightness);
-}
-
-/**
-* Adjust the contrast of an image by a factor.
-*
-* # Arguments
-* * `photon_image` - A PhotonImage that contains a view into the image.
-* * `contrast` - An f32 factor used to adjust contrast. Between [-255.0, 255.0]. The algorithm will
-* clamp results if passed factor is out of range.
-* # Example
-*
-* ```no_run
-* use photon_rs::effects::adjust_contrast;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* adjust_contrast(&mut img, 30_f32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} contrast
-*/
-function adjust_contrast(photon_image, contrast) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.adjust_contrast(photon_image.ptr, contrast);
-}
-
-/**
-* Tint an image by adding an offset to averaged RGB channel values.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `r_offset` - The amount the R channel should be incremented by.
-* * `g_offset` - The amount the G channel should be incremented by.
-* * `b_offset` - The amount the B channel should be incremented by.
-* # Example
-*
-* ```no_run
-* // For example, to tint an image of type `PhotonImage`:
-* use photon_rs::effects::tint;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* tint(&mut img, 10_u32, 20_u32, 15_u32);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} r_offset
-* @param {number} g_offset
-* @param {number} b_offset
-*/
-function tint(photon_image, r_offset, g_offset, b_offset) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.tint(photon_image.ptr, r_offset, g_offset, b_offset);
-}
-
-/**
-* Horizontal strips. Divide an image into a series of equal-height strips, for an artistic effect.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `num_strips` - The numbder of strips
-* # Example
-*
-* ```no_run
-* // For example, to oil an image of type `PhotonImage`:
-* use photon_rs::effects::horizontal_strips;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* horizontal_strips(&mut img, 8u8);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} num_strips
-*/
-function horizontal_strips(photon_image, num_strips) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.horizontal_strips(photon_image.ptr, num_strips);
-}
-
-/**
-* Horizontal strips. Divide an image into a series of equal-width strips, for an artistic effect. Sepcify a color as well.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `num_strips` - The numbder of strips
-* * `color` - Color of strips.
-* # Example
-*
-* ```no_run
-* // For example, to oil an image of type `PhotonImage`:
-* use photon_rs::effects::color_horizontal_strips;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgb;
-*
-* let color = Rgb::new(255u8, 0u8, 0u8);
-* let mut img = open_image("img.jpg").expect("File should open");
-* color_horizontal_strips(&mut img, 8u8, color);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} num_strips
-* @param {Rgb} color
-*/
-function color_horizontal_strips(photon_image, num_strips, color) {
-    _assertClass(photon_image, PhotonImage);
-    _assertClass(color, Rgb);
-    var ptr0 = color.ptr;
-    color.ptr = 0;
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.color_horizontal_strips(photon_image.ptr, num_strips, ptr0);
-}
-
-/**
-* Vertical strips. Divide an image into a series of equal-width strips, for an artistic effect.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `num_strips` - The numbder of strips
-* # Example
-*
-* ```no_run
-* // For example, to oil an image of type `PhotonImage`:
-* use photon_rs::effects::vertical_strips;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* vertical_strips(&mut img, 8u8);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} num_strips
-*/
-function vertical_strips(photon_image, num_strips) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.vertical_strips(photon_image.ptr, num_strips);
-}
-
-/**
-* Vertical strips. Divide an image into a series of equal-width strips, for an artistic effect. Sepcify a color as well.
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `num_strips` - The numbder of strips
-* * `color` - Color of strips.
-* # Example
-*
-* ```no_run
-* // For example, to oil an image of type `PhotonImage`:
-* use photon_rs::effects::color_vertical_strips;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgb;
-*
-* let color = Rgb::new(255u8, 0u8, 0u8);
-* let mut img = open_image("img.jpg").expect("File should open");
-* color_vertical_strips(&mut img, 8u8, color);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} num_strips
-* @param {Rgb} color
-*/
-function color_vertical_strips(photon_image, num_strips, color) {
-    _assertClass(photon_image, PhotonImage);
-    _assertClass(color, Rgb);
-    var ptr0 = color.ptr;
-    color.ptr = 0;
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.color_vertical_strips(photon_image.ptr, num_strips, ptr0);
-}
-
-/**
-* Turn an image into an oil painting
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* * `radius` - Radius of each paint particle
-* * `intesnity` - How artsy an Image should be
-* # Example
-*
-* ```no_run
-* // For example, to oil an image of type `PhotonImage`:
-* use photon_rs::effects::oil;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* oil(&mut img, 4i32, 55.0);
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} radius
-* @param {number} intensity
-*/
-function oil(photon_image, radius, intensity) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.oil(photon_image.ptr, radius, intensity);
-}
-
-/**
-* Turn an image into an frosted glass see through
-*
-* # Arguments
-* * `img` - A PhotonImage that contains a view into the image.
-* # Example
-*
-* ```no_run
-* // For example, to turn an image of type `PhotonImage` into frosted glass see through:
-* use photon_rs::effects::frosted_glass;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* frosted_glass(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function frosted_glass(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.frosted_glass(photon_image.ptr);
-}
-
-/**
-* Solarization on the Blue channel.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::neue;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* neue(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function neue(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.neue(photon_image.ptr);
-}
-
-/**
-* Solarization on the Red and Green channels.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::lix;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* lix(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function lix(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lix(photon_image.ptr);
-}
-
-/**
-* Solarization on the Red and Blue channels.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::ryo;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* ryo(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function ryo(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.ryo(photon_image.ptr);
-}
-
-/**
-* Apply a filter to an image. Over 20 filters are available.
-* The filters are as follows:
-* * **oceanic**: Add an aquamarine-tinted hue to an image.
-* * **islands**: Aquamarine tint.
-* * **marine**: Add a green/blue mixed hue to an image.
-* * **seagreen**: Dark green hue, with tones of blue.
-* * **flagblue**: Royal blue tint
-* * **liquid**: Blue-inspired tint.
-* * **diamante**: Custom filter with a blue/turquoise tint.
-* * **radio**: Fallout-style radio effect.
-* * **twenties**: Slight-blue tinted historical effect.
-* * **rosetint**: Rose-tinted filter.
-* * **mauve**: Purple-infused filter.
-* * **bluechrome**: Blue monochrome effect.
-* * **vintage**: Vintage filter with a red tint.
-* * **perfume**: Increase the blue channel, with moderate increases in the Red and Green channels.
-* * **serenity**: Custom filter with an increase in the Blue channel's values.
-* # Arguments
-* * `img` - A PhotonImage.
-* * `filter_name` - The filter's name. Choose from the selection above, eg: "oceanic"
-* # Example
-*
-* ```no_run
-* // For example, to add a filter called "vintage" to an image:
-* use photon_rs::filters::filter;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* filter(&mut img, "vintage");
-* ```
-* @param {PhotonImage} img
-* @param {string} filter_name
-*/
-function filter(img, filter_name) {
-    _assertClass(img, PhotonImage);
-    var ptr0 = passStringToWasm0(filter_name, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_realloc);
-    var len0 = WASM_VECTOR_LEN;
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.filter(img.ptr, ptr0, len0);
-}
-
-/**
-* Apply a lofi effect to an image.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::lofi;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* lofi(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function lofi(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.lofi(img.ptr);
-}
-
-/**
-* Apply a rose tint to an image.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::pastel_pink;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* pastel_pink(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function pastel_pink(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.pastel_pink(img.ptr);
-}
-
-/**
-* Apply a vintage, golden hue to an image.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::golden;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* golden(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function golden(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.golden(img.ptr);
-}
-
-/**
-* Increased contrast filter effect.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::cali;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* cali(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function cali(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.cali(img.ptr);
-}
-
-/**
-* Greyscale effect with increased contrast.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::dramatic;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* dramatic(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function dramatic(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.dramatic(img.ptr);
-}
-
-/**
-* Apply a red hue, with increased contrast and brightness.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::firenze;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* firenze(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function firenze(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.firenze(img.ptr);
-}
-
-/**
-* Apply a greyscale effect with increased contrast.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* # Example
-*
-* ```no_run
-* use photon_rs::filters::obsidian;
-* use photon_rs::native::open_image;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* obsidian(&mut img);
-* ```
-* @param {PhotonImage} img
-*/
-function obsidian(img) {
-    _assertClass(img, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.obsidian(img.ptr);
-}
-
 function isLikeNone(x) {
     return x === undefined || x === null;
 }
@@ -3261,338 +3664,6 @@ function sobel_vertical(photon_image) {
 }
 
 /**
-* Crop an image.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-*
-* # Example
-*
-* ```no_run
-* // For example, to crop an image at (0, 0) to (500, 800)
-* use photon_rs::native::{open_image};
-* use photon_rs::transform::crop;
-* use photon_rs::PhotonImage;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let cropped_img: PhotonImage = crop(&mut img, 0_u32, 0_u32, 500_u32, 800_u32);
-* // Write the contents of this image in JPG format.
-* ```
-* @param {PhotonImage} photon_image
-* @param {number} x1
-* @param {number} y1
-* @param {number} x2
-* @param {number} y2
-* @returns {PhotonImage}
-*/
-function crop(photon_image, x1, y1, x2, y2) {
-    _assertClass(photon_image, PhotonImage);
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.crop(photon_image.ptr, x1, y1, x2, y2);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* @param {HTMLCanvasElement} source_canvas
-* @param {number} width
-* @param {number} height
-* @param {number} left
-* @param {number} top
-* @returns {HTMLCanvasElement}
-*/
-function crop_img_browser(source_canvas, width, height, left, top) {
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.crop_img_browser(addHeapObject(source_canvas), width, height, left, top);
-    return takeObject(ret);
-}
-
-/**
-* Flip an image horizontally.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-*
-* # Example
-*
-* ```no_run
-* // For example, to flip an image horizontally:
-* use photon_rs::native::open_image;
-* use photon_rs::transform::fliph;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* fliph(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function fliph(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.fliph(photon_image.ptr);
-}
-
-/**
-* Flip an image vertically.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-*
-* # Example
-*
-* ```no_run
-* // For example, to flip an image vertically:
-* use photon_rs::native::open_image;
-* use photon_rs::transform::flipv;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* flipv(&mut img);
-* ```
-* @param {PhotonImage} photon_image
-*/
-function flipv(photon_image) {
-    _assertClass(photon_image, PhotonImage);
-    _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.flipv(photon_image.ptr);
-}
-
-/**
-* Resize an image on the web.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `width` - New width.
-* * `height` - New height.
-* * `sampling_filter` - Nearest = 1, Triangle = 2, CatmullRom = 3, Gaussian = 4, Lanczos3 = 5
-* @param {PhotonImage} photon_img
-* @param {number} width
-* @param {number} height
-* @param {number} sampling_filter
-* @returns {HTMLCanvasElement}
-*/
-function resize_img_browser(photon_img, width, height, sampling_filter) {
-    _assertClass(photon_img, PhotonImage);
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.resize_img_browser(photon_img.ptr, width, height, sampling_filter);
-    return takeObject(ret);
-}
-
-/**
-* Resize an image.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `width` - New width.
-* * `height` - New height.
-* * `sampling_filter` - Nearest = 1, Triangle = 2, CatmullRom = 3, Gaussian = 4, Lanczos3 = 5
-* @param {PhotonImage} photon_img
-* @param {number} width
-* @param {number} height
-* @param {number} sampling_filter
-* @returns {PhotonImage}
-*/
-function resize(photon_img, width, height, sampling_filter) {
-    _assertClass(photon_img, PhotonImage);
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.resize(photon_img.ptr, width, height, sampling_filter);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Resize image using seam carver.
-* Resize only if new dimensions are smaller, than original image.
-* # NOTE: This is still experimental feature, and pretty slow.
-*
-* # Arguments
-* * `img` - A PhotonImage.
-* * `width` - New width.
-* * `height` - New height.
-*
-* # Example
-*
-* ```no_run
-* // For example, resize image using seam carver:
-* use photon_rs::native::open_image;
-* use photon_rs::transform::seam_carve;
-* use photon_rs::PhotonImage;
-*
-* let img = open_image("img.jpg").expect("File should open");
-* let result: PhotonImage = seam_carve(&img, 100_u32, 100_u32);
-* ```
-* @param {PhotonImage} img
-* @param {number} width
-* @param {number} height
-* @returns {PhotonImage}
-*/
-function seam_carve(img, width, height) {
-    _assertClass(img, PhotonImage);
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.seam_carve(img.ptr, width, height);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Apply uniform padding around the PhotonImage
-* A padded PhotonImage is returned.
-* # Arguments
-* * `img` - A PhotonImage. See the PhotonImage struct for details.
-* * `padding` - The amount of padding to be applied to the PhotonImage.
-* * `padding_rgba` - Tuple containing the RGBA code for padding color.
-*
-* # Example
-*
-* ```no_run
-* // For example, to apply a padding of 10 pixels around a PhotonImage:
-* use photon_rs::transform::padding_uniform;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgba;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
-* padding_uniform(&img, 10_u32, rgba);
-* ```
-* @param {PhotonImage} img
-* @param {number} padding
-* @param {Rgba} padding_rgba
-* @returns {PhotonImage}
-*/
-function padding_uniform(img, padding, padding_rgba) {
-    _assertClass(img, PhotonImage);
-    _assertClass(padding_rgba, Rgba);
-    var ptr0 = padding_rgba.ptr;
-    padding_rgba.ptr = 0;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_uniform(img.ptr, padding, ptr0);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Apply padding on the left side of the PhotonImage
-* A padded PhotonImage is returned.
-* # Arguments
-* * `img` - A PhotonImage. See the PhotonImage struct for details.
-* * `padding` - The amount of padding to be applied to the PhotonImage.
-* * `padding_rgba` - Tuple containing the RGBA code for padding color.
-*
-* # Example
-*
-* ```no_run
-* // For example, to apply a padding of 10 pixels on the left side of a PhotonImage:
-* use photon_rs::transform::padding_left;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgba;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
-* padding_left(&img, 10_u32, rgba);
-* ```
-* @param {PhotonImage} img
-* @param {number} padding
-* @param {Rgba} padding_rgba
-* @returns {PhotonImage}
-*/
-function padding_left(img, padding, padding_rgba) {
-    _assertClass(img, PhotonImage);
-    _assertClass(padding_rgba, Rgba);
-    var ptr0 = padding_rgba.ptr;
-    padding_rgba.ptr = 0;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_left(img.ptr, padding, ptr0);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Apply padding on the left side of the PhotonImage
-* A padded PhotonImage is returned.
-* # Arguments
-* * `img` - A PhotonImage. See the PhotonImage struct for details.
-* * `padding` - The amount of padding to be applied to the PhotonImage.
-* * `padding_rgba` - Tuple containing the RGBA code for padding color.
-*
-* # Example
-*
-* ```no_run
-* // For example, to apply a padding of 10 pixels on the right side of a PhotonImage:
-* use photon_rs::transform::padding_right;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgba;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
-* padding_right(&img, 10_u32, rgba);
-* ```
-* @param {PhotonImage} img
-* @param {number} padding
-* @param {Rgba} padding_rgba
-* @returns {PhotonImage}
-*/
-function padding_right(img, padding, padding_rgba) {
-    _assertClass(img, PhotonImage);
-    _assertClass(padding_rgba, Rgba);
-    var ptr0 = padding_rgba.ptr;
-    padding_rgba.ptr = 0;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_right(img.ptr, padding, ptr0);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Apply padding on the left side of the PhotonImage
-* A padded PhotonImage is returned.
-* # Arguments
-* * `img` - A PhotonImage. See the PhotonImage struct for details.
-* * `padding` - The amount of padding to be applied to the PhotonImage.
-* * `padding_rgba` - Tuple containing the RGBA code for padding color.
-*
-* # Example
-*
-* ```no_run
-* // For example, to apply a padding of 10 pixels on the top of a PhotonImage:
-* use photon_rs::transform::padding_top;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgba;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
-* padding_top(&img, 10_u32, rgba);
-* ```
-* @param {PhotonImage} img
-* @param {number} padding
-* @param {Rgba} padding_rgba
-* @returns {PhotonImage}
-*/
-function padding_top(img, padding, padding_rgba) {
-    _assertClass(img, PhotonImage);
-    _assertClass(padding_rgba, Rgba);
-    var ptr0 = padding_rgba.ptr;
-    padding_rgba.ptr = 0;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_top(img.ptr, padding, ptr0);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
-* Apply padding on the left side of the PhotonImage
-* A padded PhotonImage is returned.
-* # Arguments
-* * `img` - A PhotonImage. See the PhotonImage struct for details.
-* * `padding` - The amount of padding to be applied to the PhotonImage.
-* * `padding_rgba` - Tuple containing the RGBA code for padding color.
-*
-* # Example
-*
-* ```no_run
-* // For example, to apply a padding of 10 pixels on the bottom of a PhotonImage:
-* use photon_rs::transform::padding_bottom;
-* use photon_rs::native::open_image;
-* use photon_rs::Rgba;
-*
-* let mut img = open_image("img.jpg").expect("File should open");
-* let rgba = Rgba::new(200_u8, 100_u8, 150_u8, 255_u8);
-* padding_bottom(&img, 10_u32, rgba);
-* ```
-* @param {PhotonImage} img
-* @param {number} padding
-* @param {Rgba} padding_rgba
-* @returns {PhotonImage}
-*/
-function padding_bottom(img, padding, padding_rgba) {
-    _assertClass(img, PhotonImage);
-    _assertClass(padding_rgba, Rgba);
-    var ptr0 = padding_rgba.ptr;
-    padding_rgba.ptr = 0;
-    var ret = _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.padding_bottom(img.ptr, padding, ptr0);
-    return PhotonImage.__wrap(ret);
-}
-
-/**
 */
 const SamplingFilter = Object.freeze({ Nearest:1,"1":"Nearest",Triangle:2,"2":"Triangle",CatmullRom:3,"3":"CatmullRom",Gaussian:4,"4":"Gaussian",Lanczos3:5,"5":"Lanczos3", });
 /**
@@ -3932,37 +4003,37 @@ function __wbg_error_4bb6c2a97407129a(arg0, arg1) {
     }
 };
 
-function __wbg_instanceof_Window_b99429ec408dcb8d(arg0) {
+function __wbg_instanceof_Window_fac4f1f8e3c61c1f(arg0) {
     var ret = getObject(arg0) instanceof Window;
     return ret;
 };
 
-function __wbg_document_6d5890b86bbf5b96(arg0) {
+function __wbg_document_29fb71d7cea23553(arg0) {
     var ret = getObject(arg0).document;
     return isLikeNone(ret) ? 0 : addHeapObject(ret);
 };
 
-function __wbg_body_25dc44f3e329890b(arg0) {
+function __wbg_body_3f92bb47323529c7(arg0) {
     var ret = getObject(arg0).body;
     return isLikeNone(ret) ? 0 : addHeapObject(ret);
 };
 
-function __wbg_createElement_1959ce882284e011() { return handleError(function (arg0, arg1, arg2) {
+function __wbg_createElement_8a4eea3a05d8804d() { return handleError(function (arg0, arg1, arg2) {
     var ret = getObject(arg0).createElement(getStringFromWasm0(arg1, arg2));
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_width_eb76cc22778eda38(arg0) {
+function __wbg_width_c11ed0f9cfab3ccc(arg0) {
     var ret = getObject(arg0).width;
     return ret;
 };
 
-function __wbg_height_07654d9fa181ebde(arg0) {
+function __wbg_height_4accd9c5d251a0f9(arg0) {
     var ret = getObject(arg0).height;
     return ret;
 };
 
-function __wbg_data_c57552bf86eb9e9b(arg0, arg1) {
+function __wbg_data_3b5132cf708f3fa5(arg0, arg1) {
     var ret = getObject(arg1).data;
     var ptr0 = passArray8ToWasm0(ret, _desaturate_bg_wasm__WEBPACK_IMPORTED_MODULE_0__.__wbindgen_malloc);
     var len0 = WASM_VECTOR_LEN;
@@ -3970,72 +4041,72 @@ function __wbg_data_c57552bf86eb9e9b(arg0, arg1) {
     getInt32Memory0()[arg0 / 4 + 0] = ptr0;
 };
 
-function __wbg_newwithu8clampedarrayandsh_40e0b322139a6ecc() { return handleError(function (arg0, arg1, arg2, arg3) {
+function __wbg_newwithu8clampedarrayandsh_7da2ee46cfe942b1() { return handleError(function (arg0, arg1, arg2, arg3) {
     var ret = new ImageData(getClampedArrayU8FromWasm0(arg0, arg1), arg2 >>> 0, arg3 >>> 0);
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_instanceof_CanvasRenderingContext2d_cf60543e642e5a93(arg0) {
+function __wbg_instanceof_CanvasRenderingContext2d_c3096464126a8635(arg0) {
     var ret = getObject(arg0) instanceof CanvasRenderingContext2D;
     return ret;
 };
 
-function __wbg_drawImage_92b19107b9c0f5a8() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9) {
+function __wbg_drawImage_301be33262c989de() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9) {
     getObject(arg0).drawImage(getObject(arg1), arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
 }, arguments) };
 
-function __wbg_getImageData_c5c7e514c01d580b() { return handleError(function (arg0, arg1, arg2, arg3, arg4) {
+function __wbg_getImageData_95d4ea9a3956ff99() { return handleError(function (arg0, arg1, arg2, arg3, arg4) {
     var ret = getObject(arg0).getImageData(arg1, arg2, arg3, arg4);
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_putImageData_4901f2bdac6d5f4a() { return handleError(function (arg0, arg1, arg2, arg3) {
+function __wbg_putImageData_1bd8dd4b501fedf4() { return handleError(function (arg0, arg1, arg2, arg3) {
     getObject(arg0).putImageData(getObject(arg1), arg2, arg3);
 }, arguments) };
 
-function __wbg_settextContent_4438176b20024f4a(arg0, arg1, arg2) {
+function __wbg_settextContent_68b1b04017e68705(arg0, arg1, arg2) {
     getObject(arg0).textContent = arg1 === 0 ? undefined : getStringFromWasm0(arg1, arg2);
 };
 
-function __wbg_appendChild_27974267a42a0def() { return handleError(function (arg0, arg1) {
+function __wbg_appendChild_f52907370cfda116() { return handleError(function (arg0, arg1) {
     var ret = getObject(arg0).appendChild(getObject(arg1));
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_instanceof_HtmlCanvasElement_a2acc34cc0a30700(arg0) {
+function __wbg_instanceof_HtmlCanvasElement_f6c37daa8caa628a(arg0) {
     var ret = getObject(arg0) instanceof HTMLCanvasElement;
     return ret;
 };
 
-function __wbg_width_99577d88b55411fa(arg0) {
+function __wbg_width_472e3682c7514f2c(arg0) {
     var ret = getObject(arg0).width;
     return ret;
 };
 
-function __wbg_setwidth_80cb48aa8c97d2c1(arg0, arg1) {
+function __wbg_setwidth_6ffbc02dcd566284(arg0, arg1) {
     getObject(arg0).width = arg1 >>> 0;
 };
 
-function __wbg_height_636c7530a04a1f7c(arg0) {
+function __wbg_height_1e657c7ba54aba97(arg0) {
     var ret = getObject(arg0).height;
     return ret;
 };
 
-function __wbg_setheight_127ee9a2bb2ec12e(arg0, arg1) {
+function __wbg_setheight_dade0779787da2d7(arg0, arg1) {
     getObject(arg0).height = arg1 >>> 0;
 };
 
-function __wbg_getContext_c91489f5e0f738d8() { return handleError(function (arg0, arg1, arg2) {
+function __wbg_getContext_591a34067d6e74f2() { return handleError(function (arg0, arg1, arg2) {
     var ret = getObject(arg0).getContext(getStringFromWasm0(arg1, arg2));
     return isLikeNone(ret) ? 0 : addHeapObject(ret);
 }, arguments) };
 
-function __wbg_newnoargs_68424965d85fcb08(arg0, arg1) {
+function __wbg_newnoargs_1a11e7e8c906996c(arg0, arg1) {
     var ret = new Function(getStringFromWasm0(arg0, arg1));
     return addHeapObject(ret);
 };
 
-function __wbg_call_9698e9b9c4668ae0() { return handleError(function (arg0, arg1) {
+function __wbg_call_e91f71ddf1f45cff() { return handleError(function (arg0, arg1) {
     var ret = getObject(arg0).call(getObject(arg1));
     return addHeapObject(ret);
 }, arguments) };
@@ -4045,22 +4116,22 @@ function __wbindgen_object_clone_ref(arg0) {
     return addHeapObject(ret);
 };
 
-function __wbg_self_3df7c33e222cd53b() { return handleError(function () {
+function __wbg_self_b4546ea7b590539e() { return handleError(function () {
     var ret = self.self;
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_window_0f90182e6c405ff2() { return handleError(function () {
+function __wbg_window_c279fea81f426a68() { return handleError(function () {
     var ret = window.window;
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_globalThis_787cfd4f25a35141() { return handleError(function () {
+function __wbg_globalThis_038a6ea0ff17789f() { return handleError(function () {
     var ret = globalThis.globalThis;
     return addHeapObject(ret);
 }, arguments) };
 
-function __wbg_global_af2eb7b1369372ed() { return handleError(function () {
+function __wbg_global_4f93ce884bcee597() { return handleError(function () {
     var ret = __webpack_require__.g.global;
     return addHeapObject(ret);
 }, arguments) };
@@ -4090,10 +4161,9 @@ function __wbindgen_rethrow(arg0) {
 
 /***/ }),
 
-/***/ 383:
+/***/ 424:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 "use strict";
 // Instantiate WebAssembly module
 var wasmExports = __webpack_require__.w[module.id];
