@@ -55,5 +55,7 @@ export default defineComponent({
 <style scoped lang="css">
 .plugin-config {
   margin: 5px;
+  min-width: 100px;
+  min-height: 50px;
 }
 </style>
