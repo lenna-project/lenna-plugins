@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 439:
+/***/ 124:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -10,10 +10,10 @@
 
 // EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
 var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=template&id=b96a3ba2&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=template&id=e2e01304&scoped=true
 
 
-(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-b96a3ba2")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-e2e01304")
 const _hoisted_1 = { class: "plugin-config" }
 const _hoisted_2 = { id: "v-model-select-dynamic" }
 const _hoisted_3 = ["value"]
@@ -38,7 +38,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]))
 }
-;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=b96a3ba2&scoped=true
+;// CONCATENATED MODULE: ./src/Widget.vue?vue&type=template&id=e2e01304&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/Widget.vue?vue&type=script&lang=js
 
@@ -87,7 +87,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 ;
 Widgetvue_type_script_lang_js.render = render
-Widgetvue_type_script_lang_js.__scopeId = "data-v-b96a3ba2"
+Widgetvue_type_script_lang_js.__scopeId = "data-v-e2e01304"
 
 /* harmony default export */ const Widget = ((/* unused pure expression or super */ null && (script)));
 
@@ -97,7 +97,7 @@ Widgetvue_type_script_lang_js.__scopeId = "data-v-b96a3ba2"
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* unused harmony exports ui, processor, name, description, process, defaultConfig, icon */
-/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(439);
+/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(124);
 const pkg = __webpack_require__.e(/* import() */ 844).then(__webpack_require__.bind(__webpack_require__, 844));
 
 
@@ -515,7 +515,7 @@ const icon = () => {
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			179: 0,
-/******/ 			439: 0,
+/******/ 			124: 0,
 /******/ 			855: 0
 /******/ 		};
 /******/ 		
