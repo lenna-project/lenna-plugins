@@ -98,4 +98,23 @@ mod tests {
         let blur = Blur::default();
         assert_eq!(blur.icon().unwrap().len(), 94857);
     }
+
+    #[cfg(target_arch = "wasm32")]
+    mod wasm {
+        use super::*;
+        use lenna_core::LennaImage;
+        use wasm_bindgen_test::*;
+
+        #[wasm_bindgen_test]
+        fn default() {
+            let mut plugin = Blur::default();
+            let config = ProcessorConfig {
+                id: "blur".into(),
+                config: plugin.default_config(),
+            };
+            assert_eq!(plugin.name(), "blur");
+            let mut img = Box::new(LennaImage::default());
+            plugin.process(config, &mut img).unwrap();
+        }
+    }
 }
