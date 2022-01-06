@@ -1,6 +1,5 @@
 {
     "imports": {
-        "@lenna-project/blur": "https://lenna.app/lenna-plugins/blur/js/app.js",
         "@lenna-project/dramatic": "https://lenna.app/lenna-plugins/dramatic/js/app.js",
         "@lenna-project/resize": "https://lenna.app/lenna-plugins/resize/js/app.js",
         "@lenna-project/sepia": "https://lenna.app/lenna-plugins/sepia/js/app.js"
