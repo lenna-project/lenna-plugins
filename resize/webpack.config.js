@@ -1,6 +1,5 @@
 const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { ModuleFederationPlugin } = require("webpack").container;
 const pkg = require("./package.json");
 
@@ -38,13 +37,7 @@ module.exports = (env = {}) => ({
       },
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: { hmr: !env.prod },
-          },
-          "css-loader",
-        ],
+        use: ["css-loader"],
       },
       {
         test: /\.svg$/i,
@@ -56,9 +49,6 @@ module.exports = (env = {}) => ({
     ],
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-    }),
     new ModuleFederationPlugin({
       name: pkg.config.shortname,
       library: { type: "amd", name: pkg.config.shortname },

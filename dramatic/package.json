@@ -4,9 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-cli serve",
-    "serve": "serve dist -p 3002",
-    "build": "webpack --mode production",
+    "start": "webpack-cli serve --env prod=false",
+    "serve": "serve dist -p 3002 --cors",
+    "build": "webpack --mode production --env prod=true",
     "clean": "rm -rf dist"
   },
   "config": {
