@@ -1,0 +1,48 @@
+"use strict";
+(self["webpackChunk_lenna_project_blur"] = self["webpackChunk_lenna_project_blur"] || []).push([[138,179],{
+
+/***/ 744:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2Ni42NyA2Ni41OCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNkZDY1NjQ7fS5jbHMtMntmaWxsOiNkZDY2NjU7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGcgaWQ9IkxheWVyXzItMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMS0yIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00Ni41NCwyNi4yM2E2LjE5LDYuMTksMCwwLDEtNi4wNiw2LjMyaDBBNi4zNCw2LjM0LDAsMCwxLDM0LDI2LjYyLDYuNDMsNi40MywwLDAsMSw0MC4xMiwyMEM0My42NCwxOS45MSw0Ni43MywyMyw0Ni41NCwyNi4yM1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00Ni41NSw0MC4yM2MuMiwzLjE3LTIuODEsNi4xOS02LjEzLDYuMjJhNi4yNSw2LjI1LDAsMSwxLS4zLTEyLjVoMGE2LjIzLDYuMjMsMCwwLDEsNi40Myw2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTIwLjIyLDI2LjE3Yy0uMjYtMy4yMywyLjkyLTYuMDcsNi02LjE2YTYuMjYsNi4yNiwwLDAsMS0uMSwxMi41Miw2LjEzLDYuMTMsMCwwLDEtNS45LTYuMzVaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjAuMjIsNDAuMTZhNi4xNSw2LjE1LDAsMCwxLDYtNi4yMSw2LjM1LDYuMzUsMCwwLDEsNi4zOCw2LjMydi4wOGE2LjQyLDYuNDIsMCwwLDEtNi4yMSw2LjA4QzIzLDQ2LjQzLDIwLDQzLjQ2LDIwLjIyLDQwLjE2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE3LjM2LDI2LjIzYTQsNCwwLDAsMS0zLjg0LDQuMTZoLS4xNmE0LjA5LDQuMDksMCwwLDEtNC4xNi00di0uMTRhNC4yMSw0LjIxLDAsMCwxLDQuMDgtNC4xNEE0LjEyLDQuMTIsMCwwLDEsMTcuMzYsMjYuMjNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNOS4yMSw0MC4xNWE0LDQsMCwwLDEsMy45NC00LjA2aC4xMkE0LDQsMCwwLDEsMTcuMzgsNDB2LjExYTQuMDksNC4wOSwwLDAsMS04LjE3LjQ2QzkuMjEsNDAuNDIsOS4yLDQwLjI4LDkuMjEsNDAuMTVaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNDAuMywxNy4yM2E0LDQsMCwwLDEtNC4wNy0zLjkzdi0uMDdhNCw0LDAsMCwxLDMuOS00LjFoLjI1YTQuMDUsNC4wNSwwLDEsMS0uMDgsOC4xWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQwLjM0LDU3LjMxYTQsNCwwLDAsMSwwLTguMDksNCw0LDAsMCwxLDQuMDYsMy45NHYuMTRhNCw0LDAsMCwxLTQsNFoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMy4yNyw1Ny4zMWMtMi4wOS4yNi00LjEzLTIuMTItNC4xMS00YTQuMzYsNC4zNiwwLDAsMSw0LjEzLTQuMDgsNC4zNCw0LjM0LDAsMCwxLDQuMTEsNC4xMUE0LjEyLDQuMTIsMCwwLDEsMTMuMjcsNTcuMzFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTMuMzMsMTcuMjNjLTIuMTQuMjItNC4xNy0yLjA4LTQuMTYtNGE0LjM3LDQuMzcsMCwwLDEsNC4xNi00LjEsNC4zNCw0LjM0LDAsMCwxLDQuMDcsNC4wNkE0LjExLDQuMTEsMCwwLDEsMTMuMzMsMTcuMjNaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDkuMzksNDAuMjNhMy45MSwzLjkxLDAsMCwxLDMuNjktNC4xMmguMzFhNCw0LDAsMCwxLDQuMSwzLjl2LjIyYTQuMTUsNC4xNSwwLDAsMS00LDQuMTQsNC4wNyw0LjA3LDAsMCwxLTQuMS00WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTU3LjQ3LDEzLjIzYy4yNSwyLTIsNC00LjEyLDRhNC4zMiw0LjMyLDAsMCwxLTQtNC4xNyw0LjI2LDQuMjYsMCwwLDEsNC4yLTRDNTUuNDksOS4xNiw1Ny43LDExLjA1LDU3LjQ3LDEzLjIzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI2LjM3LDQ5LjIzYTQsNCwwLDEsMS00LDQuMTJBNCw0LDAsMCwxLDI2LjM3LDQ5LjIzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI2LjU0LDkuMTVhMy44NCwzLjg0LDAsMCwxLDMuOTUsMy43M3YuMjdhMy45NCwzLjk0LDAsMCwxLTMuNzYsNC4xLDUuMDYsNS4wNiwwLDAsMS0uNTUsMCw0LjEyLDQuMTIsMCwwLDEtMy45LTQuMTMsNCw0LDAsMCwxLDQtNFoiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00OS4zOSw1My4xN2MtLjI2LTIsMi00LDQuMTYtNGE0LjA4LDQuMDgsMCwxLDEtLjI1LDguMTZDNTEuMjksNTcuMyw0OS4xMiw1NS4zMyw0OS4zOSw1My4xN1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00OS4zOSwyNi4zM2E0LjA2LDQuMDYsMCwwLDEsMy45LTQuMmgwYTQuMTcsNC4xNywwLDAsMSw0LjE3LDMuOTQsNCw0LDAsMCwxLTMuODEsNC4xOWgtLjE5YTMuODcsMy44NywwLDAsMS00LjA5LTMuNjVBMi43MiwyLjcyLDAsMCwxLDQ5LjM5LDI2LjMzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQwLjI5LDYwLjQ3YTMsMywwLDAsMSwzLjA4LDIuOTJ2MGEzLjE2LDMuMTYsMCwwLDEtMy4wOSwzLjE2LDMuMjQsMy4yNCwwLDAsMS0zLTMuMTNBMy4wOCwzLjA4LDAsMCwxLDQwLjI5LDYwLjQ3WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQwLjM0LDZjLTEuNTQuMjItMy4xMi0xLjQ4LTMuMTEtM2EzLjE3LDMuMTcsMCwwLDEsMy0zLDMuMjQsMy4yNCwwLDAsMSwzLjEyLDNBMy4wOSwzLjA5LDAsMCwxLDQwLjM0LDZaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMuNCw2My40OWEzLDMsMCwwLDEsMi45NC0zLjA2aC4wNmEzLjA4LDMuMDgsMCwwLDEsMCw2LjE1LDMsMywwLDAsMS0zLTNaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNjAuNjIsMjYuMjlhMywzLDAsMCwxLDIuOTMtMy4wN2guMDdhMy4xMiwzLjEyLDAsMCwxLDMsMywzLjE5LDMuMTksMCwwLDEtMywzLjEyQTMuMDcsMy4wNywwLDAsMSw2MC42MiwyNi4yOVoiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0zLjEyLDIzLjIzYTMsMywwLDAsMSwzLDMsMy4wOCwzLjA4LDAsMCwxLTIuODcsMy4wOUEzLjE4LDMuMTgsMCwwLDEsMCwyNi4yMywzLjA4LDMuMDgsMCwwLDEsMy4xMiwyMy4yM1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0zLjA1LDQzLjIzYTMuMDcsMy4wNywwLDAsMS0zLTMuMDcsMy4xNCwzLjE0LDAsMCwxLDMuMDktMywzLDMsMCwwLDEsMywzLDMsMywwLDAsMS0yLjkzLDMuMDdaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjYuNCw2Yy0xLjQyLjI0LTMuMDctMS42Ni0zLTNhMy4wNSwzLjA1LDAsMCwxLDYuMS4xQTMuMTUsMy4xNSwwLDAsMSwyNi40LDZaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNjMuNjUsNDMuMjNjLTEuNDIuMjUtMy4wOC0xLjY3LTMuMDgtM2EzLjMzLDMuMzMsMCwwLDEsMy0zLDMuMSwzLjEsMCwwLDEsMy4xLDMsMywzLDAsMCwxLTMsM1oiLz48L2c+PC9nPjwvZz48L2c+PC9zdmc+");
+
+/***/ }),
+
+/***/ 138:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "processor": () => (/* binding */ processor),
+/* harmony export */   "name": () => (/* binding */ name),
+/* harmony export */   "description": () => (/* binding */ description),
+/* harmony export */   "process": () => (/* binding */ process),
+/* harmony export */   "defaultConfig": () => (/* binding */ defaultConfig),
+/* harmony export */   "icon": () => (/* binding */ icon)
+/* harmony export */ });
+/* harmony import */ var _assets_blur_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(744);
+const pkg = __webpack_require__.e(/* import() */ 962).then(__webpack_require__.bind(__webpack_require__, 962));
+
+
+const processor = pkg;
+const name = () => "blur";
+const description = () =>
+  "Smoothes image while reducing image noise and reducing detail.";
+const process = async (config, image) => {
+  return __webpack_require__.e(/* import() */ 962).then(__webpack_require__.bind(__webpack_require__, 962)).then((processor) => processor.process(config, image));
+};
+const defaultConfig = async () => {
+  return { sigma: 1.5 };
+};
+const icon = () => {
+  return _assets_blur_svg__WEBPACK_IMPORTED_MODULE_0__/* .default */ .Z;
+};
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=138.js.map

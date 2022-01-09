@@ -1,0 +1,13 @@
+{
+    "plugins": {
+        "blur": "https://lenna.app/lenna-plugins/blur/remoteEntry.js",
+        "canny": "https://lenna.app/lenna-plugins/canny/remoteEntry.js",
+        "dramatic": "https://lenna.app/lenna-plugins/dramatic/remoteEntry.js",
+        "exif": "https://lenna.app/lenna-plugins/exif/remoteEntry.js",
+        "exif-thumbnail": "https://lenna.app/lenna-plugins/exif-thumbnail/remoteEntry.js",
+        "resize": "https://lenna.app/lenna-plugins/resize/remoteEntry.js",
+        "rotate": "https://lenna.app/lenna-plugins/rotate/remoteEntry.js",
+        "sepia": "https://lenna.app/lenna-plugins/sepia/remoteEntry.js",
+        "sharpen": "https://lenna.app/lenna-plugins/sharpen/remoteEntry.js"
+    }
+}
