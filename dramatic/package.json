@@ -1,7 +1,7 @@
 {
-  "name": "@lenna-project/sepia",
+  "name": "@lenna-project/dramatic",
   "version": "0.1.0",
-  "description": "",
+  "description": "Plugin to give image a dramatic style.",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-cli serve --env prod=false",
@@ -10,8 +10,8 @@
     "clean": "rm -rf dist"
   },
   "config": {
-    "shortname": "sepia",
-    "publicPath": "https://lenna.app/lenna-plugins/sepia/"
+    "shortname": "dramatic",
+    "publicPath": "https://lenna.app/lenna-plugins/dramatic/"
   },
   "keywords": [],
   "author": "",
