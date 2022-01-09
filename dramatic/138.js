@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunk_lenna_project_sepia"] = self["webpackChunk_lenna_project_sepia"] || []).push([[138,179],{
+(self["webpackChunk_lenna_project_dramatic"] = self["webpackChunk_lenna_project_dramatic"] || []).push([[138,179],{
 
 /***/ 271:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {

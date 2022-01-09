@@ -139,7 +139,7 @@ const icon = () => {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "@lenna-project/sepia:";
+/******/ 		var dataWebpackPrefix = "@lenna-project/dramatic:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -212,7 +212,7 @@ const icon = () => {
 /******/ 			// runs all init snippets from all modules reachable
 /******/ 			var scope = __webpack_require__.S[name];
 /******/ 			var warn = (msg) => (typeof console !== "undefined" && console.warn && console.warn(msg));
-/******/ 			var uniqueName = "@lenna-project/sepia";
+/******/ 			var uniqueName = "@lenna-project/dramatic";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -239,7 +239,7 @@ const icon = () => {
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://lenna.app/lenna-plugins/sepia/";
+/******/ 		__webpack_require__.p = "https://lenna.app/lenna-plugins/dramatic/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -327,7 +327,7 @@ const icon = () => {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_lenna_project_sepia"] = self["webpackChunk_lenna_project_sepia"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_lenna_project_dramatic"] = self["webpackChunk_lenna_project_dramatic"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
