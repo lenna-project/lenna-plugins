@@ -1,5 +1,4 @@
 {
     "imports": {
-        "@lenna-project/sepia": "https://lenna.app/lenna-plugins/sepia/js/app.js"
     }
 }
